@@ -1,0 +1,20 @@
+.names{
+    font-family: 'Martel','serif';
+    color:#a4b7a9
+}
+
+.mainDiv{
+    text-align: center;
+}
+
+.menu a{
+    margin:0 0.5rem;
+    font-family: 'Josefin Sans', sans-serif; 
+    color:#AEA4D0
+}
+
+.menu a:hover{
+    color:#7e759f;
+    cursor:pointer
+
+}

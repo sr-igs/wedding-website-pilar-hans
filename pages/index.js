@@ -1,7 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import MainTitle from '../components/ui/mainTitle'
-import { TextField,Button } from '@mui/material'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import InitialTitle from '../components/InitialTitle';
 
 export default function Home() {
   return (
@@ -12,7 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <MainTitle />
+        <div>
+          <InitialTitle />
+        </div>
       </main> 
     </div>
   )
