@@ -1,0 +1,30 @@
+.address{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.title{
+    font-family: 'Martel','serif';
+    margin-bottom:0;
+}
+
+.mainDiv{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.discountCode{
+    background-color:#d5e9db;
+    width:18.5rem;
+    margin:0 auto;
+    margin-bottom:0.5rem;
+    padding:5px;
+}
+
+.hotelLink{
+    color:#7e759f
+}
+
+.hotelLink:hover{
+    color:#423c55
+
+}

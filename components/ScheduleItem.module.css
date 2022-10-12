@@ -1,0 +1,11 @@
+.heading{
+    margin: 0 0;
+}
+
+.link{
+   color:#7d75a0;
+}
+
+.link:hover{
+    color:white
+}
