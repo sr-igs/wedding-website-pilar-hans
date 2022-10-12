@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import { ThemeProvider,createTheme } from '@mui/material/styles';
-import { customTheme } from '../themes/CustomTheme';
+import { customTheme } from '../themes/customTheme';
 
 const theme = createTheme(customTheme)
 
