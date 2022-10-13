@@ -3,7 +3,7 @@ import styles from "./Venue.module.css"
 export default function VenueStay(){
     return(
         <div className={styles.mainDiv}>
-            <h3 className={styles.title}>{'"Only You" Hotel'}</h3>
+            <h3 className={styles.title}>{'"Only You" Hotel (*****)'}</h3>
             <div className={styles.address}>
                 <em>{"📍 Plaça de Rodrigo Botet, 5, 46002 València"}</em>
             </div>

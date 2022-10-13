@@ -1,0 +1,12 @@
+.mainDiv{
+    margin: 0 auto;
+    width:100%;
+}
+
+.paragraph{
+    width:50rem;
+    text-align: center;
+    margin:0.5rem auto;
+    margin-top:2rem;
+    font-family: 'Martel','serif';
+}

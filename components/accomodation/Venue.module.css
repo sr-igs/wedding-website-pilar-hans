@@ -26,5 +26,11 @@
 
 .hotelLink:hover{
     color:#423c55
-
 }
+
+@media only screen and (max-width: 500px) {
+    .discountCode{
+        width:13rem;
+        text-align: center;
+    }
+  }
