@@ -21,3 +21,9 @@
 .card a{
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 500px) {
+    .card{
+        width:21rem;
+    }
+  }

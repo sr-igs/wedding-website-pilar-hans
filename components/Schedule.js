@@ -31,7 +31,7 @@ function Schedule(){
 
     return(
         <div className={width>950?styles.scheduleDivFull:styles.scheduleDivMobile}>
-        <VerticalTimeline lineColor={"#7d75a0"}>
+        <VerticalTimeline lineColor={"#7d75a0"} layout={width>950?'2-columns':'1-column-left'}>
             <ScheduleItem image={paellaIcon} time="Morning and Afternoon" title="Fill up for the evening!" text="If you're not used to the Spanish timetable, you might want to get yourself a big breakfast and lunch!!!" />
             <ScheduleItem image={churchIcon} location="San Juan de la Cruz Church" locationLink="https://goo.gl/maps/G8khvPBWAwzRcCYc8"
              time="6pm" title="Ceremony" text="We will have a traditional Roman Catholic Wedding ceremony" />

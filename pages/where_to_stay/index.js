@@ -19,7 +19,7 @@ export default function WhereToStayPage(props){
     ]
 
     return(
-        <div>
+        <div className={styles.mainDiv}>
             <Header />
             <div className={styles.paragraph}>
                 <p><em>{"Valencia has plenty of hotels and apartments to stay in. Below you can find some recommendations that are close to the venue (including the venue itself!), but feel free to look around."}</em></p>

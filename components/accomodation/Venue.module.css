@@ -8,10 +8,6 @@
     margin-bottom:0;
 }
 
-.mainDiv{
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .discountCode{
     background-color:#d5e9db;
     width:18.5rem;
@@ -21,11 +17,12 @@
 }
 
 .hotelLink{
-    color:#7e759f
+    color:#c5b67e;
+    font-weight:bold;
 }
 
 .hotelLink:hover{
-    color:#423c55
+    color:#f9e8ae
 }
 
 @media only screen and (max-width: 500px) {

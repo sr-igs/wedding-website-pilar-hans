@@ -4,9 +4,21 @@
 }
 
 .paragraph{
-    width:50rem;
+    max-width:50rem;
     text-align: center;
     margin:0.5rem auto;
     margin-top:2rem;
     font-family: 'Martel','serif';
+    padding:0 3rem;
 }
+
+
+@media only screen and (max-width: 500px) {
+    .mainDiv{
+        width:24rem;
+    }
+    .paragraph{
+        width:22rem;
+        padding:0 0.5rem;
+    }
+  }

@@ -1,6 +1,6 @@
 .names{
     font-family: 'Martel','serif';
-    color:#a4b7a9
+    color:#a4b7a9;
 }
 
 .mainDiv{
@@ -18,4 +18,16 @@
     color:#7e759f;
     cursor:pointer
 
+}
+
+.divider{
+    border-color: #a4b7a9;
+    width:15rem;
+    margin-top:1rem;
+}
+
+.mobileMenu{
+    text-align: center;
+    margin:0 auto; 
+    color:#AEA4D0;
 }
