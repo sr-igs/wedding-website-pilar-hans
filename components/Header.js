@@ -27,7 +27,7 @@ function Header(props){
      const fullMenu = (
         <div className={styles.menu}>
             <Link href="/schedule"><a>ABOUT THE DAY</a></Link> ·
-            <a>GETTING HERE</a> ·
+            <Link href="/getting_here"><a>GETTING HERE</a></Link> ·
             <Link href="/where_to_stay"><a>WHERE TO STAY</a></Link> ·
             <a>WHAT TO DO</a> ·
             <a>ABOUT US</a> ·

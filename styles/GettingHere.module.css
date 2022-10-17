@@ -1,0 +1,20 @@
+.selectDiv{
+    width:280;
+    margin-top:2rem;
+    text-align: center;
+}
+
+.skyScanner{
+    max-width: 40rem;
+    margin: 1rem auto;
+}
+
+.skyScanner h3{
+    text-align: center;
+    margin-top:2rem
+}
+
+.gridDiv{
+    width:80%;
+    margin:0 auto;
+}
