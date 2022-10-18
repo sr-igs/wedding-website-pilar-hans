@@ -13,7 +13,7 @@ export default function RsvpPage(props){
             <div className={styles.mainDiv}>
                 <Grid container spacing={3} justifyContent="center">
                     {props.data.people.map(g=>{
-                        return(<Grid><RsvpForm key={g.fullName} name={g.name} /></Grid>)
+                        return(<Grid key={`grid-${g.fullName}`}><RsvpForm key={g.fullName} name={g.name} /></Grid>)
                     })}
                 </Grid>
                 <div className={styles.buttonDiv}>
