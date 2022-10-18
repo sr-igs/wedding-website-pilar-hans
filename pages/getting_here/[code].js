@@ -7,6 +7,7 @@ import SpainArrival from "../../components/getting_here/SpainArrival";
 import ValenciaArrival from "../../components/getting_here/ValenciaArrival";
 import Script from "next/script";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function GettingHere(props){
 
@@ -48,3 +49,11 @@ export default function GettingHere(props){
         </div>
     )
 }
+
+export async function getServerSideProps({locale}){
+    return {
+      props: {
+        ...(await serverSideTranslations(locale, ['common','accommodation'])),
+      },
+    };
+  }

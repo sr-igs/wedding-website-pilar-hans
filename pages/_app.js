@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import { ThemeProvider,createTheme } from '@mui/material/styles';
 import { customTheme } from '../themes/customTheme';
+import { appWithTranslation } from 'next-i18next';
 
 const theme = createTheme(customTheme)
 
@@ -10,4 +11,4 @@ function MyApp({ Component, pageProps }) {
     </ThemeProvider>
 }
 
-export default MyApp
+export default appWithTranslation(MyApp)

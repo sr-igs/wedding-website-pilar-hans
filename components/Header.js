@@ -3,10 +3,15 @@ import Link from "next/link";
 import { useState,useEffect } from 'react';
 import { Accordion,AccordionDetails,AccordionSummary,Typography } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useTranslation } from 'next-i18next';
+import { useRouter } from "next/router";
 
-function Header(props){
+function Header(){
 
     const [width, setWindowWidth] = useState(0);
+    const {t} = useTranslation("common");
+    const router = useRouter();
+    const {code} = router.query;
 
 
     //Listener to change the app to phone or desktop depending on screen size
@@ -26,12 +31,12 @@ function Header(props){
 
      const fullMenu = (
         <div className={styles.menu}>
-            <Link href="/schedule"><a>ABOUT THE DAY</a></Link> ·
-            <Link href="/getting_here"><a>GETTING HERE</a></Link> ·
-            <Link href="/where_to_stay"><a>WHERE TO STAY</a></Link> ·
-            <a>WHAT TO DO</a> ·
-            <a>ABOUT US</a> ·
-             <strong><a>RSVP</a></strong>
+            <Link href={`/schedule/${code}`}><a>{t("aboutDay")}</a></Link> ·
+            <Link href={`/getting_here/${code}`}><a>{t("gettingHere")}</a></Link> ·
+            <Link href={`/where_to_stay/${code}`}><a>{t("whereToStay")}</a></Link> ·
+            <a>{t("whatToDo")}</a> ·
+            <a>{t("aboutUs")}</a> ·
+             <Link href={`/rsvp/${code}`}><strong><a>{t("rsvp")}</a></strong></Link>
         </div>
     )
 
@@ -50,8 +55,8 @@ function Header(props){
     return(
         <div className={styles.mainDiv}>
             <div className={styles.names}>
-                <Link href="/home"><h1>IGNACIO and CATHERINE</h1></Link>
-                <h4>3rd of June 2023 . Valencia, Spain</h4>
+                <Link href="/home"><h1>{t("jointNames")}</h1></Link>
+                <h4>{`${t("middleDate")} . ${t("longLocation")}`}</h4>
             </div>
             {width>500?fullMenu:mobileMenu}
             

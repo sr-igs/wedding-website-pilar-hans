@@ -5,6 +5,8 @@ import CityStay from "../../components/accomodation/CityStay";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import styles from "../../styles/Stay.module.css";
 import { Box } from "@mui/material";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'next-i18next';
 
 export default function WhereToStayPage(props){
     const closeHotelOptions = [
@@ -18,11 +20,13 @@ export default function WhereToStayPage(props){
         {name:"Trial",stars:"***",location:"Here",description:"There"}
     ]
 
+    const {t} = useTranslation("accommodation");
+
     return(
         <div className={styles.mainDiv}>
             <Header />
             <div className={styles.paragraph}>
-                <p><em>{"Valencia has plenty of hotels and apartments to stay in. Below you can find some recommendations that are close to the venue (including the venue itself!), but feel free to look around."}</em></p>
+                <p><em>{t("intro")}</em></p>
             </div>
             <Box display="flex" justifyContent="center" marginTop="0.5rem">
                 <Grid container columns={{sm:12,md:6}} spacing={3} justifyContent="center">
@@ -46,3 +50,11 @@ export default function WhereToStayPage(props){
         </div>
     )
 }
+
+export async function getServerSideProps({locale}){
+    return {
+      props: {
+        ...(await serverSideTranslations(locale, ['common','accommodation'])),
+      },
+    };
+  }
