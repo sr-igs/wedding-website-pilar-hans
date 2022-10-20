@@ -36,5 +36,14 @@
     margin-top:4rem
 }
 
+.contactLink{
+    color:#AEA4D0;
+}
+
+.contactLink a{
+    font-weight: bold;
+    cursor:pointer
+}
+
 /* font-family: 'Josefin Sans', sans-serif; */
 
