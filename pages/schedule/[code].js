@@ -14,7 +14,7 @@ export default function SchedulePage(props){
 export async function getServerSideProps({locale}){
     return {
       props: {
-        ...(await serverSideTranslations(locale, ['common','accommodation'])),
+        ...(await serverSideTranslations(locale, ['common','aboutDay'])),
       },
     };
   }

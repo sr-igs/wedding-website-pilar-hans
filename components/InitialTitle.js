@@ -2,7 +2,7 @@ import damnImage from "../images/decoration.png";
 import Image from "next/image";
 import styles from "./InitialTitle.module.css";
 import { TextField,Button } from "@mui/material";
-import {InputLabel,FormControl} from "@mui/material";
+import {FormControl} from "@mui/material";
 import { useState } from "react";
 import { useTranslation } from 'next-i18next';
 import { useRouter } from "next/router";

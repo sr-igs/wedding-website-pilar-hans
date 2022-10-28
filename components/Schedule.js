@@ -10,9 +10,11 @@ import ScheduleItem from './ScheduleItem';
 import moonIcon from "../images/moon.png";
 import restaurantIcon from "../images/restaurant.png";
 import { useState,useEffect } from 'react';
+import { useTranslation } from 'next-i18next';
 
 function Schedule(){
     const [width, setWindowWidth] = useState(0);
+    const {t} = useTranslation("aboutDay");
 
     //Listener to change the app to phone or desktop depending on screen size
     useEffect(() => { 
@@ -32,34 +34,21 @@ function Schedule(){
     return(
         <div className={width>950?styles.scheduleDivFull:styles.scheduleDivMobile}>
         <VerticalTimeline lineColor={"#7d75a0"} layout={width>950?'2-columns':'1-column-left'}>
-            <ScheduleItem image={paellaIcon} time="Morning and Afternoon" title="Fill up for the evening!" text="If you're not used to the Spanish timetable, you might want to get yourself a big breakfast and lunch!!!" />
-            <ScheduleItem image={churchIcon} location="San Juan de la Cruz Church" locationLink="https://goo.gl/maps/G8khvPBWAwzRcCYc8"
-             time="6pm" title="Ceremony" text="We will have a traditional Roman Catholic Wedding ceremony" />
-            <ScheduleItem image={champaignIcon} location="Only You Hotel" locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
-             time="7:30pm" title="Aperitif at the Reception Venue" text="Some nibbles and drinks will be waiting for you at our reception place, just a couple of minutes walk from the church" />
-             <ScheduleItem image={restaurantIcon} location="Only You Hotel" locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
-             time="9pm" title="Dinner" text="Have some nibbles and drinks" />
-             <ScheduleItem image={danceIcon} location="Only You Hotel" locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
-             time="11pm" title="Dance and Open Bar" text="Dance and drink all you'd like with live music and 3 hours of open bar" />
-             <ScheduleItem image={moonIcon} location="Your Accomodation" locationLink=""
-             time="4am" title="Sleep time" text="The party finishes at 4am - we hope you will have had an amazing time!" />
+            <ScheduleItem image={paellaIcon} time={t("allDay")} title={t("essentialInfo")} text={t("essentialInfoText")} />
+            <ScheduleItem image={paellaIcon} time={t("morningAfternoon")} title={t("morningAfternoonTitle")} text={t("morningAfternoonText")} />
+            <ScheduleItem image={churchIcon} location={t("ceremonyLocation")} locationLink="https://goo.gl/maps/G8khvPBWAwzRcCYc8"
+             time="6pm" title={t("ceremonyTitle")} text={t("ceremonyText")} />
+            <ScheduleItem image={champaignIcon} location={t("onlyYou")} locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
+             time="7:30pm" title={t("cocktailTitle")} text={t("ceremonyText")} />
+             <ScheduleItem image={restaurantIcon} location={t("onlyYou")} locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
+             time="9pm" title={t("dinnerTitle")} text={t("dinnerText")} />
+             <ScheduleItem image={danceIcon} location={t("onlyYou")} locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
+             time="11pm" title={t("danceTitle")} text={t("danceText")} />
+             <ScheduleItem image={moonIcon} location={t("endLocation")} locationLink=""
+             time="4am" title={t("endTitle")} text={t("endText")} />
         </VerticalTimeline>
         </div>
     )
 }
 
 export default Schedule
-
-{/* <VerticalTimelineElement
-className="vertical-timeline-element--work"
-contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-date="2011 - present"
-iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
->
-<h3 className="vertical-timeline-element-title">Creative Director</h3>
-<h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-<p>
-  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-</p>
-</VerticalTimelineElement> */}

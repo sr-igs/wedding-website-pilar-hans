@@ -6,6 +6,12 @@ import { FormLabel,Card,CardContent,Grid } from '@mui/material';
 import styles from "./RsvpForm.module.css";
 
 function RsvpForm(props){
+
+    function onRsvpChange(e){
+        let value = e.target.value;
+        props.handleChange(props.id,value,"rsvp");
+    }
+
     return(
         <div className={styles.mainDiv}>
             <Card variant="outlined">
@@ -13,9 +19,9 @@ function RsvpForm(props){
                     <h3>{props.name}</h3>
                     <FormControl>
                         <FormLabel id="rsvp-radio-group-label">{"Will you join us in our wedding day?"}</FormLabel>
-                        <RadioGroup aria-labelledby="rsvp-radio-group-label" name="rsvp-radio-buttons" value={props.value} onChange={(e)=>{props.onChange(props.name,e,"rsvp")}}>
-                            <FormControlLabel value="yes" control={<Radio />} label={"Yes, I'd love to"} sx={{m:2}} />
-                            <FormControlLabel value="no" control={<Radio />} label={"No, I won't be able to join you"} sx={{m:2}}  />
+                        <RadioGroup onChange={onRsvpChange} aria-labelledby="rsvp-radio-group-label" name="rsvp-radio-buttons" value={props.rsvp}>
+                            <FormControlLabel value={"yes"} control={<Radio />} label={"Yes, I'd love to"} sx={{m:2}} />
+                            <FormControlLabel value={"no"} control={<Radio />} label={"No, I won't be able to join you"} sx={{m:2}}  />
                         </RadioGroup>
                     </FormControl>
                 </CardContent>

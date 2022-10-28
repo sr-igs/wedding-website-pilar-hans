@@ -18,10 +18,10 @@ export default async function handler(req,res){
         let data = JSON.parse(req.body);
         let updateDoc = {$set:{people:data}};
         const entry = await db.collection("guests").updateOne({uniqueCode:code},updateDoc);
-        if(entry.modifiedCount>0){
+        if(entry.matchedCount>0){
             res.status(200).json({success:true})
         }else{
-            res.status(204).send("Data not found")
+            res.status(204).end()
         }
 
     }else{

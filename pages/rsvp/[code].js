@@ -1,23 +1,115 @@
 import Header from "../../components/Header";
-import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import RsvpForm from "../../components/rsvp/RsvpForm";
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import styles from "../../styles/Rsvp.module.css";
+import DetailsForm from "../../components/rsvp/DetailsForm";
+import FormComplete from "../../components/rsvp/FormComplete";
+
+import Grid from "@mui/material/Unstable_Grid2/Grid2";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { Button } from "@mui/material";
 import clientPromise from "../../utils/mongodb";
+import { useState,useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function RsvpPage(props){
+    
+    const router = useRouter();
+    const {code} = router.query;
+    const [peopleInfo,setPeopleInfo] = useState(props.data.people);
+    const [activeScreen,setActiveScreen] = useState("rsvp")
+
+    useEffect(()=>{
+        let responseCount = 0;
+        props.data.people.forEach(p=>{
+            if(p.rsvp!==""){
+                responseCount+=1
+            }
+        });
+        if(responseCount===props.data.people.length){
+            setActiveScreen("summary")
+        }
+    },[props.data.people])
+
+    function handleChange(id,value,field){
+        setPeopleInfo(prevInfo=>{
+            let returnArray = [];
+            prevInfo.forEach(p=>{
+                if(p.fullName===id){
+                    returnArray.push({...p,[field]:value})
+                }else{
+                    returnArray.push({...p})
+                }
+            });
+            return returnArray
+        })
+    }
+
+    async function onSubmit(){
+        let changes = false;
+        let success = false;
+
+        peopleInfo.forEach(p=>{
+            props.data.people.forEach(d=>{
+                if(d.fullName===p.fullName){
+                    if(d.rsvp!==p.rsvp||d.dietary!==p.dietary||d.song!==p.song||d.other!==p.other){
+                        changes = true
+                    }
+                }
+            })
+        });
+
+        const body = JSON.stringify(peopleInfo);
+        if(changes){
+            const response = await fetch(`/api/guests/${code}`,{method:"PUT",body});
+            if(response.status===200){
+                console.log("Success");
+                success=true;
+            }else{
+                console.log("Failure")
+            }
+        }else{
+            success=true;
+        }
+
+        if(success){
+            if(activeScreen==="rsvp"){
+                //Check if all rsvp are no
+                let noCount = 0;
+                peopleInfo.forEach(p=>{
+                    if(p.rsvp==="no"){noCount+=1};
+                })
+
+                if(noCount===peopleInfo.length){
+                    setActiveScreen("summary")
+                }else{
+                    setActiveScreen("details")
+                } 
+            }else if(activeScreen==="details"){
+                setActiveScreen("summary");
+            }
+        }
+
+    }
+
+    function handleChangeClick(){
+        setActiveScreen("rsvp")
+    }
+
     return(
         <div>
             <Header />
             <div className={styles.mainDiv}>
                 <Grid container spacing={3} justifyContent="center">
-                    {props.data.people.map(g=>{
-                        return(<Grid key={`grid-${g.fullName}`}><RsvpForm key={g.fullName} name={g.name} /></Grid>)
+                    {peopleInfo.map(g=>{
+                        return(<Grid key={`grid-${g.fullName}`}>
+                            {activeScreen==="rsvp"&&<RsvpForm id={g.fullName} key={`rsvp-${g.fullName}`} handleChange={handleChange} name={g.name} rsvp={g.rsvp} />}
+                            {activeScreen==="details"&&g.rsvp==="yes"&&<DetailsForm id={g.fullName} key={`details-${g.fullName}`} handleChange={handleChange} name={g.name} dietary={g.dietary} song={g.song} other={g.other} />}
+                            </Grid>)
                     })}
+                    {activeScreen==="summary"&&<FormComplete id={`summary`} changePossible={true} changeDate={"31/3/2023"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
                 </Grid>
                 <div className={styles.buttonDiv}>
-                    <Button variant="outlined">Submit</Button>
+                    {activeScreen!=="summary"&&<Button onClick={onSubmit} variant="outlined">{"Submit"}</Button>}
                 </div>
             </div>
         </div>

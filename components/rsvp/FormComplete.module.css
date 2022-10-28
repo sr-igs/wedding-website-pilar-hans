@@ -1,0 +1,16 @@
+.mainDiv{
+    text-align: center;
+    margin:0 2rem;
+}
+
+.attending{
+    color:green;
+}
+
+.notAttending{
+    color:red
+}
+
+.changeDiv{
+    margin:0 2rem;
+}

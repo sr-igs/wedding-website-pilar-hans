@@ -9,9 +9,13 @@
     "accessCode":"Código de Acceso",
     "submit":"Envíar",
     "aboutDay":"EL DÍA DE LA BODA",
-    "gettingHere":"VIAJAR A VALENCIA",
+    "gettingHere":"COMO LLEGAR",
     "whereToStay":"ALOJAMIENTO",
-    "whatToDo":"QUÉ VER EN VALENCIA",
+    "whatToDo":"QUÉ VER",
     "aboutUs":"SOBRE NOSOTROS",
-    "rsvp":"RSVP"
+    "rsvp":"CONFIRMAR ASISTENCIA",
+    "contact":"CONTACTO",
+    "registry":"LISTA DE BODAS",
+    "contactTextOne":"Si tienes cualquier pregunta sobre cualquier cosa, no dudes en contactárnos en el siguiente email:",
+    "contactTextTwo":"o mandándanos un Whatsapp a nosotros o a nuestros padres"
 }
