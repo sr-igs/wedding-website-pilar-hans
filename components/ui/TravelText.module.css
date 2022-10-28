@@ -21,3 +21,11 @@
 .mainDiv body{
     font-family: 'Josefin Sans', sans-serif; 
 }
+
+.mainDiv a{
+    color:blue
+}
+
+.mainDiv a:hover{
+    color:orangered
+}
