@@ -35,7 +35,7 @@ function Header(){
             <Link href={`/getting_here/${code}`}><a>{t("gettingHere")}</a></Link> ·
             <Link href={`/where_to_stay/${code}`}><a>{t("whereToStay")}</a></Link> ·
             <a>{t("whatToDo")}</a> ·
-            <a>{t("registry")}</a> ·
+            <Link href={`/registry/${code}`}><a>{t("registry")}</a></Link> ·
             <Link href={`/contact/${code}`}><a>{t("contact")}</a></Link> ·
              <Link href={`/rsvp/${code}`}><strong><a>{t("rsvp")}</a></strong></Link>
         </div>

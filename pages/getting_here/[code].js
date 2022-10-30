@@ -20,7 +20,7 @@ export default function GettingHere(props){
         <div>
             <Header />
             <div className={styles.selectDiv}>
-                <FormControl sx={{ m: 1, minWidth: 200}}>
+                <FormControl sx={{ m: 1, minWidth: 300}}>
                     <InputLabel id="location-select-label">Where are you joining us from?</InputLabel>
                     <Select onChange={onLocationChange} labelId="location-select-label" id="location-select" label="Where are you joining us from?">
                         <MenuItem value={"australia"}>Australia</MenuItem>

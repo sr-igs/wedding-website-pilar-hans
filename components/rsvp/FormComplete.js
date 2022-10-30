@@ -38,7 +38,7 @@ function FormComplete(props) {
                     key={`dietaryText-${person.name}`}
                     id={`dietaryText-${person.name}`}
                   >
-                    {t("dietaryT")}:{person.dietary}
+                    <strong>{t("dietaryT")}</strong>: {person.dietary}
                   </p>
                 )}
                 {attending && (
@@ -46,7 +46,7 @@ function FormComplete(props) {
                     key={`songText-${person.name}`}
                     id={`songText-${person.name}`}
                   >
-                    {t("songT")}:{person.song}
+                    <strong>{t("songT")}</strong>: {person.song}
                   </p>
                 )}
                 {attending && (
@@ -54,7 +54,7 @@ function FormComplete(props) {
                     key={`otherText-${person.name}`}
                     id={`othertText-${person.name}`}
                   >
-                    {t("otherT")}:{person.other}
+                    <strong>{t("otherT")}</strong>: {person.other}
                   </p>
                 )}
               </Card>

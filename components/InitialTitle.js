@@ -61,7 +61,7 @@ function InitialTitle(props){
                 </div>
                 <div className={styles.contactLink}>
                     <p>{t("accessCodeText")} <a onClick={()=>{setShowEmail(true)}}>{t("accessCodeLink")}</a></p>
-                    {showEmail&&<p>{"contactText"} <a href="mailto:contact@ignacio-catherine.com">{"contact@ignacio-catherine.com"}</a></p>}
+                    {showEmail&&<p>{t("contactText")} <a href="mailto:contact@ignacio-catherine.com">{"contact@ignacio-catherine.com"}</a></p>}
                 </div>
             </div>
         </div>

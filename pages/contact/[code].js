@@ -5,8 +5,8 @@ import { useTranslation, UseTranslation } from "next-i18next";
 export default function ContactPage(props){
     const divStyle = {
         textAlign:"center",
-        marginTop:"3rem",
-        fontFamily:"'Martel','serif'"
+        margin:"3rem 2rem",
+        fontFamily:"'Martel','serif'",
     }
 
     const anchorStyle = {
