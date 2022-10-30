@@ -12,16 +12,18 @@ function RsvpForm(props){
         props.handleChange(props.id,value,"rsvp");
     }
 
+    const t = props.translation;
+
     return(
         <div className={styles.mainDiv}>
             <Card variant="outlined">
                 <CardContent>
                     <h3>{props.name}</h3>
                     <FormControl>
-                        <FormLabel id="rsvp-radio-group-label">{"Will you join us in our wedding day?"}</FormLabel>
+                        <FormLabel id="rsvp-radio-group-label">{t("joinUs")}</FormLabel>
                         <RadioGroup onChange={onRsvpChange} aria-labelledby="rsvp-radio-group-label" name="rsvp-radio-buttons" value={props.rsvp}>
-                            <FormControlLabel value={"yes"} control={<Radio />} label={"Yes, I'd love to"} sx={{m:2}} />
-                            <FormControlLabel value={"no"} control={<Radio />} label={"No, I won't be able to join you"} sx={{m:2}}  />
+                            <FormControlLabel value={"yes"} control={<Radio />} label={t("yes")} sx={{m:2}} />
+                            <FormControlLabel value={"no"} control={<Radio />} label={t("no")} sx={{m:2}}  />
                         </RadioGroup>
                     </FormControl>
                 </CardContent>

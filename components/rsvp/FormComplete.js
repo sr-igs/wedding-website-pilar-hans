@@ -3,10 +3,13 @@ import { Button, Card } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 
 function FormComplete(props) {
+
+  const t = props.translation;
+
   return (
     <div className={styles.mainDiv}>
-      <h3>{"Thank you for RSVPing"}</h3>
-      <h4>{"This is what you told us"}</h4>
+      <h3>{t("thankYou")}</h3>
+      <h4>{t("toldUs")}</h4>
       <Grid container justifyContent="center" spacing={3}>
         {props.people.map((person) => {
           let attending = person.rsvp === "yes";
@@ -27,15 +30,15 @@ function FormComplete(props) {
                   className={attending ? styles.attending : styles.notAttending}
                 >
                   {person.rsvp === "yes"
-                    ? "Attending"
-                    : "Not attending"}
+                    ? t("attending")
+                    : t("notAttending")}
                 </p>
                 {attending && (
                   <p
                     key={`dietaryText-${person.name}`}
                     id={`dietaryText-${person.name}`}
                   >
-                    {"Dietary Requirements"}:{person.dietary}
+                    {t("dietaryT")}:{person.dietary}
                   </p>
                 )}
                 {attending && (
@@ -43,7 +46,7 @@ function FormComplete(props) {
                     key={`songText-${person.name}`}
                     id={`songText-${person.name}`}
                   >
-                    {"Requested song"}:{person.song}
+                    {t("songT")}:{person.song}
                   </p>
                 )}
                 {attending && (
@@ -51,7 +54,7 @@ function FormComplete(props) {
                     key={`otherText-${person.name}`}
                     id={`othertText-${person.name}`}
                   >
-                    {"Other information"}:{person.other}
+                    {t("otherT")}:{person.other}
                   </p>
                 )}
               </Card>
@@ -62,12 +65,12 @@ function FormComplete(props) {
       <div className={styles.changeDiv}>
         <h4>
           {props.changePossible
-            ? `Need to change your response? You can do it until ${props.changeDate} by clicking the button below`
-            : "Unfortunately you can't change your response through the website. Please contact us if you have any changes."}
+            ? `${t("changeOne")} ${props.changeDate} ${t("changeTwo")}`
+            : t("noChange")}
         </h4>
         {props.changePossible && (
           <Button variant="outlined" onClick={props.onChangeClick}>
-            {"Change Response"}
+            {t("changeButton")}
           </Button>
         )}
       </div>

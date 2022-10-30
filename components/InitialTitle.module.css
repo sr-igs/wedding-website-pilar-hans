@@ -1,13 +1,12 @@
 .mainDiv{
     text-align: center;
+    width:100%;
 }
 
 .imageDiv{
     width:30rem;
     margin:1.5rem auto;
     margin-top:3rem;
-    position:relative;
-    right:1.7rem;
 }
 
 .titleDiv{
@@ -18,9 +17,9 @@
 }
 
 @media only screen and (max-width:500px){
+
     .imageDiv{
-        width:20rem;
-        display:block;
+        width:90%;
     }
 
     .titleDiv{

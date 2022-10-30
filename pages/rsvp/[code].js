@@ -10,13 +10,15 @@ import { Button } from "@mui/material";
 import clientPromise from "../../utils/mongodb";
 import { useState,useEffect } from "react";
 import { useRouter } from "next/router";
+import { useTranslation } from "next-i18next";
 
 export default function RsvpPage(props){
     
     const router = useRouter();
     const {code} = router.query;
     const [peopleInfo,setPeopleInfo] = useState(props.data.people);
-    const [activeScreen,setActiveScreen] = useState("rsvp")
+    const [activeScreen,setActiveScreen] = useState("rsvp");
+    const {t} = useTranslation("rsvp")
 
     useEffect(()=>{
         let responseCount = 0;
@@ -102,14 +104,14 @@ export default function RsvpPage(props){
                 <Grid container spacing={3} justifyContent="center">
                     {peopleInfo.map(g=>{
                         return(<Grid key={`grid-${g.fullName}`}>
-                            {activeScreen==="rsvp"&&<RsvpForm id={g.fullName} key={`rsvp-${g.fullName}`} handleChange={handleChange} name={g.name} rsvp={g.rsvp} />}
-                            {activeScreen==="details"&&g.rsvp==="yes"&&<DetailsForm id={g.fullName} key={`details-${g.fullName}`} handleChange={handleChange} name={g.name} dietary={g.dietary} song={g.song} other={g.other} />}
+                            {activeScreen==="rsvp"&&<RsvpForm translation={t} id={g.fullName} key={`rsvp-${g.fullName}`} handleChange={handleChange} name={g.name} rsvp={g.rsvp} />}
+                            {activeScreen==="details"&&g.rsvp==="yes"&&<DetailsForm translation={t} id={g.fullName} key={`details-${g.fullName}`} handleChange={handleChange} name={g.name} dietary={g.dietary} song={g.song} other={g.other} />}
                             </Grid>)
                     })}
-                    {activeScreen==="summary"&&<FormComplete id={`summary`} changePossible={true} changeDate={"31/3/2023"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
+                    {activeScreen==="summary"&&<FormComplete translation={t} id={`summary`} changePossible={true} changeDate={"31/3/2023"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
                 </Grid>
                 <div className={styles.buttonDiv}>
-                    {activeScreen!=="summary"&&<Button onClick={onSubmit} variant="outlined">{"Submit"}</Button>}
+                    {activeScreen!=="summary"&&<Button onClick={onSubmit} variant="outlined">{t("submit")}</Button>}
                 </div>
             </div>
         </div>
@@ -135,7 +137,7 @@ export async function getServerSideProps(context){
 
     return {
       props: {
-        ...(await serverSideTranslations(locale, ['common'])),
+        ...(await serverSideTranslations(locale, ['common','rsvp'])),
         data
       },
     };

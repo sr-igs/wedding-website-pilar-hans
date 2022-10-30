@@ -1,0 +1,20 @@
+{
+    "joinUs":"Will you join us in our wedding day?",
+    "yes":"Yes, I'd love to",
+    "no":"No, I won't be able to join you",
+    "submit":"Submit",
+    "dietaryQ":"Any dietary requirements?",
+    "songQ":"A song you'd love to hear",
+    "otherQ":"Anything else we should know?",
+    "attending":"Attending",
+    "notAttending":"Not Attending",
+    "dietaryT":"Dietary Requirements",
+    "songT":"Requested song",
+    "othertT":"Other Information",
+    "changeOne":"Need to change your response? You can do it until",
+    "changeTwo":"by clicking the button below",
+    "noChange":"Unfortunately you can't change your response through the website. Please contact us if you have any changes.",
+    "changeButton":"Change Response",
+    "thankYou":"Thank you for RSVPing",
+    "toldUs":"This is what you told us"
+}
