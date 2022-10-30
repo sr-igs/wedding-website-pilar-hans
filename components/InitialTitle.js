@@ -60,8 +60,8 @@ function InitialTitle(props){
                     <Button onClick={onSubmitClick} color="secondary" variant="outlined" disabled={accessCode===""} >{t("submit")}</Button>
                 </div>
                 <div className={styles.contactLink}>
-                    <p>{"Can't find your access code?"} <a onClick={()=>{setShowEmail(true)}}>{"Please contact us"}</a></p>
-                    {showEmail&&<p>{"You can contact us by sending an email to"} <a href="mailto:contact@ignacio-catherine.com">{"contact@ignacio-catherine.com"}</a></p>}
+                    <p>{t("accessCodeText")} <a onClick={()=>{setShowEmail(true)}}>{t("accessCodeLink")}</a></p>
+                    {showEmail&&<p>{"contactText"} <a href="mailto:contact@ignacio-catherine.com">{"contact@ignacio-catherine.com"}</a></p>}
                 </div>
             </div>
         </div>

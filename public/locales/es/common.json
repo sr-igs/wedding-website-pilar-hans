@@ -17,5 +17,8 @@
     "contact":"CONTACTO",
     "registry":"LISTA DE BODAS",
     "contactTextOne":"Si tienes cualquier pregunta sobre cualquier cosa, no dudes en contactárnos en el siguiente email:",
-    "contactTextTwo":"o mandándanos un Whatsapp a nosotros o a nuestros padres"
+    "contactTextTwo":"o mandándanos un Whatsapp a nosotros o a nuestros padres",
+    "accessCodeText":"¿No recuerdas tu código?",
+    "accessCodeLink":"Por favor ponte en contacto",
+    "contactText":"Puedes mandarnos un email a "
 }

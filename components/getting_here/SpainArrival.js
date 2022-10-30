@@ -3,7 +3,7 @@ export default function SpainArrival(props){
        <div>
             <h4>{"Flying direct to Valencia"}</h4>
             {props.location==="rest"&&<ul>
-                <li>{"We unfortunately couldn't add information for many more places, but we recommend websites like "}<a target="_blank" href="https://www.rome2rio.com">{"Rome 2 Rio"}</a>{" to find more information."}</li>
+                <li>{"We unfortunately couldn't add information for many more places, but we recommend websites like "}<a target="_blank" rel="noreferrer" href="https://www.rome2rio.com">{"Rome 2 Rio"}</a>{" to find more information."}</li>
                 <li>{"Of course, please feel free to contact us if you have any questions. You can find our details in the menu."}</li>
             </ul>}
             {props.location==="australia"&&<ul>
@@ -28,17 +28,17 @@ export default function SpainArrival(props){
                 <li>{"Flying to Madrid"}</li>
                 <ul>
                     {<li>{"At the time of writing, you can fly to Madrid with 1 change in Dallas, US. There are several options to get to Valencia from Madrid:"}</li>}
-                    <li><strong>{"Train:"}</strong>{"There's a high speed train connection between the two city centres. This usually takes just under 2 hours. We recommend booking with "}<a target="_blank" href="https://www.thetrainline.com/">{"Trainline"}</a></li>
+                    <li><strong>{"Train:"}</strong>{"There's a high speed train connection between the two city centres. This usually takes just under 2 hours. We recommend booking with "}<a target="_blank" rel="noreferrer" href="https://www.thetrainline.com/">{"Trainline"}</a></li>
                     <li><strong>{"Flying:"}</strong>{"There are several connections a day between Madrid and Valencia. The flight takes about an hour. The train is usually a more convenient option."}</li>
-                    <li><strong>{"Bus:"}</strong>{"There are regular bus services. This takes 4 and a half hours (or more) and it's usually cheaper than trains or flights (although you can find some cheap trains at times!). You can also book this through "}<a target="_blank" href="https://www.thetrainline.com/">{"Trainline"}</a></li>
+                    <li><strong>{"Bus:"}</strong>{"There are regular bus services. This takes 4 and a half hours (or more) and it's usually cheaper than trains or flights (although you can find some cheap trains at times!). You can also book this through "}<a target="_blank" rel="noreferrer" href="https://www.thetrainline.com/">{"Trainline"}</a></li>
                     <li><strong>{"Driving:"}</strong>{"If you're renting a car at the airport, the drive is about 3 hours."}</li>
                 </ul>
                 <li>{"Flying to Barcelona"}</li>
                 <ul>
                     <li>{"At the time of writing, you can fly to Barcelona with 1 change, and there are several routes available (e.g. through Abu Dhabi or Singapore):"}</li>
-                    <li><strong>{"Train:"}</strong>{"There's a train connection between the two city centres. This usually takes just under 3 hours. We recommend booking with "}<a target="_blank" href="https://www.thetrainline.com/">{"Trainline"}</a></li>
+                    <li><strong>{"Train:"}</strong>{"There's a train connection between the two city centres. This usually takes just under 3 hours. We recommend booking with "}<a target="_blank" rel="noreferrer" href="https://www.thetrainline.com/">{"Trainline"}</a></li>
                     <li><strong>{"Flying:"}</strong>{"There are several connections a day between Barcelona and Valencia. The flight takes about an hour. The train is usually a more convenient option."}</li>
-                    <li><strong>{"Bus:"}</strong>{"There are regular bus services. This takes 4 and a half hours (or more) and it's usually cheaper than trains or flights (although you can find some cheap trains at times!). You can also book this through "}<a target="_blank" href="https://www.thetrainline.com/">{"Trainline"}</a></li>
+                    <li><strong>{"Bus:"}</strong>{"There are regular bus services. This takes 4 and a half hours (or more) and it's usually cheaper than trains or flights (although you can find some cheap trains at times!). You can also book this through "}<a target="_blank" rel="noreferrer" href="https://www.thetrainline.com/">{"Trainline"}</a></li>
                     <li><strong>{"Driving:"}</strong>{"If you're renting a car at the airport, the drive is about 3.5 hours."}</li>
                 </ul>
             </ul>

@@ -18,7 +18,7 @@ export default function ValenciaArrival(props){
             <h4>{"Getting to Valencia from Castellon (CDT) airport"}</h4>
             <ul>
                 <li>{"Castellon airport is about 100km from Valencia, so getting to the city centre is not as easy."}<strong>{"We would recommend avoiding this airport unless there's no other option."}</strong></li>
-                <li>{"We've never tried it, but you can find details "}<a target="_blank" href="https://www.tripadvisor.co.uk/ShowTopic-g187522-i2916-k10161539-How_to_Get_to_Valencia_from_Castellon_Airport_CDT-Castellon_de_la_Plana_Province_of_Castel.html">{"here"}</a></li>
+                <li>{"We've never tried it, but you can find details "}<a rel="noreferrer" target="_blank" href="https://www.tripadvisor.co.uk/ShowTopic-g187522-i2916-k10161539-How_to_Get_to_Valencia_from_Castellon_Airport_CDT-Castellon_de_la_Plana_Province_of_Castel.html">{"here"}</a></li>
             </ul>
 
         </div>

@@ -17,5 +17,8 @@
     "contact":"CONTACT",
     "registry":"REGISTRY",
     "contactTextOne":"If you have any questions about anything, please do not hesitate to get in touch with us through the following email:",
-    "contactTextTwo":"or by sending us or our parents a Whatsapp message"
+    "contactTextTwo":"or by sending us or our parents a Whatsapp message",
+    "accessCodeText":"Can't find your access code?",
+    "accessCodeLink":"Please contact us",
+    "contactText":"You can contact us by sending an email to"
 }
