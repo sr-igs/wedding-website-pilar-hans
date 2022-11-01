@@ -32,7 +32,7 @@ function InitialTitle(props){
         setLoading(false);
         if(response.status===200){
             let data = await response.json();
-            router.push(`/${data.language}/home/${accessCode}`);
+            router.push(`/home/${accessCode}`,`/home/${accessCode}`,{locale:data.language});
         }else{
             //Error
             setError(true);
