@@ -1,54 +1,47 @@
 import Header from "../../components/Header";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useTranslation, UseTranslation } from "next-i18next";
 import clientPromise from "../../utils/mongodb";
+import { useTranslation } from "next-i18next";
 
-export default function ContactPage(props){
-    const divStyle = {
-        textAlign:"center",
-        margin:"3rem 2rem",
+export default function WhatToDo(props){
+
+    const {t} = useTranslation("common");
+
+    const styles = {
+        margin:"0 auto",
+        padding:"2rem",
         fontFamily:"'Martel','serif'",
+        textAlign:"center"
     }
-
-    const anchorStyle = {
-        fontWeight:"bold",
-        cursor:"pointer",
-        color:"#AEA4D0"
-    }
-
-    const {t} = useTranslation("common")
 
     return(
-        <div>
+        <div style={styles}>
             <Header />
-            <div style={divStyle}>
-                <p>{t("contactTextOne")}</p>
-                <p><a style={anchorStyle}>{"contact@ignacio-catherine.com"}</a></p>
-                <p>{t("contactTextTwo")}</p>
-            </div>
+            <h2>{t("workingOn")}</h2>
         </div>
     )
 }
 
 export async function getServerSideProps(context){
+
     const locale = context.locale;
     const code = context.params.code;
-
+  
     const client = await clientPromise;
     const db = client.db("weddingRsvpDB");
     let data = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
-
+  
     if(!data){
         return {
             redirect: {
             destination: '/',
             permanent: false,
             },
-     }}
+     }};
 
     return {
       props: {
-        ...(await serverSideTranslations(locale, ['common','accommodation'])),
+        ...(await serverSideTranslations(locale, ['common'])),
       },
     };
   }

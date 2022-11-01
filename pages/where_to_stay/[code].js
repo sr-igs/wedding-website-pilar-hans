@@ -7,6 +7,7 @@ import styles from "../../styles/Stay.module.css";
 import { Box } from "@mui/material";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import clientPromise from "../../utils/mongodb";
 
 export default function WhereToStayPage(props){
     const closeHotelOptions = [
@@ -51,7 +52,23 @@ export default function WhereToStayPage(props){
     )
 }
 
-export async function getServerSideProps({locale}){
+export async function getServerSideProps(context){
+
+    const locale = context.locale;
+    const code = context.params.code;
+  
+    const client = await clientPromise;
+    const db = client.db("weddingRsvpDB");
+    let data = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
+  
+    if(!data){
+        return {
+            redirect: {
+            destination: '/',
+            permanent: false,
+            },
+     }};
+
     return {
       props: {
         ...(await serverSideTranslations(locale, ['common','accommodation'])),

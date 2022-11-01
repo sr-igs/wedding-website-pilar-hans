@@ -5,12 +5,11 @@ export default async function handler(req,res){
     const client = await clientPromise;
     const db = client.db("weddingRsvpDB");
     const { code } = req.query;
-    console.log(code);
 
     if(req.method==="GET"){
-        const entry = await db.collection("guests").findOne({uniqueCode:code});
+        const entry = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
         if(entry!==null){
-            res.status(200).json({success:true})
+            res.status(200).json(entry)
         }else{
             res.status(204).end();
         }

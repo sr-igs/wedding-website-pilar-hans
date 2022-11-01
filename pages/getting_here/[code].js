@@ -7,10 +7,11 @@ import SpainArrival from "../../components/getting_here/SpainArrival";
 import ValenciaArrival from "../../components/getting_here/ValenciaArrival";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import clientPromise from "../../utils/mongodb";
 
 export default function GettingHere(props){
 
-    const [location,setLocation] = useState("");
+    const [location,setLocation] = useState(props.location!=="australia"&&props.location!=="uk"?"rest":props.location);
 
     function onLocationChange(e){
         setLocation(e.target.value)
@@ -22,7 +23,7 @@ export default function GettingHere(props){
             <div className={styles.selectDiv}>
                 <FormControl sx={{ m: 1, minWidth: 300}}>
                     <InputLabel id="location-select-label">Where are you joining us from?</InputLabel>
-                    <Select onChange={onLocationChange} labelId="location-select-label" id="location-select" label="Where are you joining us from?">
+                    <Select value={location} onChange={onLocationChange} labelId="location-select-label" id="location-select" label="Where are you joining us from?">
                         <MenuItem value={"australia"}>Australia</MenuItem>
                         <MenuItem value={"uk"}>United Kingdom</MenuItem>
                         <MenuItem value={"rest"}>Somewhere else</MenuItem>
@@ -41,10 +42,29 @@ export default function GettingHere(props){
     )
 }
 
-export async function getServerSideProps({locale}){
+export async function getServerSideProps(context){
+
+    const locale = context.locale;
+    const code = context.params.code;
+
+    const client = await clientPromise;
+    const db = client.db("weddingRsvpDB");
+    let data = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
+
+    if(!data){
+        return {
+            redirect: {
+            destination: '/',
+            permanent: false,
+            },
+        }
+    }
+
+
     return {
       props: {
         ...(await serverSideTranslations(locale, ['common','accommodation'])),
+        location:data.location
       },
     };
   }

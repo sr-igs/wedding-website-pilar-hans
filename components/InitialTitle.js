@@ -31,7 +31,8 @@ function InitialTitle(props){
         let response = await fetch(`/api/guests/${accessCode}`,{method:"GET"});
         setLoading(false);
         if(response.status===200){
-            router.push(`/home/${accessCode}`);
+            let data = await response.json();
+            router.push(`/${data.language}/home/${accessCode}`);
         }else{
             //Error
             setError(true);
