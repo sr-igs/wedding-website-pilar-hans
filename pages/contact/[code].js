@@ -2,28 +2,18 @@ import Header from "../../components/Header";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation, UseTranslation } from "next-i18next";
 import clientPromise from "../../utils/mongodb";
+import styles from "../../styles/JustText.module.css";
 
 export default function ContactPage(props){
-    const divStyle = {
-        textAlign:"center",
-        margin:"3rem 2rem",
-        fontFamily:"'Martel','serif'",
-    }
-
-    const anchorStyle = {
-        fontWeight:"bold",
-        cursor:"pointer",
-        color:"#AEA4D0"
-    }
 
     const {t} = useTranslation("common")
 
     return(
         <div>
             <Header />
-            <div style={divStyle}>
+            <div className={styles.mainDiv}>
                 <p>{t("contactTextOne")}</p>
-                <p><a style={anchorStyle}>{"contact@ignacio-catherine.com"}</a></p>
+                <p><a>{"contact@ignacio-catherine.com"}</a></p>
                 <p>{t("contactTextTwo")}</p>
             </div>
         </div>

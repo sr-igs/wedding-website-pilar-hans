@@ -8,7 +8,7 @@ export default function CityStay(props){
             <h4>{props.description}</h4>
             {props.hotelOptions.map(opt=>{
                 return(
-                    <HotelCard key={`hotel-${opt.name}`} name={opt.name} location={opt.location} description={opt.description} stars={opt.stars} />
+                    <HotelCard key={`hotel-${opt.name}`} link={opt.link} name={opt.name} location={opt.location} description={opt.description} stars={opt.stars} />
                 )
             })}
         </div>

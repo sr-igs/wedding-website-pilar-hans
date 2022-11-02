@@ -17,7 +17,7 @@ export default function WhatToDo(props){
     return(
         <div style={styles}>
             <Header />
-            <h2>{t("workingOn")}</h2>
+            <h4>{t("workingOn")}</h4>
         </div>
     )
 }

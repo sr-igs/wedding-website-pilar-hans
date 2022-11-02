@@ -18,9 +18,14 @@
     margin:0.3rem 0;
 }
 
-.card a{
+.card em{
     text-decoration: underline;
 }
+
+.card a:hover{
+    color:#7e759f
+}
+
 
 @media only screen and (max-width: 500px) {
     .card{

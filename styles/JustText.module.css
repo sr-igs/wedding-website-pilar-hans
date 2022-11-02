@@ -1,0 +1,16 @@
+
+.mainDiv{
+    text-align: center;
+    margin: 3rem 2rem;
+    font-family: 'Martel','serif';
+}
+
+.mainDiv a{
+    font-weight: bold;
+    cursor:pointer;
+    color:#AEA4D0;
+}
+
+.mainDiv a:hover{
+    color:#7e759f;
+}
