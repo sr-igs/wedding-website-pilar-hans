@@ -13,7 +13,7 @@ export default function ContactPage(props){
             <Header />
             <div className={styles.mainDiv}>
                 <p>{t("contactTextOne")}</p>
-                <p><a>{"contact@ignacio-catherine.com"}</a></p>
+                <p><a href="mailto:contact@ignacio-catherine.com">{"contact@ignacio-catherine.com"}</a></p>
                 <p>{t("contactTextTwo")}</p>
             </div>
         </div>

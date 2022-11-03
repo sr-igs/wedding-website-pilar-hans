@@ -8,10 +8,13 @@ import ValenciaArrival from "../../components/getting_here/ValenciaArrival";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import clientPromise from "../../utils/mongodb";
+import { useRouter } from "next/router";
 
 export default function GettingHere(props){
 
     const [location,setLocation] = useState(props.location!=="australia"&&props.location!=="uk"?"rest":props.location);
+    const router = useRouter();
+    const locale = router.locale;
 
     function onLocationChange(e){
         setLocation(e.target.value)
@@ -20,6 +23,7 @@ export default function GettingHere(props){
     return(
         <div>
             <Header />
+            {locale==="es"&&<div className={styles.languageDisclaimer}><p>{"🇪🇸 Como probablemente eres de Valencia u otra parte de España, suponemos que sabrás llegar y por lo tanto no hemos traducido esta página. Si tienes cualquier duda, contáctanos."}</p></div>}
             <div className={styles.selectDiv}>
                 <FormControl sx={{ m: 1, minWidth: 300}}>
                     <InputLabel id="location-select-label">Where are you joining us from?</InputLabel>
