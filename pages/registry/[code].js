@@ -45,9 +45,10 @@ export default function Registry(){
                     <Grid>
                         <Card variant="outlined" sx={cardStyle}>
                             <p><strong>{"AUD"}</strong></p>
+                            <p>{`Bank: Commonwealth Bank`}</p>
                             <p>{`${t("accountHolder")}: Catherine Brims`}</p>
-                            <p>{"BIC: TRWIBEB1XXX"}</p>
-                            <p>{"IBAN: BE09 9671 5910 8557"}</p>
+                            <p>{"BSB: 06 2593"}</p>
+                            <p>{"Account number: 036 7943"}</p>
                         </Card>
                     </Grid>
                 </Grid>

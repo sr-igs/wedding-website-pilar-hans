@@ -18,7 +18,8 @@ export default function RsvpPage(props){
     const {code} = router.query;
     const [peopleInfo,setPeopleInfo] = useState(props.data.people);
     const [activeScreen,setActiveScreen] = useState("rsvp");
-    const {t} = useTranslation("rsvp")
+    const [existingResponse,setExistingResponse] = useState(false)
+    const {t} = useTranslation("rsvp");
 
     useEffect(()=>{
         let responseCount = 0;
@@ -28,7 +29,8 @@ export default function RsvpPage(props){
             }
         });
         if(responseCount===props.data.people.length){
-            setActiveScreen("summary")
+            setActiveScreen("summary");
+            setExistingResponse(true)
         }
     },[props.data.people])
 
@@ -44,6 +46,11 @@ export default function RsvpPage(props){
             });
             return returnArray
         })
+    }
+
+    function onCancelChanges(){
+        setPeopleInfo(props.data.people);
+        setActiveScreen("summary");
     }
 
     async function onSubmit(){
@@ -83,11 +90,13 @@ export default function RsvpPage(props){
 
                 if(noCount===peopleInfo.length){
                     setActiveScreen("summary")
+                    setExistingResponse(true)
                 }else{
                     setActiveScreen("details")
                 } 
             }else if(activeScreen==="details"){
                 setActiveScreen("summary");
+                setExistingResponse(true)
             }
         }
 
@@ -111,6 +120,7 @@ export default function RsvpPage(props){
                     {activeScreen==="summary"&&<FormComplete translation={t} id={`summary`} changePossible={true} changeDate={"31/3/2023"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
                 </Grid>
                 <div className={styles.buttonDiv}>
+                    {activeScreen==="rsvp"&&existingResponse&&<Button sx={{margin:"0.5rem"}} onClick={onCancelChanges} variant="outlined">{t("cancelChanges")}</Button>}
                     {activeScreen!=="summary"&&<Button onClick={onSubmit} variant="outlined">{t("submit")}</Button>}
                 </div>
             </div>

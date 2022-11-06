@@ -35,7 +35,7 @@ function Schedule(){
     return(
         <div className={width>950?styles.scheduleDivFull:styles.scheduleDivMobile}>
         <VerticalTimeline lineColor={"#7d75a0"} layout={width>950?'2-columns':'1-column-left'}>
-            <ScheduleItem image={informationIcon} time={t("allDay")} title={t("essentialInfo")} text={t("essentialInfoText")} />
+            <ScheduleItem image={informationIcon} time="" title={t("essentialInfo")} text={t("essentialInfoText")} />
             <ScheduleItem image={paellaIcon} time={t("morningAfternoon")} title={t("morningAfternoonTitle")} text={t("morningAfternoonText")} />
             <ScheduleItem image={churchIcon} location={t("ceremonyLocation")} locationLink="https://goo.gl/maps/G8khvPBWAwzRcCYc8"
              time="6pm" title={t("ceremonyTitle")} text={t("ceremonyText")} />
