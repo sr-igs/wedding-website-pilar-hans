@@ -9,6 +9,7 @@ export default async function handler(req,res){
     if(req.method==="GET"){
         const entry = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
         if(entry!==null){
+            await db.collection("guests").updateOne({uniqueCode:code},{$inc:{visitCount:1}});
             res.status(200).json(entry)
         }else{
             res.status(204).end();
