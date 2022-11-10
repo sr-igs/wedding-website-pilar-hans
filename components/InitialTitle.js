@@ -29,12 +29,13 @@ function InitialTitle(props){
     async function onSubmitClick(){
         setLoading(true);
         let response = await fetch(`/api/guests/${accessCode}`,{method:"GET"});
-        setLoading(false);
         if(response.status===200){
             let data = await response.json();
             router.push(`/home/${accessCode}`,`/home/${accessCode}`,{locale:data.language});
+            setLoading(false);
         }else{
             //Error
+            setLoading(false);
             setError(true);
         }
     }
