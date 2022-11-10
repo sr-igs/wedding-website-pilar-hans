@@ -8,3 +8,17 @@
     text-align: center;
     margin:0.5rem
 }
+
+.plusOne{
+    text-align: center;
+    margin:1rem 3rem;
+    font-family: 'Martel','serif';
+}
+
+.plusOne a{
+    font-weight: bold;
+}
+
+.plusOne a:hover{
+    color:darkgrey;
+}

@@ -12,7 +12,7 @@ export default function VenueStay(){
             <a className={styles.hotelLink} href="https://www.onlyyouhotels.com/en/hotels/only-you-hotel-valencia/" target="_blank" rel="noreferrer"> {"their website."}</a>{"It is also pet friendly."}</p>
             </div>
             <div className={styles.discountCode}>
-                <strong>Discount Code:</strong> IGNACIOCATHERINE
+                <strong>{"Discount Code:"}</strong> {"ENLACEIGNACIOYCATHERINE"}
             </div>
         </div>
     )

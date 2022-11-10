@@ -5,6 +5,8 @@ import Grid from "@mui/material/Unstable_Grid2/Grid2";
 function FormComplete(props) {
 
   const t = props.translation;
+  const changeDate = new Date(props.changeDate);
+  const isAfterChangeDate = new Date().getTime() > changeDate.getTime();
 
   return (
     <div className={styles.mainDiv}>
@@ -64,11 +66,11 @@ function FormComplete(props) {
       </Grid>
       <div className={styles.changeDiv}>
         <h4>
-          {props.changePossible
+          {!isAfterChangeDate
             ? `${t("changeOne")} ${props.changeDate} ${t("changeTwo")}`
             : t("noChange")}
         </h4>
-        {props.changePossible && (
+        {!isAfterChangeDate && (
           <Button variant="outlined" onClick={props.onChangeClick}>
             {t("changeButton")}
           </Button>

@@ -13,9 +13,11 @@
     "otherT":"Otra información",
     "changeOne":"¿Necesitas cambiar la información? Puedes hacerlo hasta el ",
     "changeTwo":"pulsando el botón de abajo",
-    "noChange":"Desafortunadamente no puedes cambiar los datos a través de la web. Por favor contáctanos.",
+    "noChange":"Desafortunadamente no puedes cambiar los datos a través de la web. Si necesitas cambiar algo, por favor contáctanos.",
     "changeButton":"Cambiar información",
     "thankYou":"Gracias por la confirmación",
     "toldUs":"Esto es lo que nos has dicho",
-    "cancelChanges":"Cancelar Cambios"
+    "cancelChanges":"Cancelar Cambios",
+    "plusOneText":"Si te gustaría venir con alguien especial a la boda, por favor ",
+    "plusOneLink":"contáctanos."
 }

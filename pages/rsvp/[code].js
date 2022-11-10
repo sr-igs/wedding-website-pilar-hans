@@ -11,6 +11,7 @@ import clientPromise from "../../utils/mongodb";
 import { useState,useEffect } from "react";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
+import Link from "next/link";
 
 export default function RsvpPage(props){
     
@@ -117,10 +118,13 @@ export default function RsvpPage(props){
                             {activeScreen==="details"&&g.rsvp==="yes"&&<DetailsForm translation={t} id={g.fullName} key={`details-${g.fullName}`} handleChange={handleChange} name={g.name} dietary={g.dietary} song={g.song} other={g.other} />}
                             </Grid>)
                     })}
-                    {activeScreen==="summary"&&<FormComplete translation={t} id={`summary`} changePossible={true} changeDate={"31/3/2023"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
+                    {activeScreen==="summary"&&<FormComplete translation={t} id={`summary`} changeDate={"31/3/2023"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
                 </Grid>
+                <div className={styles.plusOne}>
+                    {activeScreen==="rsvp"&&<p>{t("plusOneText")}<Link href={`/contact/${code}`}><a>{t("plusOneLink")}</a></Link></p>}
+                </div>
                 <div className={styles.buttonDiv}>
-                    {activeScreen==="rsvp"&&existingResponse&&<Button sx={{margin:"0.5rem"}} onClick={onCancelChanges} variant="outlined">{t("cancelChanges")}</Button>}
+                    {activeScreen==="rsvp"&&props.data.plusOne&&existingResponse&&<Button sx={{margin:"0.5rem"}} onClick={onCancelChanges} variant="outlined">{t("cancelChanges")}</Button>}
                     {activeScreen!=="summary"&&<Button onClick={onSubmit} variant="outlined">{t("submit")}</Button>}
                 </div>
             </div>

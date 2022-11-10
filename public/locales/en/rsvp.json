@@ -13,9 +13,11 @@
     "otherT":"Other Information",
     "changeOne":"Need to change your response? You can do it until",
     "changeTwo":"by clicking the button below",
-    "noChange":"Unfortunately you can't change your response through the website. Please contact us if you have any changes.",
+    "noChange":"Unfortunately you can't change your response through the website as it's after the RSVP date. Please contact us if you have any changes.",
     "changeButton":"Change Response",
     "thankYou":"Thank you for RSVPing",
     "toldUs":"This is what you told us",
-    "cancelChanges":"Cancel Changes"
+    "cancelChanges":"Cancel Changes",
+    "plusOneText":"If you'd like to bring someone special with you to the wedding, we might be able to accomodate. Please ",
+    "plusOneLink":"contact us."
 }
