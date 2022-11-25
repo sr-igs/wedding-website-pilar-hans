@@ -1,0 +1,17 @@
+.link{
+    font-weight:bold;
+    color:blue;
+}
+
+.link:hover{
+    color:darkblue;
+}
+
+.description{
+    font-size: 14px;
+    padding:0 0.5rem;
+}
+
+.mainDiv{
+    padding-bottom:0.5rem;
+}

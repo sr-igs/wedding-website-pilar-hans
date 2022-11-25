@@ -1,0 +1,40 @@
+const whatToDo = [
+    {
+        title:"City of arts and sciences",
+        description:"One of the most popular and well known part of Valencia, it has been features in films such as Tomorrowland. This modern complex includes an Imax cinema, an opera house, a science museum and the biggest aquarium in Europe. Even if you don't want to go inside any of these, it's still well worth a visit for its architecture.",
+        image:"https://www.spain.info/.content/images/cabeceras-grandes/comunidad-valenciana/ciudad-artes-ciencias-noche-valencia-pexel256150.jpg",
+        link:"https://www.visitvalencia.com/en/what-to-see-valencia/city-of-arts-and-ciences/city-of-arts-and-sciences-monuments"
+    },
+    {
+        title:"Valencia cathedral",
+        description:"The Valencia cathedral, in the city centre and very close to the venue, was built between the 13th and 15th centuries and although predominantly Gothic also shows many other styles. Inside, you can find what many believe to be the authentic Holy Grail. You can also climb the 207 steps of the Micalet tower to get great views of the city (not recommended if you're claustrophobic as the steps are very tight!)",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/_/_h3b9627_lr_b.jpg",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/catedral-valencia-cathedral"
+    },
+    {
+        title:"La Lonja (Silk Exchange)",
+        description:"La lonja, a UNESCO world heritage site, is a gothic building from the 16th century that used to host the Valencia silk exchange. It is worth a visit for its architecture and long history.",
+        image:"https://upload.wikimedia.org/wikipedia/commons/b/b2/Llonja.jpg",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/lonja-silk-exchange"
+    },
+    {
+        title:"Mercat Central (Central Market)",
+        description:"The central market is a must visit for its architecture, food, and ambiance. Holding over 1200 stalls, you'll find all the food that Valencia and Spain have to offer in an amazing setting. It is free to enter, but please note that it is closed on Sundays and afternoons!",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/p/panorama_mcdocentral.jpg?itok=NwRoCSVH",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/central-market"
+    },
+    {
+        title:"San Nicolas Church",
+        description:"Known as the Valencian Sistine Chappel, this church was recently restored to show the beautiful pictorial display. You can get a joined ticket to see this and the silk museum.",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/a/ali_1423.jpg?itok=HxSMpHD7",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/iglesia-san-nicolas-bari-san-pedro-martir-valencia"
+    },
+    {
+        title:"Turia garden",
+        description:"In the 1980s, the river that flowed through Valencia (river Turia) was converted into a garden after a particularly bad flood. You can now enjoy its 9 km of green space for a leisury walk across several landmarks. Please note that there are both dedicated bike paths and running paths, so it's great if you want a bike city tour or to go for a morning run. ",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/Jardi%CC%81n-del-Turia-VV-01011_1024-%20Photo_Josep_Gil.jpg?itok=8jLGFMmb",
+        link:"https://www.visitvalencia.com/en/what-to-see-valencia/turia-gardens"
+    }
+]
+
+export default whatToDo

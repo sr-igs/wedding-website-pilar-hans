@@ -1,7 +1,8 @@
-import Header from "../../components/Header";
+import Header from "../../../components/Header";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import clientPromise from "../../utils/mongodb";
+import clientPromise from "../../../utils/mongodb";
 import { useTranslation } from "next-i18next";
+import DoCard from "../../../components/ui/DoCard";
 
 export default function WhatToDo(props){
 
@@ -18,6 +19,7 @@ export default function WhatToDo(props){
         <div style={styles}>
             <Header />
             <h4>{t("workingOn")}</h4>
+            <DoCard />
         </div>
     )
 }
