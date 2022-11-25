@@ -44,7 +44,7 @@ function InitialTitle(props){
         <div className={styles.mainDiv}>
             <Modal open={loading}><LoadingModal /></Modal>
             <div className={styles.imageDiv}>
-                <Image src={damnImage} layout="responsive" />
+                <Image src={damnImage} layout="responsive" alt="" />
             </div>
             <div className={styles.titleDiv}>
                 <h1>{t("firstName")}</h1>
