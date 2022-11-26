@@ -9,3 +9,16 @@
     font-family: 'Martel','serif';
     text-align: center;
 }
+
+.whatLink{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.whatLink:hover{
+    color:#AEA4D0;
+}
+
+.linkDiv{
+    margin-top:2rem;
+}

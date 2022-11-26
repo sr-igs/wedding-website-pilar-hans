@@ -1,7 +1,7 @@
 const whatToDo = [
     {
         title:"City of arts and sciences",
-        description:"One of the most popular and well known part of Valencia, it has been features in films such as Tomorrowland. This modern complex includes an Imax cinema, an opera house, a science museum and the biggest aquarium in Europe. Even if you don't want to go inside any of these, it's still well worth a visit for its architecture.",
+        description:"One of the most popular and well known part of Valencia, it has been features in films such as Tomorrowland. This modern complex includes an Imax cinema, an opera house, a science museum and the biggest aquarium in Europe (see Oceanografic below). Even if you don't want to go inside any of these, it's still well worth a visit for its architecture.",
         image:"https://www.spain.info/.content/images/cabeceras-grandes/comunidad-valenciana/ciudad-artes-ciencias-noche-valencia-pexel256150.jpg",
         link:"https://www.visitvalencia.com/en/what-to-see-valencia/city-of-arts-and-ciences/city-of-arts-and-sciences-monuments"
     },
@@ -34,6 +34,36 @@ const whatToDo = [
         description:"In the 1980s, the river that flowed through Valencia (river Turia) was converted into a garden after a particularly bad flood. You can now enjoy its 9 km of green space for a leisury walk across several landmarks. Please note that there are both dedicated bike paths and running paths, so it's great if you want a bike city tour or to go for a morning run. ",
         image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/Jardi%CC%81n-del-Turia-VV-01011_1024-%20Photo_Josep_Gil.jpg?itok=8jLGFMmb",
         link:"https://www.visitvalencia.com/en/what-to-see-valencia/turia-gardens"
+    },
+    {
+        title:"College of High Silk Art",
+        description:"This recently restored gothic building hosted the guild of silk makers back in the 16th century. Now it hosts a museum that goes through the rich link between Valencia, silk and the silk road. It also hosts the largest guild archive in Europe. You can get a joint ticket for this and San Nicolas church. ",
+        image:"https://www.valenciabonita.es/wp-content/uploads/2016/09/IMG_5437.jpg",
+        link:"https://www.museodelasedavalencia.com/en/"
+    },
+    {
+        title:"Oceanografic",
+        description:"Part of the city of arts and sciences, the oceanografic is the largest aquarium in Europe. It has over 45000 animals from 500 different species, and is part of a beautiful architectural complex. If you fancy a nice dinner, you can also visit the underwater restaurant where you will be completely surrounded by the aquarium.",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/L%27Oceanografic_%28Valencia%2C_Spain%29_01.jpg/2560px-L%27Oceanografic_%28Valencia%2C_Spain%29_01.jpg",
+        link:"https://www.oceanografic.org/en/"
+    },
+    {
+        title:"Malvarrosa Beach",
+        description:"The most famous of the Valencian beaches is about 6km from the city centre. It can be reached by public transport but we would recommend either a taxi or renting a bike. ",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/_/_mg_6724.jpg?itok=8ZE1OPui",
+        link:"https://www.visitvalencia.com/en/what-to-see-valencia/beaches-in-Valencia/city-beaches/la-malvarrosa-beach"
+    },
+    {
+        title:"Mestalla Stadium",
+        description:"If you're into football (soccer), the Valencia Football Club stadium is a must see. If you are in Valencia prior to the wedding there will be a football game on the 28th of May. Otherwise, you can do the stadium tour and visit the museum. ",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CAMP_DE_MESTALLA_2014.jpg/488px-CAMP_DE_MESTALLA_2014.jpg",
+        link:"https://www.valenciacf.com/en/club/facilities/mestalla"
+    },
+    {
+        title:"Bioparc (Valencia Zoo)",
+        description:"The Bioparc was opened in 2008 and was designed to immerse visitors in the animal habitats and not viceversa. It consists mainly of African animals. It is situated at the end of the Turia garden so you can include a nice garden walk.",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/b/bioparc-valencia-sabana-africana-elefantes-lago-elefantes-zooinmersion.jpg?itok=CfECzvuB",
+        link:"https://www.visitvalencia.com/en/what-to-see-valencia/bioparc-cabecera-park-and-congress-park/what-is-bioparc"
     }
 ]
 

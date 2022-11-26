@@ -5,6 +5,7 @@ import { useTranslation } from "next-i18next";
 import Link from 'next/link';
 import { useRouter } from "next/router";
 import { Breadcrumbs,Button } from "@mui/material";
+import styles from "../../../../styles/WhatToDo.module.css";
 
 export default function WhatToDo(props){
 
@@ -12,24 +13,19 @@ export default function WhatToDo(props){
     const router = useRouter();
     const {code} = router.query
 
-    const styles = {
-        margin:"0 auto",
-        padding:"2rem",
-        fontFamily:"'Martel','serif'",
-        textAlign:"center"
-    }
-
     return(
-        <div style={styles}>
+        <div className={styles.mainDiv}>
             <Header />
-            <div>
+            <div className={styles.breadcrumbs}>
                 <Breadcrumbs>
                     <Button href={`/what_to_do/${code}`} LinkComponent={Link} component="a">What to do</Button>
                     <p>Valencia</p>
                 </Breadcrumbs>
             </div>
-            <Link href={`/what_to_do/${code}/valencia/what_to_see`}>What to see</Link>
-            <Link href={`/what_to_do/${code}/valencia/what_to_eat`}>Where to eat</Link>
+            <div>
+                <Link href={`/what_to_do/${code}/valencia/what_to_see`}><p className={styles.whatLink}>What to see</p></Link>
+                <Link href={`/what_to_do/${code}/valencia/what_to_eat`}><p className={styles.whatLink}>Where to eat</p></Link>
+            </div>
         </div>
     )
 }

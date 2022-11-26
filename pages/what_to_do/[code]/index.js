@@ -2,24 +2,25 @@ import Header from "../../../components/Header";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import clientPromise from "../../../utils/mongodb";
 import { useTranslation } from "next-i18next";
-import DoCard from "../../../components/ui/DoCard";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import styles from "../../../styles/WhatToDo.module.css";
+
 
 export default function WhatToDo(props){
 
     const {t} = useTranslation("common");
-
-    const styles = {
-        margin:"0 auto",
-        padding:"2rem",
-        fontFamily:"'Martel','serif'",
-        textAlign:"center"
-    }
+    const router = useRouter();
+    const {code} = router.query
 
     return(
-        <div style={styles}>
+        <div className={styles.mainDiv}>
             <Header />
-            <h4>{t("workingOn")}</h4>
-            <DoCard />
+            <div className={styles.linkDiv}>
+                <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>What to do in Valencia</p></Link>
+                <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>What to do close to Valencia</p></Link>
+                <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>What to do elsewhere in Spain</p></Link>
+            </div>
         </div>
     )
 }
