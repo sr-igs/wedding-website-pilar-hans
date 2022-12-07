@@ -12,6 +12,18 @@ const whatToDo = [
         link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/catedral-valencia-cathedral"
     },
     {
+        title:"City hall square (Plaza del ayuntamiento)",
+        description:"You will struggle to not see this as it's next to the venue! The city hall square is the centre of the city and great for a leasury stroll. If you want, you can enter both the city hall and access its balcony, and the 'Edificio de Correos', the central post office. Both are worth a quick look.",
+        image:"https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/06/plaza-ayuntamiento-valencia.jpg",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/city-hall"
+    },
+    {
+        title:"Valencia Central Station (Estacion del Norte)",
+        description:"The central Valencia station is located in the city centre, in an early 20th century modernist building. Worth a quick visit for its architecture and mosaic work. Of course, it's free to enter.",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/v/valencia_renfe_3.jpg?itok=Z8B13xEE",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/norte-railway-station"
+    },
+    {
         title:"La Lonja (Silk Exchange)",
         description:"La lonja, a UNESCO world heritage site, is a gothic building from the 16th century that used to host the Valencia silk exchange. It is worth a visit for its architecture and long history.",
         image:"https://upload.wikimedia.org/wikipedia/commons/b/b2/Llonja.jpg",
@@ -64,6 +76,30 @@ const whatToDo = [
         description:"The Bioparc was opened in 2008 and was designed to immerse visitors in the animal habitats and not viceversa. It consists mainly of African animals. It is situated at the end of the Turia garden so you can include a nice garden walk.",
         image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/b/bioparc-valencia-sabana-africana-elefantes-lago-elefantes-zooinmersion.jpg?itok=CfECzvuB",
         link:"https://www.visitvalencia.com/en/what-to-see-valencia/bioparc-cabecera-park-and-congress-park/what-is-bioparc"
+    },
+    {
+        title:"Mercado de Colon (Colon Market)",
+        description:"Visit this modernist market for a variety of stalls where to have a drink or something to eat. If you can, you can try the Valencia traditional drink 'Horchata' in Horchateria Daniel.",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/m/mercat_colon_2.jpg?itok=H6yf5Fxz",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/colon-market"
+    },
+    {
+        title:"Serranos Towers",
+        description:"One of the old city gates (back when Valencia was a walled city), they were built in the 14th century. If you wish, you can go to the top to get a good view of the city.",
+        image:"https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/t/torres-serrano.jpg?itok=Mbw1D3iA",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/serranos-towers"
+    },
+    {
+        title:"Colon Street",
+        description:"The main shopping street of Valencia. You can find most high street chains (both Spanish and international), as well as the 'El Corte Ingles' department store.",
+        image:"https://www.lovevalencia.com/wp-content/uploads/2015/03/colon.jpg",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/shopping-in-valencia/streets-and-shopping-areas"
+    },
+    {
+        title:"Quart Towers",
+        description:"The other remaining old city gates, also dating from the 14th century. Although a bit away from the city centre, if you visit them you can note the cannon ball marks, fruit of the Spanish indepedence war against Napoleon.",
+        image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/89/54/74/torres-de-quart.jpg?w=1400&h=-1&s=1",
+        link:"https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/quart-towers"
     }
 ]
 

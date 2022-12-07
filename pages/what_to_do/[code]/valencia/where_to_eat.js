@@ -2,23 +2,29 @@ import Header from "../../../../components/Header";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import clientPromise from "../../../../utils/mongodb";
 import { useTranslation } from "next-i18next";
-import DoCard from "../../../../components/ui/DoCard";
+import { Breadcrumbs,Button } from "@mui/material";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import styles from "../../../../styles/WhatToDo.module.css";
+
 
 export default function WhatToDo(props){
 
     const {t} = useTranslation("common");
-
-    const styles = {
-        margin:"0 auto",
-        padding:"2rem",
-        fontFamily:"'Martel','serif'",
-        textAlign:"center"
-    }
+    const router = useRouter();
+    const {code} = router.query
 
     return(
-        <div style={styles}>
+        <div className={styles.mainDiv}>
             <Header />
-            <DoCard />
+            <div className={styles.breadcrumbs}>
+                <Breadcrumbs>
+                    <Button href={`/what_to_do/${code}`} LinkComponent={Link} component="a">What to do</Button>
+                    <Button href={`/what_to_do/${code}/valencia`} LinkComponent={Link} component="a">Valencia</Button>
+                    <p>What to see</p>
+                </Breadcrumbs>
+            </div>
+            <h3>{"Under construction! Please come back closer to the wedding date."}</h3>
         </div>
     )
 }

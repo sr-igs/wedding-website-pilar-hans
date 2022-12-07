@@ -18,8 +18,10 @@ export default function WhatToDo(props){
             <Header />
             <div className={styles.linkDiv}>
                 <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>What to do in Valencia</p></Link>
-                <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>What to do close to Valencia</p></Link>
-                <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>What to do elsewhere in Spain</p></Link>
+                {/* <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>What to do close to Valencia</p></Link> */}
+                <p className={styles.whatLink}>{"What to do close to Valencia (Coming soon)"}</p>
+                {/* <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>What to do elsewhere in Spain</p></Link> */}
+                <p className={styles.whatLink}>{"What to do elsewhere in Spain (Coming soon)"}</p>
             </div>
         </div>
     )
