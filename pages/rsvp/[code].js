@@ -121,7 +121,7 @@ export default function RsvpPage(props){
                     {activeScreen==="summary"&&<FormComplete translation={t} id={`summary`} changeDate={"31/3/2023"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
                 </Grid>
                 <div className={styles.plusOne}>
-                    {activeScreen==="rsvp"&&<p>{t("plusOneText")}<Link href={`/contact/${code}`}><a>{t("plusOneLink")}</a></Link></p>}
+                    {activeScreen==="rsvp"&&props.data.plusOne&&<p>{t("plusOneText")}<Link href={`/contact/${code}`}><a>{t("plusOneLink")}</a></Link></p>}
                 </div>
                 <div className={styles.buttonDiv}>
                     {activeScreen==="rsvp"&&props.data.plusOne&&existingResponse&&<Button sx={{margin:"0.5rem"}} onClick={onCancelChanges} variant="outlined">{t("cancelChanges")}</Button>}
