@@ -26,7 +26,7 @@ export default function WhereToStayPage(props){
         {name:"AC Hotel Colon",link:"https://www.marriott.co.uk/hotels/travel/vlcap-ac-hotel-colon-valencia/",stars:"****",location:"Calle Colon, 6",description:"This hotel is right in the main shopping street of Valencia, yet still a 10 minute walk of the venue and church. If you're really into your shopping this might be a good option!"},
         {name:"Hotel Las Arenas",link:"https://www.hotelvalencialasarenas.com/en",stars:"*****",location:"Carrer d'Eugènia Viñes, 22",description:"If you want to stay by the beach and treat yourself, this might be your best option. This five star hotel and spa has the sea in front. Please note that the Valencia beach is  a bit far from the city centre, so you will most likely need a taxi to get back."},
         {name:"Hotel Balandret",link:"http://balandret.com",stars:"****",location:"Passeig de Neptu, 22",description:"A cheaper yet still great option to stay by the beach, just in front of the sea. Please note that the beach is a bit far from the city centre and venue, you will most likely need a taxi on the day of the wedding."}
-    ]x
+    ];
 
     const {t} = useTranslation("accommodation");
 
