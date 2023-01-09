@@ -47,8 +47,8 @@ export default function Registry(){
                             <p><strong>{"AUD"}</strong></p>
                             <p>{`Bank: Commonwealth Bank`}</p>
                             <p>{`${t("accountHolder")}: Catherine Brims`}</p>
-                            <p>{"BSB: 06 2593"}</p>
-                            <p>{"Account number: 036 7943"}</p>
+                            <p>{"BSB: 062593"}</p>
+                            <p>{"Account number: 10367943"}</p>
                         </Card>
                     </Grid>
                 </Grid>
