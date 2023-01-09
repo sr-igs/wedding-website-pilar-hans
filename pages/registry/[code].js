@@ -30,8 +30,8 @@ export default function Registry(){
                         <Card variant="outlined" sx={cardStyle}>
                             <p><strong>{"GBP"}</strong></p>
                             <p>{`${t("accountHolder")}: Ignacio Clavel Briz or Catherine Brims`}</p>
-                            <p>{"Account number: 36249453"}</p>
-                            <p>{"Sort code: 23-14-70"}</p>
+                            <p>{"Sort code: 04-00-04"}</p>
+                            <p>{"Account number: 97154593"}</p>
                         </Card>
                     </Grid>
                     <Grid>
