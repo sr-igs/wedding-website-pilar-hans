@@ -21,5 +21,7 @@
     "accessCodeText":"¿No recuerdas tu código?",
     "accessCodeLink":"Por favor ponte en contacto",
     "contactText":"Puedes mandarnos un email a ",
-    "workingOn":"Aún no hemos terminado esta sección. Por favor vuelve pronto o contáctanos con cualquier pregunta."
+    "workingOn":"Aún no hemos terminado esta sección. Por favor vuelve pronto o contáctanos con cualquier pregunta.",
+    "spainText":"España es un país grande y diverso que tiene muchísimo que ofrecer. En un principio íbamos a intentar dar nuestras recomendaciones pero nos hemos dado cuenta que hay demasisadas cosas que recomendare. La web oficial de turisma de España está muy bien hecha y tiene mucha información; no dudes en preguntarnos si tienes cualquier otra duda.",
+    "tourismWebsiteTitle":"Web oficial de turismo de España"
 }

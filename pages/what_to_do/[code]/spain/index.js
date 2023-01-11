@@ -1,25 +1,24 @@
-import Header from "../../../components/Header";
+import Header from "../../../../components/Header";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import clientPromise from "../../../utils/mongodb";
+import clientPromise from "../../../../utils/mongodb";
 import { useTranslation } from "next-i18next";
-import DoCard from "../../../components/ui/DoCard";
+import { useRouter } from "next/router";
+import styles from "../../../../styles/JustText.module.css"
+import Link from "next/link";
 
 export default function WhatToDo(props){
 
     const {t} = useTranslation("common");
-
-    const styles = {
-        margin:"0 auto",
-        padding:"2rem",
-        fontFamily:"'Martel','serif'",
-        textAlign:"center"
-    }
+    const router = useRouter();
+    const {code} = router.query
 
     return(
-        <div style={styles}>
+        <div>
             <Header />
-            <h4>{t("workingOn")}</h4>
-            <DoCard />
+            <div className={styles.mainDiv}>
+                <p>{t("spainText")}</p>
+                <a href="https://www.spain.info/en/" target="_blank" rel="noopener noreferrer">{t("tourismWebsiteTitle")}</a>
+            </div>
         </div>
     )
 }
