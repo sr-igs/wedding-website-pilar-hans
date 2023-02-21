@@ -24,8 +24,8 @@ export default function WhatToDo(props){
             </div>
             <div>
                 <Link href={`/what_to_do/${code}/valencia/what_to_see`}><p className={styles.whatLink}>What to see</p></Link>
-                {/* <Link href={`/what_to_do/${code}/valencia/where_to_eat`}><p className={styles.whatLink}>Where to eat</p></Link> */}
-                <p className={styles.whatLink}>{"Where to eat (Coming soon)"}</p>
+                <Link href={`/what_to_do/${code}/valencia/where_to_eat`}><p className={styles.whatLink}>Where to eat</p></Link>
+                {/* <p className={styles.whatLink}>{"Where to eat (Coming soon)"}</p> */}
             </div>
         </div>
     )

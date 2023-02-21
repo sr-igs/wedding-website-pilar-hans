@@ -6,6 +6,7 @@ import { Breadcrumbs,Button } from "@mui/material";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import styles from "../../../../styles/WhatToDo.module.css";
+import EatingTabs from "../../../../components/eating/EatingTabs";
 
 
 export default function WhatToDo(props){
@@ -21,10 +22,10 @@ export default function WhatToDo(props){
                 <Breadcrumbs>
                     <Button href={`/what_to_do/${code}`} LinkComponent={Link} component="a">What to do</Button>
                     <Button href={`/what_to_do/${code}/valencia`} LinkComponent={Link} component="a">Valencia</Button>
-                    <p>What to see</p>
+                    <p>What to eat</p>
                 </Breadcrumbs>
             </div>
-            <h3>{"Under construction! Please come back closer to the wedding date."}</h3>
+            <EatingTabs />
         </div>
     )
 }

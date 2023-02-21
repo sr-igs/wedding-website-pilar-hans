@@ -15,6 +15,8 @@ export default function WhatToDo(props){
         <div className={styles.mainDiv}>
             <Header />
             <div style={{marginTop:"2rem"}}>
+                <div className={styles.disclaimer}>{"In this section we have included some sights within the Valencian community, the region of which Valencia is capital. These are all places we've personally been to and recommend, so it's far from an exhaustive list. To make it a bit easier, we've used the following legend:"}<br />
+                {"🌲 - Nature 🏰 - Historic Town 🏖️ - Beach and coast"}</div>
                 <Masonry columns={{xs:1,sm:2,md:3,lg:4,xl:5}} spacing={2}>
                     {information.map(i=>{
                         return(<DoCard key={i.title} image={i.image} title={i.title} description={i.description} link={i.link} />)

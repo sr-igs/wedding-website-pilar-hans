@@ -1,4 +1,4 @@
-export default function Legend(props){
+export default function RestaurantList(props){
     return(
         <div>
             
