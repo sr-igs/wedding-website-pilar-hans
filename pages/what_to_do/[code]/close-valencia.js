@@ -19,7 +19,7 @@ export default function WhatToDo(props){
                 {"🌲 - Nature 🏰 - Historic Town 🏖️ - Beach and coast"}</div>
                 <Masonry columns={{xs:1,sm:2,md:3,lg:4,xl:5}} spacing={2}>
                     {information.map(i=>{
-                        return(<DoCard key={i.title} image={i.image} title={i.title} description={i.description} link={i.link} />)
+                        return(<DoCard key={i.title} image={i.image} title={i.title} description={i.description} link={i.link} address={null} />)
                     })}
                 </Masonry>
             </div>
