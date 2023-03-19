@@ -40,7 +40,7 @@ export default function EatingTabs(){
                     <Disclaimer backgroundColor="#ECECEC" text="You can also try “fideuà”, a small vermicelli noodle dish cooked in a paella pan and usually served with fish or seafood, which is also very traditional.
 This list includes restaurants where we have personally tried the paellas and can, as Valencians, confirm that they are offering the proper dish and experience:
 " />
-                    <Disclaimer backgroundColor="#ECECEC">{paellaRestaurants.map(p=>{return <p>{p}</p>})}</Disclaimer>
+                    <Disclaimer backgroundColor="#ECECEC">{paellaRestaurants.map(p=>{return <p key={p}>{p}</p>})}</Disclaimer>
                 </TabPanel>
                 <TabPanel value="5"><RestaurantList data={wines} /></TabPanel>
             </TabContext>
