@@ -5,8 +5,10 @@ import Grid from "@mui/material/Unstable_Grid2/Grid2";
 function FormComplete(props) {
 
   const t = props.translation;
+  const today = new Date();
   const changeDate = new Date(props.changeDate);
-  const isAfterChangeDate = new Date().getTime() > changeDate.getTime();
+  const isAfterChangeDate = false
+  //today.getTime() > changeDate.getTime()
 
   return (
     <div className={styles.mainDiv}>
