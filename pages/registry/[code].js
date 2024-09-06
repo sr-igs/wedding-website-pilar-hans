@@ -29,26 +29,9 @@ export default function Registry(){
                     <Grid>
                         <Card variant="outlined" sx={cardStyle}>
                             <p><strong>{"GBP"}</strong></p>
-                            <p>{`${t("accountHolder")}: Ignacio Clavel Briz or Catherine Brims`}</p>
-                            <p>{"Sort code: 04-00-04"}</p>
-                            <p>{"Account number: 97154593"}</p>
-                        </Card>
-                    </Grid>
-                    <Grid>
-                        <Card variant="outlined" sx={cardStyle}>
-                            <p><strong>{"Euros"}</strong></p>
-                            <p>{`${t("accountHolder")}: Ignacio Clavel Briz`}</p>
-                            <p>{"BIC: TRWIBEB1XXX"}</p>
-                            <p>{"IBAN: BE09 9671 5910 8557"}</p>
-                        </Card>
-                    </Grid>
-                    <Grid>
-                        <Card variant="outlined" sx={cardStyle}>
-                            <p><strong>{"AUD"}</strong></p>
-                            <p>{`Bank: Commonwealth Bank`}</p>
-                            <p>{`${t("accountHolder")}: Catherine Brims`}</p>
-                            <p>{"BSB: 062593"}</p>
-                            <p>{"Account number: 10367943"}</p>
+                            <p>{`${t("accountHolder")}: Example Name`}</p>
+                            <p>{"Sort code: XX-XX-XX"}</p>
+                            <p>{"Account number: 12345678"}</p>
                         </Card>
                     </Grid>
                 </Grid>
