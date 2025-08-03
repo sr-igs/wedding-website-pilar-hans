@@ -19,7 +19,7 @@ export default function HomePage(props){
         <div>
             <Header />
             <div style={{minWidth:"25rem",maxWidth:"30rem",margin:"0.5rem auto"}}>
-              <Image src={invitation} alt={"Wedding invitation"} />
+              {/* Wedding invitation could go here */}
             </div>
         </div>
     )

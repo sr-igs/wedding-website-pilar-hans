@@ -11,8 +11,8 @@ function MyApp({ Component, pageProps }) {
   return <ThemeProvider theme={theme}>
     <Component {...pageProps} />
       <Head>
-        <title>Ignacio and Catherine 2023</title>
-        <meta name="description" content="Ignacio and Catherine 2023" />
+        <title>Pilar and Hans 2026</title>
+        <meta name="description" content="Pilar and Hans 2026" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>

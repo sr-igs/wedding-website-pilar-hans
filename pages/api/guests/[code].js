@@ -5,11 +5,12 @@ export default async function handler(req,res){
     const client = await clientPromise;
     const db = client.db("weddingRsvpDB");
     const { code } = req.query;
+    const collectionName = "guests_pilar_hans"
 
     if(req.method==="GET"){
-        const entry = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
+        const entry = await db.collection(collectionName).findOne({uniqueCode:code},{projection:{_id:0}});
         if(entry!==null){
-            await db.collection("guests").updateOne({uniqueCode:code},{$inc:{visitCount:1}});
+            await db.collection(collectionName).updateOne({uniqueCode:code},{$inc:{visitCount:1}});
             res.status(200).json(entry)
         }else{
             res.status(204).end();
@@ -17,7 +18,7 @@ export default async function handler(req,res){
     }else if(req.method==="PUT"){
         let data = JSON.parse(req.body);
         let updateDoc = {$set:{people:data}};
-        const entry = await db.collection("guests").updateOne({uniqueCode:code},updateDoc);
+        const entry = await db.collection(collectionName).updateOne({uniqueCode:code},updateDoc);
         if(entry.matchedCount>0){
             res.status(200).json({success:true})
         }else{
