@@ -37,16 +37,14 @@ function Schedule(){
         <VerticalTimeline lineColor={"#2C8A6F"} layout={width>950?'2-columns':'1-column-left'}>
             <ScheduleItem image={informationIcon} time="" title={t("essentialInfo")} text={t("essentialInfoText")} />
             <ScheduleItem image={paellaIcon} time={t("morningAfternoon")} title={t("morningAfternoonTitle")} text={t("morningAfternoonText")} />
-            <ScheduleItem image={churchIcon} location={t("ceremonyLocation")} locationLink="https://goo.gl/maps/G8khvPBWAwzRcCYc8"
-             time="6pm" title={t("ceremonyTitle")} text={t("ceremonyText")} />
-            <ScheduleItem image={champaignIcon} location={t("onlyYou")} locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
-             time="7:30pm" title={t("cocktailTitle")} text={t("cocktailText")} />
-             <ScheduleItem image={restaurantIcon} location={t("onlyYou")} locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
-             time="9pm" title={t("dinnerTitle")} text={t("dinnerText")} />
-             <ScheduleItem image={danceIcon} location={t("onlyYou")} locationLink="https://goo.gl/maps/qL7UE5Goyt41duTu6"
-             time="12am" title={t("danceTitle")} text={t("danceText")} />
-             <ScheduleItem image={moonIcon} location={t("endLocation")} locationLink=""
-             time="4am" title={t("endTitle")} text={t("endText")} />
+            <ScheduleItem image={churchIcon} location={t("ceremonyLocation")} locationLink="https://share.google/clZCLfUyWSTTMGIRO"
+             time="12:30pm" title={t("ceremonyTitle")} text={t("ceremonyText")} />
+            <ScheduleItem image={champaignIcon} location={t("onlyYou")} locationLink="https://share.google/tygPTP7cgPEHJpAyE"
+             time="2:30pm" title={t("cocktailTitle")} text={t("cocktailText")} />
+             <ScheduleItem image={restaurantIcon} location={t("onlyYou")} locationLink="https://share.google/tygPTP7cgPEHJpAyE"
+             time="4:30pm" title={t("dinnerTitle")} text={t("dinnerText")} />
+             <ScheduleItem image={danceIcon} location={t("onlyYou")} locationLink="https://share.google/tygPTP7cgPEHJpAyE"
+             time="7:30pm" title={t("danceTitle")} text={t("danceText")} />
         </VerticalTimeline>
         </div>
     )

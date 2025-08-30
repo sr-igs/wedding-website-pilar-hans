@@ -20,7 +20,7 @@ export default function Footer(){
             <p style={{fontSize:"2rem",marginBottom:"0"}}>
                 <Link href={router.asPath} locale="es" style={{ margin: "0 8px" }}>{"🇪🇸"}</Link> 
                 <Link href={router.asPath} locale="de" style={{ margin: "0 8px" }}>{"🇩🇪"}</Link>
-                <Link href={router.asPath} locale="de" style={{ margin: "0 8px" }}>{"🇬🇧"}</Link>
+                <Link href={router.asPath} locale="en" style={{ margin: "0 8px" }}>{"🇬🇧"}</Link>
             </p>
             <p style={{marginTop:0}}>Copyright Pilar and Hans 2026</p>
         </div>
