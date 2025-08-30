@@ -2,7 +2,7 @@ import styles from "./Disclaimer.module.css"
 
 export default function Disclaimer(props){
 
-    let backgroundColor = "#e0d5ff"
+    let backgroundColor = "#bfebde"
 
     if(props.backgroundColor!==undefined){
         backgroundColor = props.backgroundColor

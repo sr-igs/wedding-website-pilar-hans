@@ -38,11 +38,6 @@ export default function WhereToStayPage(props){
             </div>
             <Box display="flex" justifyContent="center" marginTop="0.5rem">
                 <Grid container columns={{sm:12,md:6}} spacing={3} justifyContent="center">
-                    <Grid md={12}>
-                        <StayCard title="Stay at the reception venue">
-                            <VenueStay />
-                        </StayCard>
-                    </Grid>
                     <Grid>
                         <StayCard title="<5 minute walk from the venue">
                             <CityStay description="There are lot of good options within a 5 minute walk of the venue and the church" hotelOptions={closeHotelOptions} />

@@ -9,7 +9,7 @@ export default function Footer(){
         padding:"1rem",
         marginTop:"2rem",
         fontFamily: "'Martel','serif'",
-        color:"#AEA4D0"
+        color:"#E65631"
     }
 
     const router = useRouter();

@@ -1,6 +1,6 @@
 .names{
     font-family: 'Martel','serif';
-    color:#a4b7a9;
+    color:#2C8A6F;
 }
 
 .mainDiv{
@@ -11,17 +11,17 @@
 .menu a{
     margin:0 0.5rem;
     font-family: 'Josefin Sans', sans-serif; 
-    color:#AEA4D0
+    color:#E65631
 }
 
 .menu a:hover{
-    color:#7e759f;
+    color:#a43114;
     cursor:pointer
 
 }
 
 .divider{
-    border-color: #a4b7a9;
+    border-color: #2C8A6F;
     width:15rem;
     margin-top:1rem;
 }
@@ -29,5 +29,5 @@
 .mobileMenu{
     text-align: center;
     margin:0 auto; 
-    color:#AEA4D0;
+    color:#E65631;
 }

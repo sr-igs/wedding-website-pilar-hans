@@ -1,10 +1,10 @@
 export const customTheme = {
     palette:{
         primary:{
-            main: "#A4B7A9"
+            main: "#2C8A6F"
         },
         secondary:{
-            main:"#AEA4D0"
+            main:"#E65631"
         }
     }
 }

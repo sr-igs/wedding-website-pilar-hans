@@ -10,16 +10,16 @@
 }
 
 .mainTitle{
-    color:#a4b7a9;
+    color:#2C8A6F;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .card{
     border:solid;
     border-width: 2px;
-    border-color:#7e759f;
+    border-color:#E65631;
     border-radius:1rem;
-    background: #e0d5ff;
+    background: #f8d3c9;
     padding:0.2rem 2rem;
     width:30rem;
 }

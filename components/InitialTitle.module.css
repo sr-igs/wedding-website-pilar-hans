@@ -5,15 +5,15 @@
 
 .imageDiv{
     width:30rem;
-    margin:1.5rem auto;
-    margin-top:3rem;
+    /* margin:1.5rem auto;
+    margin-top:3rem; */
 }
 
 .titleDiv{
-    position:relative;
-    bottom:4.5rem;
+    /* position:relative;
+    bottom:4.5rem; */
     font-family: 'Martel','serif';
-    color:#a4b7a9
+    color:#2C8A6F
 }
 
 @media only screen and (max-width:500px){
@@ -36,7 +36,7 @@
 }
 
 .contactLink{
-    color:#AEA4D0;
+    color:#E65631;
 }
 
 .contactLink a{
