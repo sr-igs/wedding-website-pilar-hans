@@ -115,7 +115,7 @@ export default function RsvpPage(props){
                     {peopleInfo.map(g=>{
                         return(<Grid key={`grid-${g.fullName}`}>
                             {activeScreen==="rsvp"&&<RsvpForm translation={t} id={g.fullName} key={`rsvp-${g.fullName}`} handleChange={handleChange} name={g.name} rsvp={g.rsvp} />}
-                            {activeScreen==="details"&&g.rsvp==="yes"&&<DetailsForm translation={t} id={g.fullName} key={`details-${g.fullName}`} handleChange={handleChange} name={g.name} dietary={g.dietary} song={g.song} other={g.other} />}
+                            {activeScreen==="details"&&g.rsvp==="yes"&&<DetailsForm translation={t} id={g.fullName} key={`details-${g.fullName}`} handleChange={handleChange} name={g.name} dietary={g.dietary} song={g.song} other={g.other} bus={g.bus} />}
                             </Grid>)
                     })}
                     {activeScreen==="summary"&&<FormComplete translation={t} id={`summary`} changeDate={"2/6/2023"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
@@ -139,7 +139,7 @@ export async function getServerSideProps(context){
 
     const client = await clientPromise;
     const db = client.db("weddingRsvpDB");
-    let data = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
+    let data = await db.collection("guests_pilar_hans").findOne({uniqueCode:code},{projection:{_id:0}});
 
     if(!data){
         return {

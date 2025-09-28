@@ -19,5 +19,10 @@
     "toldUs":"Esto es lo que nos has dicho",
     "cancelChanges":"Cancelar Cambios",
     "plusOneText":"Si te gustaría venir con alguien especial a la boda, por favor ",
-    "plusOneLink":"contáctanos."
+    "plusOneLink":"contáctanos.",
+    "busOption1":"No me hace falta",
+    "busOption2":"Ida y vuelta",
+    "busOption3":"Ida",
+    "busOption4":"Vuelta",
+    "busTitle":"Bus desde la iglesia a la masía"
 }

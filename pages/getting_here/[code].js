@@ -29,7 +29,7 @@ export default function GettingHere(props){
                     <InputLabel id="location-select-label">Where are you joining us from?</InputLabel>
                     <Select value={location} onChange={onLocationChange} labelId="location-select-label" id="location-select" label="Where are you joining us from?">
                         <MenuItem value={"australia"}>Australia</MenuItem>
-                        <MenuItem value={"uk"}>United Kingdom</MenuItem>
+                        <MenuItem value={"de"}>Germany</MenuItem>
                         <MenuItem value={"rest"}>Somewhere else</MenuItem>
                     </Select>
                 </FormControl>
@@ -53,7 +53,7 @@ export async function getServerSideProps(context){
 
     const client = await clientPromise;
     const db = client.db("weddingRsvpDB");
-    let data = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
+    let data = await db.collection("guests_pilar_hans").findOne({uniqueCode:code},{projection:{_id:0}});
 
     if(!data){
         return {

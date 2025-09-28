@@ -7,7 +7,6 @@ import churchIcon from "../images/location.png";
 import champaignIcon from "../images/champaign.png";
 import danceIcon from "../images/dance.png";
 import ScheduleItem from './ScheduleItem';
-import moonIcon from "../images/moon.png";
 import restaurantIcon from "../images/restaurant.png";
 import informationIcon from "../images/information.png";
 import { useState,useEffect } from 'react';

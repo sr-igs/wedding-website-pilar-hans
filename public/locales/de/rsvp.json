@@ -6,8 +6,8 @@
     "dietaryQ":"Gibt es Nahrungsunverträglichkeiten oder Allergien, die wir berücksichtigen sollten?",
     "songQ":"Habt ihr einen Song-Wunsch für den Abend?",
     "otherQ":"Gibt es sonst noch etwas, das wir wissen sollten?",
-    "attending":"Attending",
-    "notAttending":"Not Attending",
+    "attending":"Teilnahme",
+    "notAttending":"Nichtteilnahme",
     "dietaryT":"Nahrungsunverträglichkeiten oder Allergien",
     "songT":"Wunschlied",
     "otherT":"Weitere Informationen",
@@ -19,5 +19,10 @@
     "toldUs":"Das haben Sie uns erzählt",
     "cancelChanges":"Änderungen verwerfen",
     "plusOneText":"Wenn Sie eine besondere Person zur Hochzeit mitbringen möchten, können wir das möglicherweise ermöglichen. Bitte",
-    "plusOneLink":"kontaktieren Sie uns."
+    "plusOneLink":"kontaktieren Sie uns.",
+    "busOption1":"",
+    "busOption2":"",
+    "busOption3":"",
+    "busOption4":"",
+    "busTitle":""
 }

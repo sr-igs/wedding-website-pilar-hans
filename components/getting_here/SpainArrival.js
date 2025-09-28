@@ -1,7 +1,11 @@
+import { useTranslation } from 'next-i18next';
+
 export default function SpainArrival(props){
+    const {t} = useTranslation("arrivingValencia");
+    
     return(
        <div>
-            <h4>{"Flying direct to Valencia"}</h4>
+            <h4>{t("title")}</h4>
             {props.location==="rest"&&<ul>
                 <li>{"We unfortunately couldn't add information for many more places, but we recommend websites like "}<a target="_blank" rel="noreferrer" href="https://www.rome2rio.com">{"Rome 2 Rio"}</a>{" to find more information."}</li>
                 <li>{"Of course, please feel free to contact us if you have any questions. You can find our details in the menu."}</li>
@@ -11,16 +15,22 @@ export default function SpainArrival(props){
                 <li>{"At the time of writing, this will require at least 2 changes: one in a major international hub, and one in a major European airport"}</li>
                 <li>{"It is likely that there will be a long layover between flights, and you might have to cross the European border at the major European aiport to enter the "}<a href="https://www.schengenvisainfo.com/schengen-visa-countries-list/" target="_blank" rel="noreferrer">{"Schengen area"}</a> {", so the options below might be better."}</li>
             </ul>}
-            {props.location==="uk"&&<ul>
-                <li>{"Getting to Valencia (VLC) from the UK is very easy, with several daily flights."}</li>
-                <li><strong>{"From London"}</strong>{", you have the following options"} </li>
+            {props.location==="germany"&&<ul>
+                <li><strong>{t("boldSection1De")}</strong></li>
                 <ul>
-                    <li><strong>{"From Stansted"}</strong>{", there are daily flights with Ryanair, with two flights certain days. Please note that Ryanair also flies to Castellon, which is marketed as Valencia but is 100km away, so we'd avoid it if possible. Please see the 'Getting to Valencia City Centre' section."}</li>
-                    <li><strong>{"From Gatwick"}</strong>{", there are several flights a day with Easyjet and Vueling."}</li>
-                    <li><strong>{"From Heathrow"}</strong>{", there are daily flights with British Airways."}</li>
-                    <li><strong>{"From Luton"}</strong>{", there are two flights a week with Wizz Air to Castellon (CDT). This airport is 100km away from Valencia so we'd avoid it if possible."}</li>
+                    <li>{t("section1-1De")}</li>
+                    <li>{t("section1-2De")}</li>
+                    <li>{t("section1-3De")}</li>
                 </ul>
-                <li><strong>{"From elsewhere in the UK"}</strong>{",there are weekly or daily flights to Valencia. For example, there's flights 4 times a week from Manchester, or 2 times a week from Edinburgh"}</li>
+                <li><strong>{t("boldSection2De")}</strong></li>
+                <ul>
+                    <li>{t("section2-1De")}</li>
+                </ul>
+                <li><strong>{t("boldSection3De")}</strong></li>
+                <ul>
+                    <li>{t("section3-1De")}</li>
+                </ul>
+              
             </ul>}
             {props.location==="australia"&&<div>
             <h4>{"Flying to a major Spanish airport"}</h4>

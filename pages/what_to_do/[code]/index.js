@@ -32,7 +32,7 @@ export async function getServerSideProps(context){
   
     const client = await clientPromise;
     const db = client.db("weddingRsvpDB");
-    let data = await db.collection("guests").findOne({uniqueCode:code},{projection:{_id:0}});
+    let data = await db.collection("guests_pilar_hans").findOne({uniqueCode:code},{projection:{_id:0}});
   
     if(!data){
         return {

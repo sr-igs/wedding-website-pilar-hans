@@ -19,5 +19,10 @@
     "toldUs":"This is what you told us",
     "cancelChanges":"Cancel Changes",
     "plusOneText":"If you'd like to bring someone special with you to the wedding, we might be able to accomodate. Please ",
-    "plusOneLink":"contact us."
+    "plusOneLink":"contact us.",
+    "busOption1":"No Bus",
+    "busOption2":"Both ways",
+    "busOption3":"To there only",
+    "busOption4":"Return only",
+    "busTitle":"Bus from church to reception venue"
 }
