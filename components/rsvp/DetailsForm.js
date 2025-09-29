@@ -37,10 +37,10 @@ function DetailsForm(props){
                 <InputLabel id="bus-select-question">{t("busTitle")}</InputLabel>
                 {/* TODO: Fix this so that it actually select the right option */}
                 <Select labelId="bus-select-question" id="bus-select-question" value={props.bus} label="Bus" onChange={onBusChange} >
-                    <MenuItem value={10}>{t("busOption1")}</MenuItem>
-                    <MenuItem value={10}>{t("busOption2")}</MenuItem>
-                    <MenuItem value={10}>{t("busOption3")}</MenuItem>
-                    <MenuItem value={10}>{t("busOption4")}</MenuItem>
+                    <MenuItem value={"no_bus"}>{t("busOption1")}</MenuItem>
+                    <MenuItem value={"both_ways"}>{t("busOption2")}</MenuItem>
+                    <MenuItem value={"there_only"}>{t("busOption3")}</MenuItem>
+                    <MenuItem value={"return_only"}>{t("busOption4")}</MenuItem>
                 </Select>
             </CardContent>
         </Card>
