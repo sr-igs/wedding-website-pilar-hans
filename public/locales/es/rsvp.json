@@ -24,5 +24,9 @@
     "busOption2":"Ida y vuelta",
     "busOption3":"Ida",
     "busOption4":"Vuelta",
-    "busTitle":"Bus desde la iglesia a la masía"
+    "busTitle":"Bus desde la iglesia a la masía",
+    "menuTitle":"¿Qué te gustaría de plato principal?",
+    "meat":"Carne",
+    "fish":"Pescado",
+    "vegetarian":"Vegetariano"
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./InitialTitle.module.css";
 import { TextField,Button } from "@mui/material";
 import {FormControl} from "@mui/material";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from 'next-i18next';
 import { useRouter } from "next/router";
 import {Modal} from "@mui/material";
@@ -17,6 +17,20 @@ function InitialTitle(props){
     const [showEmail,setShowEmail] = useState(false);
     const {t} = useTranslation("common");
     const router = useRouter();
+
+   useEffect(() => {
+       const handleRouteChange = (url, { shallow }) => {
+           setLoading(false);
+       };
+
+       router.events.on('routeChangeComplete', handleRouteChange);
+
+       // If the component is unmounted, unsubscribe
+       // from the event with the `off` method:
+       return () => {
+           router.events.off('routeChangeComplete', handleRouteChange);
+       };
+   }, []);
 
     function onAccessCodeChange(e){
         let value = e.target.value;
@@ -32,7 +46,6 @@ function InitialTitle(props){
         if(response.status===200){
             let data = await response.json();
             router.push(`/home/${accessCode}`,`/home/${accessCode}`,{locale:data.language});
-            setLoading(false);
         }else{
             //Error
             setLoading(false);

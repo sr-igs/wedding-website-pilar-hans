@@ -1,0 +1,29 @@
+{
+    "title": "Arriving in Valencia",
+    "flying_direct": {
+        "title": "Flying Direct to Valencia",
+        "p1": "There are currently no direct flights from the U.S. to Valencia. Most routes will require at least two connections — one at a major international hub (such as New York, Atlanta, or Chicago), and another at a European airport (like Madrid, Frankfurt, or Paris).",
+        "p2": "Keep in mind that layovers can be long, and you'll likely pass through border control at your first point of entry into the Schengen area.",
+        "p3": "We would recommend booking flights through websites such as Skyscanner."
+    },
+    "major_airport": {
+        "title": "Flying to a Major Spanish Airport",
+        "p1": "If you're flying from the U.S., you may find it easier to fly into a major Spanish city and continue on to Valencia from there. If you have a bit of time, consider spending a couple of days in Madrid or Barcelona — both are fantastic cities — before making your way to Valencia. Below are some options:",
+        "madrid": {
+            "title": "Flying into Madrid",
+            "p1": "You can fly directly to Madrid from several major U.S. cities. From Madrid to Valencia, you have a few convenient options:",
+            "train": "Train: The high-speed AVE train connects the city centers and takes just under 2 hours. We recommend booking tickets via Trainline.",
+            "flight": "Flight: There are multiple daily flights from Madrid to Valencia (approx. 1 hour), though the train is usually faster and more comfortable.",
+            "bus": "Bus: Buses take around 4.5 hours and can be a budget-friendly option. You can book these through Trainline.",
+            "driving": "Driving: If you're renting a car, the drive from Madrid to Valencia takes about 3 hours."
+        },
+        "barcelona": {
+            "title": "Flying into Barcelona",
+            "p1": "Barcelona is another great option, with direct flights from many U.S. cities. From Barcelona to Valencia:",
+            "train": "Train: Comfortable trains between the city centers take just under 3 hours. Book via Trainline.",
+            "flight": "Flights take about 1 hour, though the train is often the more convenient choice.",
+            "bus": "The bus ride takes around 4.5 hours and is typically more affordable, especially if booked early.",
+            "driving": "Renting a car? The drive from Barcelona to Valencia is around 3.5 hours."
+        }
+    }
+}

@@ -10,7 +10,7 @@ export default function SpainArrival(props){
                 <li>{"We unfortunately couldn't add information for many more places, but we recommend websites like "}<a target="_blank" rel="noreferrer" href="https://www.rome2rio.com">{"Rome 2 Rio"}</a>{" to find more information."}</li>
                 <li>{"Of course, please feel free to contact us if you have any questions. You can find our details in the menu."}</li>
             </ul>}
-            {props.location==="australia"&&<ul>
+            {props.location==="us"&&<ul>
                 <li>{"You can book a direct flight between major Australian cities and Valencia"}</li>
                 <li>{"At the time of writing, this will require at least 2 changes: one in a major international hub, and one in a major European airport"}</li>
                 <li>{"It is likely that there will be a long layover between flights, and you might have to cross the European border at the major European aiport to enter the "}<a href="https://www.schengenvisainfo.com/schengen-visa-countries-list/" target="_blank" rel="noreferrer">{"Schengen area"}</a> {", so the options below might be better."}</li>
@@ -32,7 +32,7 @@ export default function SpainArrival(props){
                 </ul>
               
             </ul>}
-            {props.location==="australia"&&<div>
+            {props.location==="us"&&<div>
             <h4>{"Flying to a major Spanish airport"}</h4>
             <ul>
                 <li>{"Flying to Madrid"}</li>

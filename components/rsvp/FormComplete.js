@@ -10,6 +10,19 @@ function FormComplete(props) {
   const isAfterChangeDate = false
   //today.getTime() > changeDate.getTime()
 
+  const menuMap = {
+    meat: "meat",
+    fish: "fish",
+    vegetarian: "vegetarian",
+  };
+
+  const busMap = {
+    no_bus: "busOption1",
+    both_ways: "busOption2",
+    there_only: "busOption3",
+    return_only: "busOption4",
+  };
+
   return (
     <div className={styles.mainDiv}>
       <h3>{t("thankYou")}</h3>
@@ -55,10 +68,18 @@ function FormComplete(props) {
                 )}
                 {attending && (
                   <p
-                    key={`otherText-${person.name}`}
-                    id={`othertText-${person.name}`}
+                    key={`menuText-${person.name}`}
+                    id={`menuText-${person.name}`}
                   >
-                    <strong>{t("otherT")}</strong>: {person.other}
+                    <strong>Menu</strong>: {t(menuMap[person.other])}
+                  </p>
+                )}
+                {attending && (
+                  <p
+                    key={`busText-${person.name}`}
+                    id={`busText-${person.name}`}
+                  >
+                    <strong>Bus</strong>: {t(busMap[person.bus])}
                   </p>
                 )}
               </Card>

@@ -33,10 +33,14 @@ function DetailsForm(props){
                 <h4>{props.name}</h4>
                 <TextField sx={{mb:2}} value={props.dietary} fullWidth label={t("dietaryQ")} id={`dietary-${props.name}`} onChange={onDietaryChange} />
                 <TextField sx={{mb:2}} value={props.song} fullWidth label={t("songQ")} id={`music-${props.name}`} onChange={onSongChange} />
-                <TextField multiline rows={2} value={props.other} fullWidth label={t("otherQ")} id={`others-${props.name}`} onChange={onOtherChange}/>
-                <InputLabel id="bus-select-question">{t("busTitle")}</InputLabel>
-                {/* TODO: Fix this so that it actually select the right option */}
-                <Select labelId="bus-select-question" id="bus-select-question" value={props.bus} label="Bus" onChange={onBusChange} >
+                <InputLabel id="menu-select-question-label">{t("menuTitle")}</InputLabel>
+                <Select labelId='menu-select-question-label' id='menu-select-question' value={props.other} label="Menu" onChange={onOtherChange}>
+                    <MenuItem value={"meat"}>{t("meat")}</MenuItem>
+                    <MenuItem value={"fish"}>{t("fish")}</MenuItem>
+                    <MenuItem value={"vegetarian"}>{t("vegetarian")}</MenuItem>
+                </Select>
+                <InputLabel id="bus-select-question-label">{t("busTitle")}</InputLabel>
+                <Select labelId="bus-select-question-label" id="bus-select-question" value={props.bus} label="Bus" onChange={onBusChange} >
                     <MenuItem value={"no_bus"}>{t("busOption1")}</MenuItem>
                     <MenuItem value={"both_ways"}>{t("busOption2")}</MenuItem>
                     <MenuItem value={"there_only"}>{t("busOption3")}</MenuItem>

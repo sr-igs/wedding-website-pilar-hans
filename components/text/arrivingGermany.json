@@ -1,0 +1,32 @@
+{
+    "title": "Anreise nach Valencia",
+    "direct_flights": {
+        "title": "Direktverbindungen von Deutschland nach Valencia",
+        "p1": "Die Anreise nach Valencia (VLC) gestaltet sich aus Deutschland unkompliziert. Es werden zahlreiche Direktflüge angeboten.",
+        "p2": "Ab Frankfurt (FRA) starten täglich Lufthansa-Flüge direkt nach Valencia mit einer Flugzeit von rund 2,5 Stunden.",
+        "p3": "Aus anderen deutschen Städten gibt es je nach Standort wöchentliche oder sogar täglich Direktflüge nach Valencia. Die billigsten Flüge findet ihr wahrscheinlich über Skyscanner (https://www.skyscanner.de/)."
+    },
+    "castellon_warning": {
+        "title": "⚠️ Flughafen Castellón (CDT)",
+        "p1": "Einige Billigfluglinien fliegen auch den Flughafen Castellón an, der gelegentlich fälschlicherweise als „Valencia“ beworben wird. Tatsächlich liegt dieser Flughafen jedoch etwa 100 km von Valencia entfernt. Wir raten daher dazu, diese Anreiseoption möglichst zu vermeiden."
+    },
+    "from_spain": {
+        "title": "Anreise nach Valencia aus anderen Regionen Spaniens",
+        "p1": "Falls ihr eine Rundreise durch Spanien macht und von einem anderen Ort aus nach Valencia reisen möchtet, gebt uns einfach Bescheid. Wir unterstützen euch gern dabei, die beste Anreisemöglichkeit zu finden."
+    },
+    "city_center": {
+        "title": "Anreise ins Stadtzentrum von Valencia",
+        "from_airport": {
+            "title": "Vom Flughafen Valencia (VLC) ins Stadtzentrum",
+            "p1": "Der Flughafen Valencia ist gut mit dem Stadtzentrum verbunden – es gibt drei gut ausgeschilderte Möglichkeiten:",
+            "metro": "Metro: Die Metro bringt euch in ca. 25 Minuten direkt ins Stadtzentrum. Sie fährt alle 15 Minuten und kostet 5 Euro pro Person. Tickets könnt ihr direkt am Flughafen kaufen.",
+            "taxi": "Taxi: Eine Taxifahrt dauert je nach Verkehr etwa 15 bis 20 Minuten und kostet rund 20 Euro.",
+            "car": "Mietwagen: Wenn ihr ein Auto mieten möchtet, könnt ihr das direkt am Flughafen tun. Die Fahrt ins Stadtzentrum dauert ebenfalls etwa 15 bis 20 Minuten."
+        },
+        "from_station": {
+            "title": "Vom Bahnhof ins Stadtzentrum",
+            "norte": "Estación del Norte / Estació del Nord: Dieser Bahnhof liegt direkt im Stadtzentrum. Von hier aus könnt ihr viele Hotels bequem zu Fuß erreichen. Wenn ihr weiter außerhalb wohnt (z.B. am Strand), ist der Bahnhof gut an den öffentlichen Nahverkehr angebunden.",
+            "sorolla": "Joaquín Sorolla (Hochgeschwindigkeitszug-Bahnhof): Dieser Bahnhof liegt ganz in der Nähe des Stadtzentrums. Es gibt viele Taxis, aber wenn euer Hotel im Zentrum liegt, könnt ihr auch einen kostenlosen Shuttlebus nutzen, der alle 5 bis 10 Minuten fährt und in 2 Minuten zum Bahnhof Estació del Nord bringt."
+        }
+    }
+}

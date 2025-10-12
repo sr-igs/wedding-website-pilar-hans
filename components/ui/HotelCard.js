@@ -3,7 +3,7 @@ import styles from "./HotelCard.module.css";
 export default function HotelCard(props){
  return(
     <div className={styles.card}>
-        <a href={props.link} rel="noreferrer" target="_blank"><h3>{`${props.name} (${props.stars})`}</h3></a>
+        <a href={props.link} rel="noreferrer" target="_blank"><h3>{props.name}{props.stars ? ` (${props.stars})` : ''}</h3></a>
         <em>{`📍 ${props.location}`}</em>
         <p>{props.description}</p>
     </div>

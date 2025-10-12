@@ -1,0 +1,86 @@
+{
+  "intro": "Valencia tienes muchos hoteles y apartamentos que ofrecer. Aquí os dejamos con algunas recomendaciones que están cerca del hotel dónde será el convite (incluye el hotel), pero podrás encontrar otros sitios.",
+  "close_title": "Less than 10 minutes walk from the church",
+  "close_intro": "There are a lot of good options within a 10 minute walk from church",
+  "close_options": [
+    {
+      "name": "Hotel NH Valencia Las Artes",
+      "stars": "****",
+      "location": "Las Artes, Av. de l'Institut Obrer de València, 28, Quatre Carreres",
+      "description": "A great option if you want to sleep in and still make it to the 12:30 Mass without breaking a sweat—or a heel."
+    },
+    {
+      "name": "Hotel NH Valencia Las Ciencias",
+      "stars": "***",
+      "location": "Av. de l'Institut Obrer de València, 26, Quatre Carreres",
+      "description": "Another solid choice—right next door, so you’ll still make it to the 12:30 Mass with time to spare (maybe even enough for a coffee and a dramatic entrance)"
+    },
+    {
+      "name": "Rooms Ciencias",
+      "stars": "***",
+      "location": "Av. de l'Institut Obrer de València, 20, Quatre Carreres",
+      "description": "Only about a 8-minute walk to the church—close enough to be convenient, far enough to justify wearing comfy shoes on the way and switching to the fancy ones at the door."
+    },
+    {
+      "name": "Hotel Medium Valencia",
+      "stars": "****",
+      "location": "Av. d'Amado Granell Mesado, 48, Quatre Carreres",
+      "description": "Also, a stroll from the church. In this hotel you can enjoy the outdoor pool, gym, and lounge bar—perfect for relaxing before or after the big day."
+    }
+  ],
+  "other_title": "Other options between 10-20 min walk",
+  "other_intro": "If you don’t mind staying a bit further from the church, here are some great options in the city centre and near the beach.",
+  "other_options": [
+    {
+      "name": "Barceló",
+      "stars": "****",
+      "location": "Av. de Francia, 11, Camins del Grau",
+      "description": "Barceló Hotel features a stunning rooftop terrace on the tenth floor with beautiful city views and a cozy bar. You’ll find a small but inviting pool surrounded by a sunbathing area—perfect for cooling off and relaxing during your stay in sunny Valencia"
+    },
+    {
+      "name": "Exe Rey Don Jaime",
+      "stars": "****",
+      "location": "Av. de les Balears, 2, Camins al Grau,",
+      "description": "Set beside the beautiful Turia Gardens—the former riverbed that runs through the city—Exe Rey Don Jaime offers wedding guests a perfect blend of relaxation and convenience. Just a short walk from the City of Arts and Sciences, this four-star hotel combines comfort with easy access to Valencia’s top attraction"
+    },
+    {
+      "name": "Hotel Valencia Center",
+      "stars": "****",
+      "location": "Av. de Francia, 33, Camins al Grau",
+      "description": "Located on the modern Avenida de Francia, just steps from the old Turia riverbed and close to the City of Arts and Sciences, Hotel Valencia Center is the perfect place to relax. Enjoy luxurious amenities like the pool, gym, and sauna—ideal for unwinding"
+    },
+    {
+      "name": "Holiday Inn Express IHG",
+      "stars": "***",
+      "location": "C/ de l'Escriptor Rafael Ferreres, 22, Quatre Carreres",
+      "description": "Hotel Inn is a friendly spot just steps from the church and the City of Arts and Sciences. With free breakfast to kickstart your day, plus free parking and a refreshing pool, it’s the perfect place for wedding guests to stay energized and unwind in style!"
+    }
+  ],
+  "far_title": "City center and beach hotels",
+  "far_options": [
+    {
+      "name": "Melia Plaza",
+      "stars": "****",
+      "location": "Meliá Plaza, Pl. de l'Ajuntament, 4, Ciutat Vella",
+      "description": "A privileged location in the heart of Valencia within walking distance of all the most iconic and popular attractions in Valencia. Located in the Town Hall Square, Meliá Plaza has soundproofed rooms and suites where you can rest after visiting the main attractions of the city, the leisure areas, and shopping streets. It features a fully-equipped gym, sauna, and terrace with solarium."
+    },
+    {
+      "name": "AC Hotel Colon",
+      "stars": "****",
+      "location": "Calle Colon, 6",
+      "description": "This hotel is right in the main shopping street of Valencia. If you're really into your shopping this might be a good option!"
+    },
+    {
+      "name": "Hotel Las Arenas",
+      "stars": "*****",
+      "location": "Carrer d'Eugènia Viñes, 22",
+      "description": "If you want to stay by the beach and treat yourself, this might be your best option. This five star hotel and spa has the sea in front. Please note that the Valencia beach is  a bit far from the city centre, so you will most likely need a taxi to get back."
+    },
+    {
+      "name": "Hotel Balandret",
+      "stars": "****",
+      "location": "Passeig de Neptu, 22",
+      "description": "A cheaper yet still great option to stay by the beach, just in front of the sea. Please note that the beach is a bit far from the city centre and venue, you will most likely need a taxi on the day of the wedding."
+    }
+  ]
+}

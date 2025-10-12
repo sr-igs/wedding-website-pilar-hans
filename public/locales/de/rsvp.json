@@ -20,9 +20,13 @@
     "cancelChanges":"Änderungen verwerfen",
     "plusOneText":"Wenn Sie eine besondere Person zur Hochzeit mitbringen möchten, können wir das möglicherweise ermöglichen. Bitte",
     "plusOneLink":"kontaktieren Sie uns.",
-    "busOption1":"",
-    "busOption2":"",
-    "busOption3":"",
-    "busOption4":"",
-    "busTitle":""
+    "busOption1":"No Bus",
+    "busOption2":"Both ways",
+    "busOption3":"To there only",
+    "busOption4":"Return only",
+    "busTitle":"Bus from church to reception venue",
+    "menuTitle":"What main would you like?",
+    "meat":"Meat",
+    "fish":"Fish",
+    "vegetarian":"Vegetarian"
 }
