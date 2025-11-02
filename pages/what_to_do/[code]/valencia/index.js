@@ -9,7 +9,7 @@ import styles from "../../../../styles/WhatToDo.module.css";
 
 export default function WhatToDo(props){
 
-    const {t} = useTranslation("common");
+    const {t} = useTranslation("whatToDo");
     const router = useRouter();
     const {code} = router.query
 
@@ -18,13 +18,13 @@ export default function WhatToDo(props){
             <Header />
             <div className={styles.breadcrumbs}>
                 <Breadcrumbs>
-                    <Button href={`/what_to_do/${code}`} LinkComponent={Link} component="a">What to do</Button>
+                    <Button href={`/what_to_do/${code}`} LinkComponent={Link} component="a">{t("common:whatToDo")}</Button>
                     <p>Valencia</p>
                 </Breadcrumbs>
             </div>
             <div>
-                <Link href={`/what_to_do/${code}/valencia/what_to_see`}><p className={styles.whatLink}>What to see</p></Link>
-                <Link href={`/what_to_do/${code}/valencia/where_to_eat`}><p className={styles.whatLink}>Where to eat</p></Link>
+                <Link href={`/what_to_do/${code}/valencia/what_to_see`}><p className={styles.whatLink}>{t("see.title")}</p></Link>
+                <Link href={`/what_to_do/${code}/valencia/where_to_eat`}><p className={styles.whatLink}>{t("eat.title")}</p></Link>
                 {/* <p className={styles.whatLink}>{"Where to eat (Coming soon)"}</p> */}
             </div>
         </div>
@@ -50,7 +50,7 @@ export async function getServerSideProps(context){
 
     return {
       props: {
-        ...(await serverSideTranslations(locale, ['common'])),
+        ...(await serverSideTranslations(locale, ['common', 'whatToDo'])),
       },
     };
   }

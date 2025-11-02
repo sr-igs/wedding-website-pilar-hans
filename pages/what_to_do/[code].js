@@ -1,12 +1,10 @@
-import Header from "../../../../components/Header";
+import Header from '../../components/Header';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import clientPromise from "../../../../utils/mongodb";
+import clientPromise from "../../utils/mongodb";
 import { useTranslation } from "next-i18next";
-import { Breadcrumbs,Button } from "@mui/material";
-import { useRouter } from "next/router";
 import Link from "next/link";
-import styles from "../../../../styles/WhatToDo.module.css";
-import EatingTabs from "../../../../components/eating/EatingTabs";
+import { useRouter } from "next/router";
+import styles from "../../styles/WhatToDo.module.css";
 
 
 export default function WhatToDo(props){
@@ -18,15 +16,10 @@ export default function WhatToDo(props){
     return(
         <div className={styles.mainDiv}>
             <Header />
-            <div className={styles.breadcrumbs}>
-                <Breadcrumbs>
-                    <Button href={`/what_to_do/${code}`} LinkComponent={Link} component="a">{t("common:whatToDo")}</Button>
-                    <Button href={`/what_to_do/${code}/valencia`} LinkComponent={Link} component="a">Valencia</Button>
-                    <p>{t("eat.title")}</p>
-                </Breadcrumbs>
-            </div>
-            <div className={styles.content}>
-                <EatingTabs />
+            <div className={styles.linkDiv}>
+                <Link href={`/what_to_do/${code}/valencia`}><p className={styles.whatLink}>{t("links.valencia")}</p></Link>
+                <Link href={`/what_to_do/${code}/close-valencia`}><p className={styles.whatLink}>{t("links.closeToValencia")}</p></Link>
+                <Link href={`/what_to_do/${code}/spain`}><p className={styles.whatLink}>{t("links.elsewhereInSpain")}</p></Link>
             </div>
         </div>
     )

@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function WhatToDo(props){
 
-    const {t} = useTranslation("common");
+    const {t} = useTranslation("whatToDo");
     const router = useRouter();
     const {code} = router.query
 
@@ -16,8 +16,8 @@ export default function WhatToDo(props){
         <div>
             <Header />
             <div className={styles.mainDiv}>
-                <p>{t("spainText")}</p>
-                <a href="https://www.spain.info/en/" target="_blank" rel="noopener noreferrer">{t("tourismWebsiteTitle")}</a>
+                <p>{t("spain.description")}</p>
+                <a href="https://www.spain.info/en/" target="_blank" rel="noopener noreferrer">{t("common:tourismWebsiteTitle")}</a>
             </div>
         </div>
     )
@@ -42,7 +42,7 @@ export async function getServerSideProps(context){
 
     return {
       props: {
-        ...(await serverSideTranslations(locale, ['common'])),
+        ...(await serverSideTranslations(locale, ['common', 'whatToDo'])),
       },
     };
   }

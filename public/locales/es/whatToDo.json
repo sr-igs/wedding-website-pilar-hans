@@ -1,0 +1,188 @@
+{
+  "see": {
+    "title": "Qué ver en Valencia",
+    "cards": [
+      {
+        "title": "Ciudad de las Artes y las Ciencias",
+        "description": "Una de las partes más populares y conocidas de Valencia, ha aparecido en películas como Tomorrowland. Este moderno complejo incluye un cine Imax, un teatro de la ópera, un museo de las ciencias y el acuario más grande de Europa (ver Oceanografic más abajo). Aunque no quieras entrar en ninguno de ellos, merece la pena visitarlo por su arquitectura.",
+        "image": "https://www.spain.info/.content/images/cabeceras-grandes/comunidad-valenciana/ciudad-artes-ciencias-noche-valencia-pexel256150.jpg",
+        "link": "https://www.visitvalencia.com/es/que-ver-valencia/ciudad-artes-y-ciencias/monumentos-ciudad-artes-ciencias"
+      },
+      {
+        "title": "Catedral de Valencia",
+        "description": "La catedral de Valencia, en el centro de la ciudad y muy cerca del lugar de la celebración, fue construida entre los siglos XIII y XV y, aunque predominantemente gótica, también muestra muchos otros estilos. En su interior se encuentra lo que muchos creen que es el auténtico Santo Grial. También se pueden subir los 207 escalones de la torre del Micalet para obtener unas vistas magníficas de la ciudad (¡no recomendable si se tiene claustrofobia, ya que los escalones son muy estrechos!)",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/_/_h3b9627_lr_b.jpg",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/catedral-valencia"
+      },
+      {
+        "title": "Plaza del Ayuntamiento",
+        "description": "¡Te costará no verla, ya que está al lado del lugar de la celebración! La plaza del Ayuntamiento es el centro de la ciudad y es ideal para un paseo tranquilo. Si quieres, puedes entrar tanto al ayuntamiento y acceder a su balcón, como al 'Edificio de Correos', la oficina central de correos. Ambos merecen una visita rápida.",
+        "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/06/plaza-ayuntamiento-valencia.jpg",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/ayuntamiento"
+      },
+      {
+        "title": "Estación Central de Valencia (Estación del Norte)",
+        "description": "La estación central de Valencia se encuentra en el centro de la ciudad, en un edificio modernista de principios del siglo XX. Merece una visita rápida por su arquitectura y su trabajo en mosaico. Por supuesto, la entrada es gratuita.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/v/valencia_renfe_3.jpg?itok=Z8B13xEE",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/estacion-ferrocarril-norte"
+      },
+      {
+        "title": "La Lonja de la Seda",
+        "description": "La Lonja, patrimonio de la humanidad por la UNESCO, es un edificio gótico del siglo XVI que albergaba la lonja de la seda de Valencia. Merece una visita por su arquitectura y su larga historia.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Llonja.jpg",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/lonja-seda"
+      },
+      {
+        "title": "Mercat Central (Mercado Central)",
+        "description": "El mercado central es una visita obligada por su arquitectura, comida y ambiente. Con más de 1200 puestos, encontrarás toda la comida que Valencia y España tienen para ofrecer en un entorno increíble. La entrada es gratuita, ¡pero ten en cuenta que está cerrado los domingos y por las tardes!",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/p/panorama_mcdocentral.jpg?itok=NwRoCSVH",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/mercado-central"
+      },
+      {
+        "title": "Iglesia de San Nicolás",
+        "description": "Conocida como la Capilla Sixtina valenciana, esta iglesia fue restaurada recientemente para mostrar la hermosa exhibición pictórica. Puedes conseguir una entrada conjunta para ver esto y el museo de la seda.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/a/ali_1423.jpg?itok=HxSMpHD7",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/iglesia-san-nicolas-bari-san-pedro-martir-valencia"
+      },
+      {
+        "title": "Jardín del Turia",
+        "description": "En la década de 1980, el río que atravesaba Valencia (río Turia) se convirtió en un jardín después de una inundación particularmente grave. Ahora puedes disfrutar de sus 9 km de espacio verde para un paseo tranquilo por varios lugares de interés. Ten en cuenta que hay carriles bici y pistas para correr dedicados, por lo que es genial si quieres hacer un recorrido en bicicleta por la ciudad o salir a correr por la mañana.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/Jardi%CC%81n-del-Turia-VV-01011_1024-%20Photo_Josep_Gil.jpg?itok=8jLGFMmb",
+        "link": "https://www.visitvalencia.com/es/que-ver-valencia/jardines-del-turia"
+      },
+      {
+        "title": "Colegio del Arte Mayor de la Seda",
+        "description": "Este edificio gótico recientemente restaurado albergó el gremio de sederos en el siglo XVI. Ahora alberga un museo que recorre el rico vínculo entre Valencia, la seda y la ruta de la seda. También alberga el archivo gremial más grande de Europa. Puedes conseguir una entrada conjunta para este y la iglesia de San Nicolás.",
+        "image": "https://www.valenciabonita.es/wp-content/uploads/2016/09/IMG_5437.jpg",
+        "link": "https://www.museodelasedavalencia.com/es/"
+      },
+      {
+        "title": "Oceanogràfic",
+        "description": "Parte de la Ciudad de las Artes y las Ciencias, el Oceanogràfic es el acuario más grande de Europa. Tiene más de 45.000 animales de 500 especies diferentes y forma parte de un hermoso complejo arquitectónico. Si te apetece una cena agradable, también puedes visitar el restaurante submarino donde estarás completamente rodeado por el acuario.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/L%27Oceanografic_%28Valencia%2C_Spain%29_01.jpg/2560px-L%27Oceanografic_%28Valencia%2C_Spain%29_01.jpg",
+        "link": "https://www.oceanografic.org/es/"
+      },
+      {
+        "title": "Playa de la Malvarrosa",
+        "description": "La más famosa de las playas valencianas está a unos 6 km del centro de la ciudad. Se puede llegar en transporte público, pero recomendamos un taxi o alquilar una bicicleta.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/_/_mg_6724.jpg?itok=8ZE1OPui",
+        "link": "https://www.visitvalencia.com/es/que-ver-valencia/playas-en-valencia/playas-de-la-ciudad/playa-de-la-malvarrosa"
+      },
+      {
+        "title": "Estadio de Mestalla",
+        "description": "Si te gusta el fútbol, el estadio del Valencia Club de Fútbol es una visita obligada. Si estás en Valencia antes de la boda, habrá un partido de fútbol el 28 de mayo. De lo contrario, puedes hacer el tour del estadio y visitar el museo.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CAMP_DE_MESTALLA_2014.jpg/488px-CAMP_DE_MESTALLA_2014.jpg",
+        "link": "https://www.valenciacf.com/es/club/instalaciones/mestalla"
+      },
+      {
+        "title": "Bioparc (Zoo de Valencia)",
+        "description": "El Bioparc se inauguró en 2008 y fue diseñado para sumergir a los visitantes en los hábitats de los animales y no al revés. Se compone principalmente de animales africanos. Está situado al final del jardín del Turia, por lo que puedes incluir un agradable paseo por el jardín.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/b/bioparc-valencia-sabana-africana-elefantes-lago-elefantes-zooinmersion.jpg?itok=CfECzvuB",
+        "link": "https://www.visitvalencia.com/es/que-ver-valencia/bioparc-parque-de-cabecera-y-parque-de-congresos/que-es-bioparc"
+      },
+      {
+        "title": "Mercado de Colón",
+        "description": "Visita este mercado modernista con una gran variedad de puestos donde tomar una copa o algo de comer. Si puedes, prueba la bebida tradicional valenciana 'Horchata' en la Horchatería Daniel.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/m/mercat_colon_2.jpg?itok=H6yf5Fxz",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/mercado-colon"
+      },
+      {
+        "title": "Torres de Serranos",
+        "description": "Una de las antiguas puertas de la ciudad (cuando Valencia era una ciudad amurallada), fueron construidas en el siglo XIV. Si lo deseas, puedes subir a la cima para tener una buena vista de la ciudad.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/t/torres-serrano.jpg?itok=Mbw1D3iA",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/torres-serranos"
+      },
+      {
+        "title": "Calle Colón",
+        "description": "La principal calle comercial de Valencia. Puedes encontrar la mayoría de las cadenas de tiendas (tanto españolas como internacionales), así como los grandes almacenes 'El Corte Inglés'.",
+        "image": "https://www.lovevalencia.com/wp-content/uploads/2015/03/colon.jpg",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/compras-en-valencia/calles-y-zonas-de-compras"
+      },
+      {
+        "title": "Torres de Quart",
+        "description": "Las otras puertas antiguas de la ciudad que quedan, también del siglo XIV. Aunque un poco alejadas del centro de la ciudad, si las visitas podrás observar las marcas de las balas de cañón, fruto de la guerra de la independencia española contra Napoleón.",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/89/54/74/torres-de-quart.jpg?w=1400&h=-1&s=1",
+        "link": "https://www.visitvalencia.com/es/que-hacer-valencia/cultura-valenciana/monumentos-en-valencia/torres-quart"
+      }
+    ]
+  },
+  "eat": {
+    "title": "Dónde comer en Valencia",
+    "restaurants": "Para los restaurantes, hemos creado una lista en google maps. Puedes verla aquí:"
+  },
+  "close": {
+    "title": "Qué hacer cerca de Valencia",
+    "description": "Si estás pensando en quedarte un poco más y quieres explorar los alrededores de Valencia, aquí tienes algunas recomendaciones. Ten en cuenta que para la mayoría de ellas se recomienda coche. Si quieres más información sobre alguna de ellas, ¡no dudes en decírnoslo!",
+    "cards": [
+      {
+        "title": "🏖️ Playa de El Saler",
+        "description": "La playa de “El Saler” está justo al sur de Valencia, es una playa algo más tranquila y natural. Se puede acceder en autobús o en coche.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/_/_mg_6763.jpg?itok=8z0D2GhR",
+        "link": "https://www.visitvalencia.com/es/que-ver-valencia/playas-en-valencia/playas-en-las-afueras/playa-el-saler"
+      },
+      {
+        "title": "🏖️🌲 Costa Blanca/Javea",
+        "description": "La “Costa Blanca” es la costa que pertenece mayoritariamente a la provincia de “Alicante”, en el sur de la Comunidad Valenciana. Esta es una de las costas más populares de España, con muchos turistas de toda Europa que vienen aquí cada año. Esto también significa que deberías poder encontrar mucha información. Para nosotros, lo más destacado es Javea/Xabia, con su hermoso paisaje y sus playas de guijarros en su mayoría, es un buen lugar para una combinación de servicios, naturaleza impresionante y todo tipo de playas.",
+        "image": "https://multimedia.comunitatvalenciana.com/10EA70D35F1948BAA0E9E2AF78DF2C84/img/5004C7C61CEC4515964D437E66E2C890/Xabia_ruta_miradores_cap_negre_Sant_Antoni_y_Prim7H9A3981_20171206.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/es/alacant-alicante/xabia-javea"
+      },
+      {
+        "title": "🏖️ Costa de Azahar/Peñíscola",
+        "description": "La “Costa de Azahar” es la costa que pertenece mayoritariamente a la provincia de “Castellón” en el norte de la Comunidad Valenciana. Debería ser más tranquila y menos turística, utilizada principalmente por la gente local. Para nosotros, lo más destacado son Benicarló y Peñíscola. Mientras que Benicarló es una ciudad bastante normal, tiene un Parador (hotel nacional español) que es una garantía de calidad. Desde allí se puede visitar la histórica ciudad de Peñíscola, con su castillo y casco antiguo rodeado por el mar - este fue uno de los lugares utilizados para grabar Juego de Tronos.",
+        "image": "https://multimedia.comunitatvalenciana.com/4227232089574BDDA564B8A8298B286E/img/FC4F7B4DEBBB4FEAB635DCEA6C7FA5DD/Peniscola_desde_playa_Norte_-_Noche7H9A7695_20180222.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/es/castello-castellon/peniscola-peniscola"
+      },
+      {
+        "title": "🏖️ Benidorm",
+        "description": "¿Y si Nueva York estuviera junto al mar? Un destino súper popular, especialmente en el Reino Unido, Benidorm es una rareza en España: con sus muchos rascacielos y su larga playa de arena, encontrarás todos los hoteles y servicios que desees.",
+        "image": "https://multimedia.comunitatvalenciana.com/F94D3F07B5BF4A7A8DB7B58A9E49BF6E/img/56688EC5C4A24689A1EC36F054E616A7/D_C_BND_PL_T_PIK_29-32_Pan_orig_.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/es/alacant-alicante/benidorm"
+      },
+      {
+        "title": "🌲 La Albufera",
+        "description": "La Albufera es una laguna de agua dulce a solo 10 km al sur de Valencia. Famosa por sus arrozales, es un parque natural con numerosas aves silvestres. Ideal para una romántica puesta de sol, puedes alquilar una barca y explorar la laguna y sus bosques. También es conocido como el lugar donde se creó la paella, por lo que puedes aventurarte aquí para probar paellas tan auténticas como las que más. Puedes llegar aquí en autobús o en coche.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/wysiwyg_large/public/media/media-images/images/pesca.webp?itok=mcySGaGN",
+        "link": "https://www.visitvalencia.com/es/que-ver-valencia/parque-natural-albufera"
+      },
+      {
+        "title": "🌲 Alto Palancia",
+        "description": "La comarca del Alto Palancia es de donde proviene gran parte de la familia de Ignacio, y creemos que es una región preciosa con una naturaleza mediterránea impresionante y pueblos pintorescos. Hay muchos paseos agradables por aquí (Catherine es una experta, ya que corre largas distancias con regularidad), con atracciones destacadas como la cascada del “Salto de la novia” o la “Vía verde ojos negros”, una vía verde de 160 km de largo que solía tener un ferrocarril que conectaba una mina de hierro con los altos hornos de la costa de Valencia. Se puede llegar en tren, aunque solo hay un par al día y son bastante lentos, o en coche, con una buena autovía que lo conecta con Valencia. Si esto te parece interesante, ¡dínoslo y te contaremos más encantados!",
+        "image": "https://multimedia.comunitatvalenciana.com/4D610A23C2504CF788772A162ECAD2FE/img/423B028E42AF4080B4070C3F87F9A920/Vistas_Generales_7H9A9531_423B028E42AF4080B4070C3F87F9A920size-big.jpg",
+        "link": "https://www.comunitatvalenciana.com/es/castello-castellon/barracas/turismo-rural/alto-palancia"
+      },
+      {
+        "title": "🏰 Sagunto",
+        "description": "La ciudad donde nació Ignacio - una histórica ciudad romana que jugó un papel importante en la segunda Guerra Púnica, ahora tiene un rico patrimonio romano. Puedes visitar su gran castillo romano que domina la ciudad, así como su teatro romano, foro y museo. Incluso tiene un restaurante con estrella Michelin: Arrels. Fácilmente accesible desde Valencia en tren o en coche.",
+        "image": "https://multimedia.comunitatvalenciana.com/2DB286109CC441F085AE288EC03C3272/img/A575E232AF104473A760B57A5DAE3A79/Castillo_7H9A3131.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/es/valencia/sagunt-sagunto"
+      },
+      {
+        "title": "🏰 Segorbe",
+        "description": "Segorbe es la ciudad de la que procede gran parte de la familia de Ignacio, y donde Ignacio y Catherine pasan mucho tiempo cuando están en España. Es una ciudad histórica enclavada en la naturaleza: hay una catedral, una muralla antigua, los restos de un acueducto, partes del antiguo castillo, un casco antiguo de calles estrechas y coloridas… Si te gustaría verla, dínoslo y te daremos más información (¡incluso podríamos estar allí en algún momento cerca de la boda!). Se puede llegar en un tren lento (que pasa 2-4 veces al día) o en coche (totalmente por autovías).",
+        "image": "https://multimedia.comunitatvalenciana.com/F4B31E3AF4524D2B97B773B774DB14E6/img/9BADCCF23CF248D693FB4A8CE7C08DBC/3.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/es/castello-castellon/segorbe"
+      },
+      {
+        "title": "🏰 Játiva/Xàtiva",
+        "description": "Aproximadamente a una hora al sur de Valencia, Xàtiva merece una visita por su espectacular castillo y casco antiguo. Los orígenes del castillo se remontan a la época romana y desde entonces ha sido utilizado y modificado por los árabes y cristianos medievales, e incluso durante la guerra de la independencia contra Napoleón. También encontrarás muchos edificios históricos en el casco antiguo, como la basílica o la casa natal del papa Alejandro VI.",
+        "image": "https://multimedia.comunitatvalenciana.com/57BE834B966B4FD0A1AF9858C68A796B/img/131F1A84EB6B4A30BD1643CA4414AF55/2.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/es/valencia/xativa"
+      },
+      {
+        "title": "🏰 Morella",
+        "description": "Aunque es un viaje bastante largo y sinuoso desde Valencia - se tarda aproximadamente una hora y media en coche - es uno de los pueblos más impresionantes de España. Situado en una colina, completamente rodeado de murallas medievales y con un impresionante castillo que lo domina, ir a Morella es como retroceder 1000 años en el tiempo.",
+        "image": "https://multimedia.comunitatvalenciana.com/B3C4584E1FF84BC6B5DDB13B7158C1CA/img/6750D27A7967423FBB8DFEF013AA4A28/Morella_panoramica_1.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/es/castello-castellon/morella"
+      }
+    ]
+  },
+  "spain": {
+    "title": "Qué hacer в España",
+    "description": "Si estás pensando en quedarte en España un poco más y quieres explorar el país, aquí tienes algunas recomendaciones. Ten en cuenta que para la mayoría de ellas se recomienda coche. Si quieres más información sobre alguna de ellas, ¡no dudes en decírnoslo!"
+  },
+  "links": {
+    "valencia": "Qué hacer/comer en Valencia",
+    "closeToValencia": "Qué hacer cerca de Valencia",
+    "elsewhereInSpain": "Qué hacer en otros lugares de España"
+  }
+}

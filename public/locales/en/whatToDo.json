@@ -1,0 +1,188 @@
+{
+  "see": {
+    "title": "What to see in Valencia",
+    "cards": [
+      {
+        "title": "City of arts and sciences",
+        "description": "One of the most popular and well known part of Valencia, it has been features in films such as Tomorrowland. This modern complex includes an Imax cinema, an opera house, a science museum and the biggest aquarium in Europe (see Oceanografic below). Even if you don't want to go inside any of these, it's still well worth a visit for its architecture.",
+        "image": "https://www.spain.info/.content/images/cabeceras-grandes/comunidad-valenciana/ciudad-artes-ciencias-noche-valencia-pexel256150.jpg",
+        "link": "https://www.visitvalencia.com/en/what-to-see-valencia/city-of-arts-and-ciences/city-of-arts-and-sciences-monuments"
+      },
+      {
+        "title": "Valencia cathedral",
+        "description": "The Valencia cathedral, in the city centre and very close to the venue, was built between the 13th and 15th centuries and although predominantly Gothic also shows many other styles. Inside, you can find what many believe to be the authentic Holy Grail. You can also climb the 207 steps of the Micalet tower to get great views of the city (not recommended if you're claustrophobic as the steps are very tight!)",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/_/_h3b9627_lr_b.jpg",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/catedral-valencia-cathedral"
+      },
+      {
+        "title": "City hall square (Plaza del ayuntamiento)",
+        "description": "You will struggle to not see this as it's next to the venue! The city hall square is the centre of the city and great for a leasury stroll. If you want, you can enter both the city hall and access its balcony, and the 'Edificio de Correos', the central post office. Both are worth a quick look.",
+        "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/06/plaza-ayuntamiento-valencia.jpg",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/city-hall"
+      },
+      {
+        "title": "Valencia Central Station (Estacion del Norte)",
+        "description": "The central Valencia station is located in the city centre, in an early 20th century modernist building. Worth a quick visit for its architecture and mosaic work. Of course, it's free to enter.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/v/valencia_renfe_3.jpg?itok=Z8B13xEE",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/norte-railway-station"
+      },
+      {
+        "title": "La Lonja (Silk Exchange)",
+        "description": "La lonja, a UNESCO world heritage site, is a gothic building from the 16th century that used to host the Valencia silk exchange. It is worth a visit for its architecture and long history.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Llonja.jpg",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/lonja-silk-exchange"
+      },
+      {
+        "title": "Mercat Central (Central Market)",
+        "description": "The central market is a must visit for its architecture, food, and ambiance. Holding over 1200 stalls, you'll find all the food that Valencia and Spain have to offer in an amazing setting. It is free to enter, but please note that it is closed on Sundays and afternoons!",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/p/panorama_mcdocentral.jpg?itok=NwRoCSVH",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/central-market"
+      },
+      {
+        "title": "San Nicolas Church",
+        "description": "Known as the Valencian Sistine Chappel, this church was recently restored to show the beautiful pictorial display. You can get a joined ticket to see this and the silk museum.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/a/ali_1423.jpg?itok=HxSMpHD7",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/iglesia-san-nicolas-bari-san-pedro-martir-valencia"
+      },
+      {
+        "title": "Turia garden",
+        "description": "In the 1980s, the river that flowed through Valencia (river Turia) was converted into a garden after a particularly bad flood. You can now enjoy its 9 km of green space for a leisury walk across several landmarks. Please note that there are both dedicated bike paths and running paths, so it's great if you want a bike city tour or to go for a morning run. ",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/Jardi%CC%81n-del-Turia-VV-01011_1024-%20Photo_Josep_Gil.jpg?itok=8jLGFMmb",
+        "link": "https://www.visitvalencia.com/en/what-to-see-valencia/turia-gardens"
+      },
+      {
+        "title": "College of High Silk Art",
+        "description": "This recently restored gothic building hosted the guild of silk makers back in the 16th century. Now it hosts a museum that goes through the rich link between Valencia, silk and the silk road. It also hosts the largest guild archive in Europe. You can get a joint ticket for this and San Nicolas church. ",
+        "image": "https://www.valenciabonita.es/wp-content/uploads/2016/09/IMG_5437.jpg",
+        "link": "https://www.museodelasedavalencia.com/en/"
+      },
+      {
+        "title": "Oceanografic",
+        "description": "Part of the city of arts and sciences, the oceanografic is the largest aquarium in Europe. It has over 45000 animals from 500 different species, and is part of a beautiful architectural complex. If you fancy a nice dinner, you can also visit the underwater restaurant where you will be completely surrounded by the aquarium.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/L%27Oceanografic_%28Valencia%2C_Spain%29_01.jpg/2560px-L%27Oceanografic_%28Valencia%2C_Spain%29_01.jpg",
+        "link": "https://www.oceanografic.org/en/"
+      },
+      {
+        "title": "Malvarrosa Beach",
+        "description": "The most famous of the Valencian beaches is about 6km from the city centre. It can be reached by public transport but we would recommend either a taxi or renting a bike. ",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/_/_mg_6724.jpg?itok=8ZE1OPui",
+        "link": "https://www.visitvalencia.com/en/what-to-see-valencia/beaches-in-Valencia/city-beaches/la-malvarrosa-beach"
+      },
+      {
+        "title": "Mestalla Stadium",
+        "description": "If you're into football (soccer), the Valencia Football Club stadium is a must see. If you are in Valencia prior to the wedding there will be a football game on the 28th of May. Otherwise, you can do the stadium tour and visit the museum. ",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CAMP_DE_MESTALLA_2014.jpg/488px-CAMP_DE_MESTALLA_2014.jpg",
+        "link": "https://www.valenciacf.com/en/club/facilities/mestalla"
+      },
+      {
+        "title": "Bioparc (Valencia Zoo)",
+        "description": "The Bioparc was opened in 2008 and was designed to immerse visitors in the animal habitats and not viceversa. It consists mainly of African animals. It is situated at the end of the Turia garden so you can include a nice garden walk.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/b/bioparc-valencia-sabana-africana-elefantes-lago-elefantes-zooinmersion.jpg?itok=CfECzvuB",
+        "link": "https://www.visitvalencia.com/en/what-to-see-valencia/bioparc-cabecera-park-and-congress-park/what-is-bioparc"
+      },
+      {
+        "title": "Mercado de Colon (Colon Market)",
+        "description": "Visit this modernist market for a variety of stalls where to have a drink or something to eat. If you can, you can try the Valencia traditional drink 'Horchata' in Horchateria Daniel.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/m/mercat_colon_2.jpg?itok=H6yf5Fxz",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/colon-market"
+      },
+      {
+        "title": "Serranos Towers",
+        "description": "One of the old city gates (back when Valencia was a walled city), they were built in the 14th century. If you wish, you can go to the top to get a good view of the city.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/t/torres-serrano.jpg?itok=Mbw1D3iA",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/serranos-towers"
+      },
+      {
+        "title": "Colon Street",
+        "description": "The main shopping street of Valencia. You can find most high street chains (both Spanish and international), as well as the 'El Corte Ingles' department store.",
+        "image": "https://www.lovevalencia.com/wp-content/uploads/2015/03/colon.jpg",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/shopping-in-valencia/streets-and-shopping-areas"
+      },
+      {
+        "title": "Quart Towers",
+        "description": "The other remaining old city gates, also dating from the 14th century. Although a bit away from the city centre, if you visit them you can note the cannon ball marks, fruit of the Spanish indepedence war against Napoleon.",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/89/54/74/torres-de-quart.jpg?w=1400&h=-1&s=1",
+        "link": "https://www.visitvalencia.com/en/what-to-do-valencia/valencian-culture/monuments-in-valencia/quart-towers"
+      }
+    ]
+  },
+  "eat": {
+    "title": "Where to eat in Valencia",
+    "restaurants": "For restaurants, we have created a list in google maps. You can see it here:"
+  },
+  "close": {
+    "title": "What to do close to Valencia",
+    "description": "If you are planning to stay a bit longer and want to explore the areas around Valencia, here are some recommendations. Please note that for most of these a car is recommended. If you want more information on any of these, please let us know!",
+    "cards": [
+      {
+        "title": "🏖️ Playa de El Saler",
+        "description": "The “El Saler” beach is just south of Valencia, it is a somewhat more quiet and natural beach. You can access it by bus or by car.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/gallery_default/public/media/media-images/images/_/_mg_6763.jpg?itok=8z0D2GhR",
+        "link": "https://www.visitvalencia.com/en/what-to-see-valencia/beaches-in-Valencia/beaches-on-the-outskirts/el-saler-beach"
+      },
+      {
+        "title": "🏖️🌲 Costa Blanca/Javea",
+        "description": "The “Costa Blanca” is the coast that belongs mostly to the province of “Alicante”, in the south of the Valencia Community. This is one of the most popular coasts of Spain, with many tourists from all across Europe coming here every year. This also means you should be able to find a lot of information. For us, the stand out is Javea/Xabia, with its beautiful landscape and mostly pebble beaches, it is a good place for a combination of amenities, stunning nature and all kinds of beaches.",
+        "image": "https://multimedia.comunitatvalenciana.com/10EA70D35F1948BAA0E9E2AF78DF2C84/img/5004C7C61CEC4515964D437E66E2C890/Xabia_ruta_miradores_cap_negre_Sant_Antoni_y_Prim7H9A3981_20171206.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/en/alacant-alicante/xabia-javea"
+      },
+      {
+        "title": "🏖️ Costa de Azahar/Peñiscola",
+        "description": "The “Costa de Azahar” is the coast that belongs mostly to the province of “Castellon” in the north of the Valencian Community. It should be more quiet and less touristy, mostly used by local people. For us, the standouts are Benicarlo and Peñiscola. While Benicarlo is a fairly average town, it has a Parador (national Spanish hotel) which is a guarantee of quality. From there you can visit the historic town of Peñiscola, with its castle and old town surrounded by the sea - this was one of the locations used for recording Game of Thrones.",
+        "image": "https://multimedia.comunitatvalenciana.com/4227232089574BDDA564B8A8298B286E/img/FC4F7B4DEBBB4FEAB635DCEA6C7FA5DD/Peniscola_desde_playa_Norte_-_Noche7H9A7695_20180222.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/en/castello-castellon/peniscola-peniscola"
+      },
+      {
+        "title": "🏖️ Benidorm",
+        "description": "What if New York was by the sea? A super popular destination, especially in the UK, Benidorm is an oddity in Spain: with its many skyscrappers and long sandy beach, you'll find all the hotels and amenities you'd want.",
+        "image": "https://multimedia.comunitatvalenciana.com/F94D3F07B5BF4A7A8DB7B58A9E49BF6E/img/56688EC5C4A24689A1EC36F054E616A7/D_C_BND_PL_T_PIK_29-32_Pan_orig_.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/en/alacant-alicante/benidorm"
+      },
+      {
+        "title": "🌲 La Albufera",
+        "description": "La Albufera is a freshwater lagoon just 10km south of Valencia. Famous for its rice fields, it is a natural park with numerous wild birds. Ideal for a romantic sunset, you can rent a boat and explore the lagoon and its woodland. It is also known as the place where paella was created, so you can venture here to try paellas that are as authentic as they come. You can get here by bus or by car.",
+        "image": "https://www.visitvalencia.com/sites/default/files/styles/wysiwyg_large/public/media/media-images/images/pesca.webp?itok=mcySGaGN",
+        "link": "https://www.visitvalencia.com/en/what-to-see-valencia/albufera-natural-park"
+      },
+      {
+        "title": "🌲 Alto Palancia",
+        "description": "The Alto Palancia region is where a lot of Ignacio’s family originally comes from, and we think it’s a beautiful region with stunning mediterranean nature and quaint villages. There are lots of nice walks around here (Catherine is an expert as she regularly runs long distance), with stand-out attractions such as the “Salto de la novia” waterfall or the “Via verde ojos negros”, a 160km long green way which used to have a railway connecting an iron mine with the blast furnaces in the coast of Valencia. You can get here by train, albeit there’s only a couple a day and are quite slow, or by car, with a nice highway connecting it with Valencia. If this sounds interesting, please let us know and we’ll happily tell you more.",
+        "image": "https://multimedia.comunitatvalenciana.com/4D610A23C2504CF788772A162ECAD2FE/img/423B028E42AF4080B4070C3F87F9A920/Vistas_Generales_7H9A9531_423B028E42AF4080B4070C3F87F9A920size-big.jpg",
+        "link": "https://www.comunitatvalenciana.com/en/castello-castellon/barracas/rural-tourism/alto-palancia"
+      },
+      {
+        "title": "🏰 Sagunto",
+        "description": "The town where Ignacio was born - a historic Roman town that played a significant part in the second Punic Wars, it now has a rich Roman heritage. You can visit its big Roman castle which lords over the city, as well as its Roman theatre, forum and museum. It even has a Michelin star restaurant: Arrels. Easily accessible from Valencia by train or driving",
+        "image": "https://multimedia.comunitatvalenciana.com/2DB286109CC441F085AE288EC03C3272/img/A575E232AF104473A760B57A5DAE3A79/Castillo_7H9A3131.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/en/valencia/sagunt-sagunto"
+      },
+      {
+        "title": "🏰 Segorbe",
+        "description": "Segorbe is the town where a lot of Ignacio’s family comes from, and where Ignacio and Catherine spend a lot of time when in Spain. It is a historic town nested around nature - there is a Cathedral, an old wall, the remains of an aqueduct, parts of the old castle, an old town of narrow colourful streets… If you’d like to see it, let us know and we will give you more information (we might even be there some time around the wedding!). You can get here by a slow train (that runs 2-4 times a day) or by car (fully through motorways).",
+        "image": "https://multimedia.comunitatvalenciana.com/F4B31E3AF4524D2B97B773B774DB14E6/img/9BADCCF23CF248D693FB4A8CE7C08DBC/3.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/en/castello-castellon/segorbe"
+      },
+      {
+        "title": "🏰 Játiva/Xàtiva",
+        "description": "About an hour south of Valencia, Xàtiva is worth a visit for its spectacular castle and old town. The castle's origins date back to Roman times and has since been used and modified by the mediaeval arabs and Christians, and even during the independence war against Napoleon. You will also find many historic building in the old town, like the basilica or the natal house of pope Alexander VI.",
+        "image": "https://multimedia.comunitatvalenciana.com/57BE834B966B4FD0A1AF9858C68A796B/img/131F1A84EB6B4A30BD1643CA4414AF55/2.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/en/valencia/xativa"
+      },
+      {
+        "title": "🏰 Morella",
+        "description": "Although quite a long and windy drive from Valencia - it takes about an hour and a half by car - it is one of the most stunning towns in Spain. Placed on a hill, completed surrounded by mediaeval walls and with an impressive castle looking over it, going to Morella feels like going back 1000 years in time. ",
+        "image": "https://multimedia.comunitatvalenciana.com/B3C4584E1FF84BC6B5DDB13B7158C1CA/img/6750D27A7967423FBB8DFEF013AA4A28/Morella_panoramica_1.jpg?responsive",
+        "link": "https://www.comunitatvalenciana.com/en/castello-castellon/morella"
+      }
+    ]
+  },
+  "spain": {
+    "title": "What to do in Spain",
+    "description": "If you are planning to stay in Spain for a bit longer and want to explore the country, here are some recommendations. Please note that for most of these a car is recommended. If you want more information on any of these, please let us know!"
+  },
+  "links": {
+    "valencia": "What to do/eat in Valencia",
+    "closeToValencia": "What to do close to Valencia",
+    "elsewhereInSpain": "What to do elsewhere in Spain"
+  }
+}
