@@ -4,22 +4,26 @@
   "close_intro": "Es gibt viele gute Optionen die weniger als 10 Gehminuten von der Kirche entfernt sind.",
   "close_options": [
     {
-      "name": "Hotel NH Valencia Las Artes (****) [7min]",
+      "name": "Hotel NH Valencia Las Artes",
+      "stars": "****",
       "location": "Las Artes, Av. de l'Institut Obrer de València, 28, Quatre Carreres",
       "description": "Eine gute Option, wenn ihr ausschlafen wollt und trotzdem entspannt und pünktlich um 12:30 Uhr in der Kirche sein möchtet – ganz ohne Stress und Hektik."
     },
     {
-      "name": "Hotel NH Valencia Las Ciencias (***)",
+      "name": "Hotel NH Valencia Las Ciencias",
+      "stars": "***",
       "location": "Av. de l'Institut Obrer de València, 26, Quatre Carreres",
       "description": "Eine weitere gute Wahl – direkt nebenan, sodass ihr locker rechtzeitig zur Trauung um 12:30 Uhr kommt und vielleicht sogar noch Zeit für einen Kaffee habt."
     },
     {
-      "name": "Rooms Ciencias (***)",
+      "name": "Rooms Ciencias",
+      "stars": "***",
       "location": "Av. de l'Institut Obrer de València, 20, Quatre Carreres",
-      "description": "Ungefähr 7 Minuten zu Fuß zur Kirche – also praktisch gelegen, aber weit genug weg , um unterwegs bequeme Schuhe zu tragen und die eleganten erst am Eingang anzuziehen."
+      "description": "Ungefähr 7 Minuten zu Fuß zur Kirche – also praktisch gelegen, aber weit enough weg , um unterwegs bequeme Schuhe zu tragen und die eleganten erst am Eingang anzuziehen."
     },
     {
-      "name": "Hotel Medium Valencia (****)",
+      "name": "Hotel Medium Valencia",
+      "stars": "****",
       "location": "Av. d'Amado Granell Mesado, 48, Quatre Carreres",
       "description": "Auch nur ein kurzer Spaziergang von der Kirche entfernt. In diesem Hotel könnt ihr den Außenpool, das Fitnessstudio und die Lounge-Bar genießen – perfekt zum Entspannen vor oder nach dem großen Tag."
     }
@@ -28,22 +32,26 @@
   "other_intro": "Wenn es für euch in Ordnung ist, ein wenig weiter vom Veranstaltungsort entfernt zu übernachten, haben wir hier ein paar schöne Optionen – sowohl im Stadtzentrum als auch in Strandnähe.",
   "other_options": [
     {
-      "name": "Barceló (****)",
+      "name": "Barceló",
+      "stars": "****",
       "location": "Av. de Francia, 11, Camins del Grau",
       "description": "Das Barceló Hotel bietet eine beeindruckende Dachterrasse im zehnten Stock mit herrlichem Blick über die Stadt und einer gemütlichen Bar. Dazu gibt es einen kleinen, aber einladenden Pool mit Liegefläche – ideal, um sich in der Sonne Valencias abzukühlen und zu entspannen."
     },
     {
-      "name": "Eurostars Rey Don Jaime (****) 11min",
-      "location": "Av. d'Amado Granell Mesado, 48, Quatre Carreres",
+      "name": "Exe Rey Don Jaime",
+      "stars": "****",
+      "location": "Av. de les Balears, 2, Camins al Grau,",
       "description": "Das Exe Rey Don Jaime liegt direkt gegenüber des wunderschönen Turia-Gärtens und dem Palau de la Música – ein idealer Ort, um in Valencia zu entspannen und die Zeit zu genießen. Besonders beliebt ist die Dachterrasse mit Pool."
     },
     {
-      "name": "Hotel Valencia Center (****) 15min",
+      "name": "Hotel Valencia Center",
+      "stars": "****",
       "location": "Av. de Francia, 33, Camins al Grau",
       "description": "Das Hotel Valencia Center liegt an der modernen Avenida de Francia, nur wenige Schritte vom alten Flussbett des Turia – der perfekte Ort zum Entspannen. Genießt luxuriöse Annehmlichkeiten wie den Pool, das Fitnessstudio und die Sauna – ideal, um abzuschalten und neue Energie zu tanken."
     },
     {
-      "name": "Holiday Inn Express IHG (***) 15min",
+      "name": "Holiday Inn Express IHG",
+      "stars": "***",
       "location": "C/ de l'Escriptor Rafael Ferreres, 22, Quatre Carreres",
       "description": "Das Hotel Inn ist ein sympathisches Hotel nur wenige Schritte von der Kirche und der Stadt der Künste und Wissenschaften entfernt. Mit kostenlosem Frühstück für einen energiereichen Start in den Tag, gratis Parkplätzen und einem erfrischenden Pool ist es der ideale Ort, um stilvoll zu entspannen und neue Kraft zu tanken!"
     }
@@ -51,22 +59,26 @@
   "far_title": "Innenstadt und beach hotels",
   "far_options": [
     {
-      "name": "Melia Plaza (****)",
+      "name": "Melia Plaza",
+      "stars": "****",
       "location": "Meliá Plaza, Pl. de l'Ajuntament, 4, Ciutat Vella",
       "description": "Eine privilegierte Lage im Herzen Valencias – nur wenige Gehminuten von den bekanntesten und beliebtesten Sehenswürdigkeiten der Stadt entfernt. Das Meliá Plaza liegt direkt an der Plaza del Ayuntamiento und bietet schallisolierte Zimmer und Suiten, in denen ihr euch nach einem Tag voller Eindrücke, Shopping oder Sightseeing wunderbar erholen könnt. Zudem verfügt das Hotel über ein voll ausgestattetes Fitnessstudio, eine Sauna und eine Terrasse."
     },
     {
-      "name": "AC Hotel Colon (****)",
+      "name": "AC Hotel Colon",
+      "stars": "****",
       "location": "Calle Colon, 6",
       "description": "Dieses Hotel liegt direkt an Valencias Haupteinkaufsstraße und ist trotzdem nur etwa 20 Gehminuten von der Kirche entfernt. Wenn ihr gerne shoppen geht, ist das vielleicht genau das Richtige für euch!"
     },
     {
-      "name": "Hotel Las Arenas (*****)",
+      "name": "Hotel Las Arenas",
+      "stars": "*****",
       "location": "Carrer d'Eugènia Viñes, 22",
       "description": "Wenn ihr euch etwas gönnen und direkt am Meer übernachten möchtet, ist das hier vielleicht die beste Option: ein Fünf-Sterne-Hotel mit Spa, direkt am Strand. Bitte beachtet allerdings, dass der Strand von Valencia etwas vom Stadtzentrum entfernt liegt – für die Rückfahrt braucht ihr also wahrscheinlich ein Taxi."
     },
     {
-      "name": "Hotel Balandret (****)",
+      "name": "Hotel Balandret",
+      "stars": "****",
       "location": "Passeig de Neptu, 22",
       "description": "Eine günstigere, aber trotzdem tolle Möglichkeit, direkt am Strand zu übernachten – mit Blick aufs Meer. Beachtet bitte, dass der Strand etwas vom Stadtzentrum und der Hochzeitslocation entfernt ist – am Tag der Hochzeit werdet ihr vermutlich ein Taxi brauchen."
     }

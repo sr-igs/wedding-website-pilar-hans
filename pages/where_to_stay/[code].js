@@ -14,9 +14,6 @@ export default function WhereToStayPage(props){
     return(
         <div className={styles.mainDiv}>
             <Header />
-            <div className={styles.paragraph}>
-                <p><em>{t("intro")}</em></p>
-            </div>
             <Box display="flex" justifyContent="center" marginTop="0.5rem">
                 <Grid container columns={{sm:12,md:6}} spacing={3} justifyContent="center">
                     <Grid>
