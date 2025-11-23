@@ -1,0 +1,168 @@
+{
+  "disclaimer": "Valencia ist voll von fantastischen Restaurants, die wunderbares Essen und herzliche Gastfreundschaft bieten. Diese Liste wurde liebevoll von Pilars Familie zusammengestellt, basierend auf Orten, die sie oft besucht und wirklich genossen haben. Die meisten dieser Restaurants sind kleine, familiengeführte Lokale im Stadtzentrum, in denen die Besitzer – von denen viele Freunde der Familie sind – stolz darauf sind, ein persönliches und unvergessliches kulinarisches Erlebnis zu bieten.",
+  "ourFavouritesLabel": "Unsere Favoriten",
+  "spanishCuisineLabel": "Spanische Küche",
+  "internationalCuisineLabel": "Internationale Küche",
+  "paellaLabel": "Paella",
+  "almuerzoLabel": "Almuerzo",
+  "paellaDisclaimer1": "Die meisten Menschen kennen Paella als eines der traditionellsten Gerichte Spaniens. Tatsächlich stammt die Paella aus der valencianischen Region und gilt als ein typisch valencianisches Gericht. Sie können authentische Paella in ganz Valencia probieren, aber angesichts ihres Ruhms gibt es auch viele Touristenrestaurants, die nicht das authentische Gericht anbieten und eine fragwürdige Qualität haben.",
+  "paellaDisclaimer2": "Die traditionellste aller Paellas, die „Paella valenciana“ (valencianische Paella), wird mit Fleisch (Huhn und Kaninchen, obwohl es üblich ist, sie auch ohne letzteres zu finden) und Gemüse (grüne Bohnen, Artischocken und Limabohnen) zubereitet. Es ist nicht üblich, Fleisch und Fisch zu mischen, und Chorizo und Erbsen sind strengstens verboten. Es gibt jedoch Hunderte von anderen Arten von traditionellen Reisgerichten, darunter auf Gemüsebasis (paella de verduras), auf Fischbasis (arroz del senyoret, arroz a banda…) und viele weitere Kombinationen.",
+  "paellaDisclaimer3": "Sie können auch „Fideuà“ probieren, ein Gericht aus kleinen Fadennudeln, das in einer Paella-Pfanne gekocht und normalerweise mit Fisch oder Meeresfrüchten serviert wird, was ebenfalls sehr traditionell ist.\nDiese Liste enthält Restaurants, in denen wir die Paellas persönlich probiert haben und als Valencianer bestätigen können, dass sie das richtige Gericht und Erlebnis bieten:",
+  "almuerzoDisclaimer": "Das valencianische Almuerzo ist eine Mahlzeit am Vormittag gegen 10–12 Uhr, die aus einem herzhaften Sandwich (Bocadillo), Oliven oder Erdnüssen und einem Getränk wie Bier und/oder Kaffee besteht. Es ist ein soziales Ritual, das in Bars mit Freunden oder Kollegen genossen wird. Die Mahlzeit endet mit einem „Cremaet“ – starkem Kaffee, der mit Rum, Zucker und Zitronenschale flambiert wird.",
+  "paellaRestaurants": [
+    "Navarro",
+    "Pelayo Gastrotrinquet",
+    "La Riua",
+    "La Voe",
+    "Restaurante de Anna",
+    "Casa Roberto",
+    "Goya Gallery",
+    "Palace Fesol"
+  ],
+  "favourites": [
+    {
+      "title": "El Aprendiz",
+      "address": "Plaza Rio Duero 6, Benimaclet",
+      "description": "Dies ist eines der besten Restaurants in Valencia, ein Ort, an dem wir uns zu Hause fühlen. Es hat eine Solete-Auszeichnung vom Repsol-Führer, eine Auszeichnung, die gemütliche, authentische und charmante Orte hervorhebt, die ausgezeichnetes Essen und eine tolle Atmosphäre bieten, ohne übermäßig formell zu sein. Vertrauen Sie uns, diese Anerkennung ist wohlverdient. Verpassen Sie nicht die Gelegenheit, es selbst zu erleben, und lassen Sie uns unbedingt wissen, ob Sie hingehen!",
+      "link": "https://elaprendiztapas.com/"
+    },
+    {
+      "title": "La Gramola – Cocktail Bar",
+      "address": "C. del Baró de San Petrillo 9, Benimaclet",
+      "description": "Schwester von „El Aprendiz“, dieser Ort bietet eine beeindruckende Auswahl an Bieren und Cocktails zum Genießen. Kombinieren Sie Ihr Getränk mit einer Vielzahl von Tapas, die sowohl in Einzelportionen als auch zum Teilen erhältlich sind und die Aromen und kulinarischen Erlebnisse anderer Länder an Ihren Tisch bringen. All dies in einer warmen und einladenden Atmosphäre, die perfekt zum Entspannen ist.",
+      "link": "https://www.lagramolabenimaclet.com/"
+    },
+    {
+      "title": "Bodega Anyora",
+      "address": "C. d’En Vicent Gallart, 15, Poblats Marítims",
+      "description": "Anyora ist eine typisch spanische Weinkellerei im Viertel Canyamelar seit 1937. Eine Hommage an das klassische Gericht, so wie es Ihre Großmutter zubereitet hat, das Ihnen so viele Erinnerungen weckt und wenn Sie daran denken, können Sie nur lächeln.",
+      "link": "https://anyora.es/"
+    },
+    {
+      "title": "Bobo bar",
+      "address": "C. de Roteros 21, Ciutat Vella",
+      "description": "Charmante Bar im Stadtzentrum! Trotz ihrer Lage ist sie keine Touristenfalle. Sie hat tolle Tapas, Wein und Getränke. Dieser gemütliche Ort verspricht ein unvergessliches, wirklich lokales kulinarisches Erlebnis.",
+      "link": "https://www.instagram.com/bobobarvalencia/"
+    },
+    {
+      "title": "El Rausell",
+      "address": "C/ d'Àngel Guimerà, 61, Extramurs, 46008",
+      "description": "Rausell ist ein gastronomischer Raum mit drei verschiedenen Bereichen. Es ist eine Bar, ein Restaurant und ein Take-Away-Food-Bereich. Es war schwer zu entscheiden, ob man es für eine Mahlzeit oder ein „Almuerzo“ empfehlen sollte, denn jede Option ist großartig! Mit einer mehr als 70-jährigen Geschichte ist es immer noch für seinen strengen Geschmack für Qualität bekannt.",
+      "link": "https://www.rausell.es/"
+    },
+    {
+      "title": "Zalamero",
+      "address": "Carrer de Sevilla, 20, 46006 València, Valencia",
+      "description": "In Zalamero, einem Restaurant im Herzen des Viertels Ruzafa, wollten sie, dass über die „Cocas“ – traditionelle Fladenbrote aus der valencianischen Gemeinschaft – gesprochen wird und ein kleines Stück valencianische Gastronomie in jede Ecke bringen. Probieren Sie es aus, es lohnt sich!!",
+      "link": "https://restaurantezalamero.com/"
+    },
+    {
+      "title": "Travieso bar",
+      "address": "Carrer de Joaquín Costa, 12, L'Eixample, 46005",
+      "description": "Lässiger Ort, der Sie vom ersten Betreten an anzieht. Sehr freundliches und professionelles Personal. Laut einer von Pilars Schwestern „das beste Pastrami-Sandwich der Welt“. Ich schätze, Sie müssen es probieren, um es zu glauben…",
+      "link": "https://traviesobar.com/"
+    },
+    {
+      "title": "El Alkázar",
+      "address": "Carrer de Mossèn Femades, 9, Ciutat Vella",
+      "description": "In einer Fußgängerzone, nur eine Gehminute von der Plaza del Ayuntamiento entfernt, bietet die Taberna Alkázar frischen Marktfisch, tägliche Meeresfrüchte, Paellas und Reisgerichte im Herzen von Valencia. Genießen Sie mediterrane und vom Markt inspirierte Küche in diesem charmanten Lokal.",
+      "link": "https://www.tabernaalkazar.com/"
+    }
+  ],
+  "spanish": [
+    {
+      "title": "Entrevins",
+      "link": "https://www.entrevins.es/en/",
+      "description": "Im ersten Stock eines Gebäudes in der Straße „La Paz“, einer der schönsten Straßen Valencias, wird dieses Restaurant von Guillaume geführt – einem der besten Sommeliers von Valencia. Sie können daher exquisite Gerichte mit einem der Weinmenüs der Stadt kombinieren.\n    Wenn Sie von Montag bis Freitag hingehen, gibt es ein „menu del dia“ (Tagesmenü), ein Angebot, mit dem Sie zu einem sehr vernünftigen Preis für die Qualität des Essens speisen können.\n    ",
+      "address": "Erster Stock, C/ de la Pau, 7, 46001"
+    },
+    {
+      "title": "Pelayo Gastro Trinquet",
+      "link": "https://grupogastrotrinquet.com/restaurantes/pelayo/",
+      "description": "Dieses Restaurant ist es schon wert, nur um den Ort selbst zu sehen; neben einem modernen Restaurant ist es eine der ältesten aktiven Sportstätten der Welt, eröffnet 1868, wo der valencianische Sport „Pilota“ noch jede Woche gespielt wird.\n    Das Restaurant bietet eine große Auswahl an Reis (Paellas) und traditionellen valencianischen Tapas sowie eine gute Auswahl an Fleisch und Fisch. Es ist kein kleines Restaurant und wird auch nicht von seinen Besitzern geführt, aber es ist ein großartiger Ort zum Essen und definitiv einen Besuch wert.",
+      "address": "C/ Pelayo, 6, 46007"
+    },
+    {
+      "title": "El Encuentro",
+      "link": "https://www.restauranteelencuentro.es/",
+      "description": "Ein Restaurant, das klassische spanische Küche in einer gemütlichen Umgebung mit großartigem Service bietet. Neben der üblichen Speisekarte bietet es auch täglich ein traditionelles spanisches Gericht aus dem ganzen Land an.",
+      "address": "C/ San Vicente Martir, 28, 46002"
+    },
+    {
+      "title": "Asador de Aranda",
+      "link": "https://asadordearanda.net/restaurante/asador-de-aranda-valencia/",
+      "description": "Ein Restaurant, das typische Speisen aus der Region „Kastilien“ in Spanien anbietet. Seine Spezialitäten sind im Ofen gebratenes „Lechazo“ (Lamm) und „Cochinillo“ (Schwein) sowie andere zentralspanische Klassiker wie „Morcilla“ (Blutwurst mit Reis) und Chorizo. Das Restaurant ist im klassischen, aber eleganten Stil eingerichtet. Es ist eine Restaurantkette, die in ganz Spanien präsent ist, aber dennoch einen schnellen und effizienten Service und eine hohe Qualität der Speisen bietet.",
+      "address": "C/ Felix Pizcueta, 6, 46004"
+    },
+    {
+      "title": "Sagardi",
+      "link": "https://gruposagardi.com/en/restaurant/sagardi-cocineros-vascos/valencia-2/",
+      "description": "Zwischen dem Rathaus und der Kathedrale gelegen, ist dieses Restaurant wie ein traditionelles baskisches Apfelweinrestaurant eingerichtet. Eine ihrer Spezialitäten ist der „Txuletón“, ein gereiftes Rinder-T-Bone-Steak, das unserer Meinung nach eines der besten Fleischgerichte in Valencia ist. Wenn Sie etwas anderes als Fleisch probieren möchten, bietet es eine Auswahl an traditionellen baskischen Gerichten.\n    Obwohl es Teil einer in ganz Spanien präsenten Kette ist, ist es wegen seines Essens, seines Ambientes und seines Services einen Besuch wert. Im Erdgeschoss werden „Pintxos“ (kleine Tapas auf Brotscheiben) angeboten, bei denen Sie eine Vielzahl von Gerichten probieren können; seien Sie sich bewusst, dass dieser Bereich normalerweise voll ist und Sie hier nicht reservieren können – Sie müssen also Ihr Glück als Walk-in versuchen!\n    ",
+      "address": "C/ San Vicente Martir, 6, 46002"
+    },
+    {
+      "title": "Armonia",
+      "link": "https://armoniarestaurante.eatbu.com/?lang=en",
+      "description": "Ganz in der Nähe des Rathauses gelegen und von Monia und Ernesto geführt. Sie sind auf marktbasierte Speisen mit valencianischen Wurzeln spezialisiert. Die Speisekarte ändert sich je nachdem, was der Markt an frischen Lebensmitteln zu bieten hat. Sie bieten auch ein traditionelles Gericht an, das täglich wechselt.",
+      "address": "C/ Ribalta, 6, 46001"
+    }
+  ],
+  "international": [
+    {
+      "title": "DeeVinoteca",
+      "link": "https://deevinoteca.com/",
+      "description": "Wenn Sie Lust auf italienisches Essen haben, befindet sich dieses Restaurant neben „La Lonja“ (der Seidenbörse), einem der historischsten Gebäude Valencias. Die Speisekarte wechselt täglich und wird auf einer Tafel angezeigt. Küchenchefin Claudia bietet hausgemachte frische Pasta sowie traditionelle italienische Trattoria-Gerichte. Sehr gute Auswahl an italienischen Weinen, Grappas und Likören.",
+      "address": "C/ de Ercilla,25,46001"
+    },
+    {
+      "title": "Il giardino del Carmen",
+      "link": "https://giardinodelcarmen.es/restaurant-menu/",
+      "description": "Ein weiteres italienisches Restaurant, das auf Gerichte aus Süditalien spezialisiert ist. Sie bieten auch frische Pasta und was vielleicht die beste Caponata in Valencia ist. Sie kochen viele ihrer Gerichte in einem „Josper“-Kohleofen, der den Gerichten einen besonderen Geschmack verleiht.",
+      "address": "Plaza de Joan de Vila-rasa,6,46001"
+    },
+    {
+      "title": "El café de le bourse",
+      "link": "https://restaurantguru.com/CAFE-DE-LA-BOURSE-Valencia",
+      "description": "Ein gutes französisches Restaurant in Valencia zu finden, ist nicht einfach, aber wir denken, hier zu essen ist wie in Frankreich zu essen. Sie bieten eine kleine Speisekarte mit Gerichten, die auf einer traditionellen französischen Brasserie basieren.\n    Das Restaurant wird von Francoise geführt, dessen exzentrische Persönlichkeit das Abendessen zu einem großartigen Erlebnis macht.",
+      "address": "C/ dels Llibrers, 3, 46002"
+    },
+    {
+      "title": "Lima",
+      "link": "https://www.restaurantelima.com/en",
+      "description": "Ein modernes peruanisches Restaurant der Nikei-Küche, das sich auch durch seine Ceviches, Maquis und ein erstaunliches Thunfisch-Tataki auszeichnet. Sie haben auch gutes Fleisch, das in einem „Josper“-Ofen gekocht wird, und sogar einige Reis- und Paella-Gerichte. Das Restaurant wird von Jan und Vanessa geführt.",
+      "address": "Plaza de la Merced,6,46001"
+    },
+    {
+      "title": "Asador el Porteño",
+      "link": "https://elporteno.es/",
+      "description": "In der Nähe des Rathauses gelegen, ist es ein klassisches Restaurant, in dem Sie einige der besten auf Holzkohle gegrillten Fleischsorten in Valencia essen können. Sie haben auch mehrere argentinische Vorspeisen, wie Empanadas oder Provolone.",
+      "address": "C/ d'en Llop,4,Bajo Derecha,46002"
+    }
+  ],
+  "almuerzo": [
+    {
+      "title": "Bar-Restaurante La Pérgola",
+      "link": "https://share.google/0xdOS6BgUyHoLIis5",
+      "description": "Ein Klassiker der Stadt, im Herzen von Alameda und kommt nie aus der Mode. Es gibt niemanden in Valencia, der noch nie davon gehört hat, und wir würden sogar wagen zu sagen, dass ihr „Super Bonbon“-Sandwich eine Stadtsignatur ist. Es gibt jedoch viele andere (großartige) Optionen, aber wenn ich Sie wäre… wäre es klar: „Un super por favor!“",
+      "address": "Pg. de l'Albereda, 1, El Pla del Real"
+    },
+    {
+      "title": "Bodega la Pascuala",
+      "link": "https://bodegalapascuala.es/",
+      "description": "Wie sie sagen: „Weder Brunch noch Mittagessen! ESMORZARET!!“. Das ist nicht nur ein Sandwich… sie sind riesig, sie sind lecker und sie sind in der Nähe des Strandes; kann es noch besser werden? Das berühmteste Sandwich ist das aus Pferdefleisch, wir waren auch überrascht, als wir das erste Mal davon hörten, vielleicht sogar ein bisschen skeptisch, aber dann freudig überrascht! Kein Risiko, kein Spaß",
+      "address": "C. del Dr. Lluch, 299, Poblats Marítims"
+    },
+    {
+      "title": "El Cremaet",
+      "link": "https://barcremaet.com/",
+      "description": "Der Name der Bar ist unser Lieblingskaffee: Rum, Feuer, Zucker und Kaffee! Wenn das der Ausgangspunkt ist, was könnte schief gehen? Unserer Meinung nach nicht viel! Diese Bar hat eine umfangreiche Speisekarte mit Portionen, Grillspezialitäten, Reis, Würstchen… Genießen Sie ihre Sandwiches und die Sonne auf ihrer großen Terrasse und denken Sie dabei daran: Gibt es ein besseres Gefühl als dieses?",
+      "address": "Av. del Puerto 20, El Pla del Real"
+    },
+    {
+      "title": "Los Toneles",
+      "link": "https://share.google/oVCvZ7QxmZczbP1f8",
+      "description": "Wir wissen… wir wissen… eine Bar im Stadtzentrum? Ist das ein Fehler? Eine weitere Touristenfalle? Wir können nicht leugnen, dass die Lage ziemlich touristisch ist, aber wenn Sie einmal das Calamares-Sandwich probiert haben, können Sie sich nicht mehr lokaler fühlen. Allein der Gedanke daran lässt uns das Wasser im Mund zusammenlaufen!",
+      "address": "C. de Ribera, 17, Ciutat Vella"
+    }
+  ]
+}

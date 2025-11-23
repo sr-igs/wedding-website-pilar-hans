@@ -28,10 +28,11 @@ export default function Registry(){
                 <Grid container spacing={3} sx={{textAlign:"center"}} justifyContent="center">
                     <Grid>
                         <Card variant="outlined" sx={cardStyle}>
-                            <p><strong>{"GBP"}</strong></p>
-                            <p>{`${t("accountHolder")}: Example Name`}</p>
-                            <p>{"Sort code: XX-XX-XX"}</p>
-                            <p>{"Account number: 12345678"}</p>
+                            <p>{`${t("accountHolder")}: H Wilke & P Clavel Nieto`}</p>
+                            <p>{"IBAN: LT97 3250 0826 9045 2787 "}</p>
+                            <p>{"BIC/SWIFT: REVOLT21"}</p>
+                            <p>{`Bank Name and Address: Revolut Bank UAB, Konstitucijos ave. 21B, 08130, Vilnius, Lithuania`}</p>
+                            <p>{"Correspondent BIC: CHASDEFX"}</p>
                         </Card>
                     </Grid>
                 </Grid>

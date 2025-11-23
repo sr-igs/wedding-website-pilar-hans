@@ -4,22 +4,24 @@ import clientPromise from "../../../../utils/mongodb";
 import { useTranslation } from "next-i18next";
 import Link from 'next/link';
 import { useRouter } from "next/router";
-import { Breadcrumbs,Button } from "@mui/material";
+import { Breadcrumbs, Button, Typography } from "@mui/material";
 import styles from "../../../../styles/WhatToDo.module.css";
 
 export default function WhatToDo(props){
 
-    const {t} = useTranslation("whatToDo");
+    const {t} = useTranslation(["whatToDo"]);
     const router = useRouter();
-    const {code} = router.query
+    const { query: { code }, locale } = router;
 
     return(
         <div className={styles.mainDiv}>
             <Header />
             <div className={styles.breadcrumbs}>
                 <Breadcrumbs>
-                    <Button href={`/what_to_do/${code}`} LinkComponent={Link} component="a">{t("common:whatToDo")}</Button>
-                    <p>Valencia</p>
+                    <Link href={`/what_to_do/${code}`} locale={locale} passHref>
+                        <Button component="a">{t("common:whatToDo")}</Button>
+                    </Link>
+                    <Typography>Valencia</Typography>
                 </Breadcrumbs>
             </div>
             <div>
