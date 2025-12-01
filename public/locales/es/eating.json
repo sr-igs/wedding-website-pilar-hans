@@ -1,168 +1,168 @@
 {
-  "disclaimer": "Valencia está llena de fantásticos restaurantes que ofrecen una comida maravillosa y una cálida hospitalidad. Esta lista ha sido elaborada con mucho cariño por la familia de Pilar, basándose en los lugares que han visitado a menudo y que realmente han disfrutado. La mayoría de estos restaurantes son pequeños locales familiares en el centro de la ciudad, donde los propietarios —muchos de los cuales son amigos de la familia— se enorgullecen de ofrecer una experiencia gastronómica personal y memorable.",
-  "ourFavouritesLabel": "Nuestros favoritos",
-  "spanishCuisineLabel": "Cocina española",
-  "internationalCuisineLabel": "Cocina internacional",
-  "paellaLabel": "Paella",
-  "almuerzoLabel": "Almuerzo",
-  "paellaDisclaimer1": "La mayoría de la gente conoce la paella como uno de los platos más tradicionales de España. De hecho, la paella se originó en la región valenciana y se considera un plato esencialmente valenciano. Se puede probar la auténtica paella en toda Valencia pero, dada su fama, también hay muchos restaurantes turísticos que no ofrecen el plato auténtico y tienen una calidad cuestionable.",
-  "paellaDisclaimer2": "La más tradicional de las paellas, la “Paella valenciana”, se elabora con carne (pollo y conejo, aunque es común poder encontrarla sin este último) y verduras (judías verdes, alcachofas y habas). No es común mezclar carne y pescado y el chorizo y los guisantes están completamente prohibidos. Sin embargo, existen cientos de otros tipos de arroces tradicionales, incluyendo los de base vegetal (paella de verduras), de base de pescado (arroz del senyoret, arroz a banda...) y muchas más combinaciones.",
-  "paellaDisclaimer3": "También puedes probar la “fideuà”, un plato de fideos finos cocinado en una paella y que se suele servir con pescado o marisco, que también es muy tradicional.\nEsta lista incluye restaurantes donde hemos probado personalmente las paellas y podemos, como valencianos, confirmar que ofrecen el plato y la experiencia adecuados:",
-  "almuerzoDisclaimer": "El almuerzo valenciano es una comida a media mañana, sobre las 10-12 a.m., que consiste en un bocadillo contundente, aceitunas o cacahuetes y una bebida como cerveza y/o café. Es un ritual social que se disfruta en los bares con amigos o compañeros de trabajo. La comida termina con un \"cremaet\", un café solo flambeado con ron, azúcar y piel de limón.",
-  "paellaRestaurants": [
-    "Navarro",
-    "Pelayo Gastrotrinquet",
-    "La Riua",
-    "La Voe",
-    "Restaurante de Anna",
-    "Casa Roberto",
-    "Goya Gallery",
-    "Palace Fesol"
-  ],
-  "favourites": [
-    {
-      "title": "El Aprendiz",
-      "address": "Plaza Rio Duero 6, Benimaclet",
-      "description": "Este es uno de los mejores restaurantes de Valencia, un lugar donde nos sentimos como en casa. Tiene un premio Solete de la Guía Repsol, una distinción que destaca los lugares acogedores, auténticos y con encanto que ofrecen una comida excelente y un gran ambiente sin ser demasiado formales. Confía en nosotros, este reconocimiento es bien merecido. ¡No pierdas la oportunidad de vivirlo por ti mismo y asegúrate de contarnos si vas!",
-      "link": "https://elaprendiztapas.com/"
-    },
-    {
-      "title": "La Gramola – Cocktail Bar",
-      "address": "C. del Baró de San Petrillo 9, Benimaclet",
-      "description": "Hermana de “El Aprendiz”, este lugar ofrece una impresionante selección de cervezas y cócteles para disfrutar. Acompaña tu bebida con una variedad de tapas, disponibles tanto en porciones individuales como para compartir, que traen a tu mesa los sabores y las experiencias culinarias de otros países. Todo ello en un ambiente cálido y acogedor, perfecto para relajarse.",
-      "link": "https://www.lagramolabenimaclet.com/"
-    },
-    {
-      "title": "Bodega Anyora",
-      "address": "C. d’En Vicent Gallart, 15, Poblats Marítims",
-      "description": "Anyora es una bodega típica española situada en el barrio del Canyamelar desde 1937. Un homenaje al plato clásico, a la manera en que lo hacía tu abuela, ese que te trae tantos recuerdos y que, cuando piensas en él, solo puedes sonreír.",
-      "link": "https://anyora.es/"
-    },
-    {
-      "title": "Bobo bar",
-      "address": "C. de Roteros 21, Ciutat Vella",
-      "description": "¡Un bar con encanto en el centro de la ciudad! A pesar de su ubicación, no es una trampa para turistas. Tiene excelentes tapas, vino y bebidas. Este acogedor lugar promete una experiencia gastronómica inolvidable y verdaderamente local.",
-      "link": "https://www.instagram.com/bobobarvalencia/"
-    },
-    {
-      "title": "El Rausell",
-      "address": "C/ d'Àngel Guimerà, 61, Extramurs, 46008",
-      "description": "Rausell es un espacio gastronómico con tres áreas diferenciadas. Es un bar, un restaurante y un espacio de comida para llevar. ¡Fue difícil decidir si recomendarlo para una comida o un “almuerzo” porque cualquier opción es genial! Con una historia de más de 70 años, sigue siendo conocido por su estricto gusto por la calidad.",
-      "link": "https://www.rausell.es/"
-    },
-    {
-      "title": "Zalamero",
-      "address": "Carrer de Sevilla, 20, 46006 València, Valencia",
-      "description": "En Zalamero, un restaurante en el corazón del barrio de Ruzafa, querían que se hablara de las \"cocas\" -tradicionales tortas de la Comunidad Valenciana- y llevar un trocito de la gastronomía valenciana a todos los rincones. ¡Pruébalo, merece la pena!",
-      "link": "https://restaurantezalamero.com/"
-    },
-    {
-      "title": "Travieso bar",
-      "address": "Carrer de Joaquín Costa, 12, L'Eixample, 46005",
-      "description": "Lugar informal, que te atrae desde la primera vez que entras. Camareros muy amables y profesionales. Según una de las hermanas de Pilar “el mejor bocadillo de pastrami del mundo”. Supongo que tendrás que probarlo para creerlo…",
-      "link": "https://traviesobar.com/"
-    },
-    {
-      "title": "El Alkázar",
-      "address": "Carrer de Mossèn Femades, 9, Ciutat Vella",
-      "description": "Situada en una zona peatonal, a un minuto a pie de la Plaza del Ayuntamiento, la Taberna Alkázar ofrece pescado fresco de mercado, marisco del día, paellas y arroces en el corazón de Valencia. Disfruta de una cocina mediterránea y de mercado en este encantador restaurante.",
-      "link": "https://www.tabernaalkazar.com/"
-    }
-  ],
-  "spanish": [
-    {
-      "title": "Entrevins",
-      "link": "https://www.entrevins.es/en/",
-      "description": "Situado en la primera planta de un edificio en la calle de la Paz, una de las calles más bonitas de Valencia, este restaurante está dirigido por Guillaume, uno de los mejores sumilleres de Valencia. Por lo tanto, puedes maridar platos exquisitos con una de las cartas de vinos de la ciudad.\n    Si vas de lunes a viernes, tiene un “menú del día”, una oferta que te permite comer a un precio muy razonable para la calidad de la comida.\n    ",
-      "address": "Primera planta, C/ de la Pau, 7, 46001"
-    },
-    {
-      "title": "Pelayo Gastro Trinquet",
-      "link": "https://grupogastrotrinquet.com/restaurantes/pelayo/",
-      "description": "Este restaurante merece la pena solo por ver el lugar en sí; junto con un restaurante moderno, es uno de los recintos deportivos activos más antiguos del mundo, inaugurado en 1868, donde todavía se juega cada semana al deporte valenciano de la “pilota”.\n    El restaurante tiene una gran variedad de arroces (paellas) y tapas tradicionales valencianas, junto con una buena selección de carnes y pescados. No es un restaurante pequeño ni está regentado por sus dueños, pero es un lugar estupendo para comer y sin duda merece una visita.",
-      "address": "C/ Pelayo, 6, 46007"
-    },
-    {
-      "title": "El Encuentro",
-      "link": "https://www.restauranteelencuentro.es/",
-      "description": "Un restaurante que ofrece cocina clásica española en un ambiente hogareño con un gran servicio. Además de su carta habitual, también ofrece un plato tradicional español de todo el país que cambia a diario.",
-      "address": "C/ San Vicente Martir, 28, 46002"
-    },
-    {
-      "title": "Asador de Aranda",
-      "link": "https://asadordearanda.net/restaurante/asador-de-aranda-valencia/",
-      "description": "Un restaurante que ofrece comida típica de la región de Castilla en España. Sus especialidades son el “lechazo” (cordero) y el “cochinillo” (cerdo) asados al horno, junto con otros clásicos del centro de España como la “morcilla” (morcilla con arroz) y el chorizo. El restaurante está decorado con un estilo clásico pero elegante. Es una cadena de restaurantes presente en toda España, pero que sigue ofreciendo un servicio rápido y eficaz y una comida de gran calidad.",
-      "address": "C/ Felix Pizcueta, 6, 46004"
-    },
-    {
-      "title": "Sagardi",
-      "link": "https://gruposagardi.com/en/restaurant/sagardi-cocineros-vascos/valencia-2/",
-      "description": "Situado entre el ayuntamiento y la catedral, este restaurante está decorado como una sidrería tradicional vasca. Una de sus especialidades es el “txuletón”, un chuletón de buey madurado que, en nuestra opinión, es uno de los mejores platos de carne de Valencia. Si quieres probar algo más que carne, ofrece una selección de platos tradicionales vascos.\n    Aunque forma parte de una cadena presente en toda España, merece la pena visitarlo por su comida, ambiente y servicio. La planta baja ofrece “pintxos” (pequeñas tapas sobre rebanadas de pan) donde se puede probar una gran variedad de platos; ¡ten en cuenta que suele estar lleno y no se puede reservar en esta zona, así que tendrás que probar suerte sin reserva!\n    ",
-      "address": "C/ San Vicente Martir, 6, 46002"
-    },
-    {
-      "title": "Armonia",
-      "link": "https://armoniarestaurante.eatbu.com/?lang=en",
-      "description": "Situado muy cerca del ayuntamiento y regentado por Monia y Ernesto. Se especializan en comida de mercado con raíces valencianas. La carta cambia en función de los alimentos frescos que ofrezca el mercado. También ofrecen un plato tradicional que cambia a diario.",
-      "address": "C/ Ribalta, 6, 46001"
-    }
-  ],
-  "international": [
-    {
-      "title": "DeeVinoteca",
-      "link": "https://deevinoteca.com/",
-      "description": "Si te apetece comida italiana, este restaurante está situado junto a “La Lonja” (la Lonja de la Seda), uno de los edificios más históricos de Valencia. El menú cambia cada día y se muestra en una pizarra. La chef Claudia ofrece pasta fresca hecha en casa, así como platos tradicionales de trattoria italiana. Muy buena selección de vinos, grappas y licores italianos.",
-      "address": "C/ de Ercilla,25,46001"
-    },
-    {
-      "title": "Il giardino del Carmen",
-      "link": "https://giardinodelcarmen.es/restaurant-menu/",
-      "description": "Otro restaurante italiano especializado en comida del sur de Italia. También ofrecen pasta fresca y la que podría ser la mejor caponata de Valencia. Cocinan muchas de sus comidas en un horno de carbón “Josper” que da a los platos un sabor especial.",
-      "address": "Plaza de Joan de Vila-rasa,6,46001"
-    },
-    {
-      "title": "El café de le bourse",
-      "link": "https://restaurantguru.com/CAFE-DE-LA-BOURSE-Valencia",
-      "description": "Encontrar un buen restaurante francés en Valencia no es fácil, pero creemos que comer aquí es como comer en Francia. Ofrecen un menú reducido con platos basados en una brasserie tradicional francesa.\n    El restaurante está dirigido por Francoise, cuya excéntrica personalidad hace de la cena una gran experiencia.",
-      "address": "C/ dels Llibrers, 3, 46002"
-    },
-    {
-      "title": "Lima",
-      "link": "https://www.restaurantelima.com/en",
-      "description": "Un moderno restaurante peruano de cocina Nikkei que también destaca por sus ceviches, maquis y un increíble tataki de atún. También tienen buena carne cocinada en horno “Josper” e incluso algunos platos de arroz y paella. El restaurante está regentado por Jan y Vanessa.",
-      "address": "Plaza de la Merced,6,46001"
-    },
-    {
-      "title": "Asador el Porteño",
-      "link": "https://elporteno.es/",
-      "description": "Situado cerca del ayuntamiento, es un restaurante clásico donde se puede comer una de las mejores carnes a la brasa de Valencia. También tienen varios entrantes argentinos, como empanadas o provolone.",
-      "address": "C/ d'en Llop,4,Bajo Derecha,46002"
-    }
-  ],
-  "almuerzo": [
-    {
-      "title": "Bar-Restaurante La Pérgola",
-      "link": "https://share.google/0xdOS6BgUyHoLIis5",
-      "description": "Un clásico de la ciudad, en el corazón de la Alameda y que nunca pasa de moda. No hay nadie en Valencia que no haya oído hablar de él, e incluso nos atreveríamos a decir que su bocadillo “Super bombón” es una seña de identidad de la ciudad. Sin embargo, hay muchas otras (grandes) opciones, pero si yo fuera tú… lo tendría claro: “¡Un súper por favor!”",
-      "address": "Pg. de l'Albereda, 1, El Pla del Real"
-    },
-    {
-      "title": "Bodega la Pascuala",
-      "link": "https://bodegalapascuala.es/",
-      "description": "Como dicen ellos “¡Ni Brunch ni Lunch! ¡ESMORZARET!”. Esto no es solo un bocadillo… son ENORMES, son sabrosos y están cerca de la playa; ¿se puede pedir más? El bocadillo más famoso es el de carne de caballo, también nos sorprendió la primera vez que oímos hablar de él, ¡quizás incluso un poco escépticos pero luego gratamente sorprendidos! Quien no arriesga no gana",
-      "address": "C. del Dr. Lluch, 299, Poblats Marítims"
-    },
-    {
-      "title": "El Cremaet",
-      "link": "https://barcremaet.com/",
-      "description": "El nombre del bar es nuestro café favorito: ¡ron, fuego, azúcar y café! Si este es el punto de partida, ¿qué podría salir mal? ¡En nuestra opinión, no mucho! Este bar tiene una amplia carta de raciones, parrillas, arroces, embutidos… Disfruta de sus bocadillos y del sol en su gran terraza y mientras lo haces recuerda: ¿hay alguna sensación mejor que esta?",
-      "address": "Av. del Puerto 20, El Pla del Real"
-    },
-    {
-      "title": "Los Toneles",
-      "link": "https://share.google/oVCvZ7QxmZczbP1f8",
-      "description": "Lo sabemos… lo sabemos… ¿un bar en el centro de la ciudad? ¿Es un error? ¿Otra trampa para turistas? No podemos negar que la ubicación es bastante turística, pero una vez que pruebas el bocadillo de calamares, no puedes sentirte más local. ¡Solo de pensarlo se nos hace la boca agua!",
-      "address": "C. de Ribera, 17, Ciutat Vella"
-    }
-  ]
+ "disclaimer": "Valencia está llena de fantásticos restaurantes que ofrecen una comida maravillosa y una cálida hospitalidad. Esta lista ha sido elaborada con mucho cariño por la familia de Pilar, basándose en los lugares que han visitado a menudo y que realmente han disfrutado. La mayoría de estos restaurantes son pequeños locales familiares en el centro de la ciudad, donde los propietarios —muchos de los cuales son amigos de la familia— se enorgullecen de ofrecer una experiencia gastronómica personal y memorable.",
+ "ourFavouritesLabel": "Nuestros favoritos",
+ "spanishCuisineLabel": "Cocina española",
+ "internationalCuisineLabel": "Cocina internacional",
+ "paellaLabel": "Paella",
+ "almuerzoLabel": "Almuerzo",
+ "paellaDisclaimer1": "La mayoría de la gente conoce la paella como uno de los platos más tradicionales de España. De hecho, la paella se originó en la región valenciana y se considera un plato esencialmente valenciano. Se puede probar la auténtica paella en toda Valencia pero, dada su fama, también hay muchos restaurantes turísticos que no ofrecen el plato auténtico y tienen una calidad cuestionable.",
+ "paellaDisclaimer2": "La más tradicional de las paellas, la “Paella valenciana”, se elabora con carne (pollo y conejo, aunque es común poder encontrarla sin este último) y verduras (judías verdes, alcachofas y habas-garrofó). No es común mezclar carne y pescado y el chorizo y los guisantes están completamente prohibidos. Sin embargo, existen cientos de otros tipos de arroces tradicionales, incluyendo los de base vegetal (paella de verduras), de base de pescado (arroz del senyoret, arroz a banda...) y muchas más combinaciones.",
+ "paellaDisclaimer3": "También puedes probar la “fideuà”, un plato de fideos finos cocinado en una paella y que se suele servir con pescado o marisco, que también es muy tradicional.\nEsta lista incluye restaurantes donde hemos probado personalmente las paellas y podemos, como valencianos, confirmar que ofrecen el plato y la experiencia adecuados:",
+ "almuerzoDisclaimer": "El almuerzo valenciano es una comida a media mañana, sobre las 10-12 a.m., que consiste en un bocadillo contundente, aceitunas y/o cacahuetes y una bebida como cerveza y/o café. Es un ritual social que se disfruta en los bares con amigos o compañeros de trabajo. La comida termina con un \"cremaet\", un café solo flambeado con ron, azúcar y piel de limón.",
+ "paellaRestaurants": [
+   "Navarro",
+   "Pelayo Gastrotrinquet",
+   "La Riua",
+   "La Voe",
+   "Restaurante de Anna",
+   "Casa Roberto",
+   "Goya Gallery",
+   "Palace Fesol"
+ ],
+ "favourites": [
+   {
+     "title": "El Aprendiz",
+     "address": "Plaza Rio Duero 6, Benimaclet",
+     "description": "Este es uno de los mejores restaurantes de Valencia, un lugar donde nos sentimos como en casa. Tiene un premio Solete de la Guía Repsol, una distinción que destaca los lugares acogedores, auténticos y con encanto que ofrecen una comida excelente y un gran ambiente sin ser demasiado formales. Confía en nosotros, este reconocimiento es bien merecido. ¡No pierdas la oportunidad de vivirlo por ti mismo y asegúrate de contarnos si vas!",
+     "link": "https://elaprendiztapas.com/"
+   },
+   {
+     "title": "La Gramola – Cocktail Bar",
+     "address": "C. del Baró de San Petrillo 9, Benimaclet",
+     "description": "Hermana de “El Aprendiz”, este lugar ofrece una impresionante selección de cervezas y cócteles para disfrutar. Acompaña tu bebida con una variedad de tapas, disponibles tanto en porciones individuales como para compartir, que traen a tu mesa los sabores y las experiencias culinarias de otros países. Todo ello en un ambiente cálido y acogedor, perfecto para relajarse.",
+     "link": "https://www.lagramolabenimaclet.com/"
+   },
+   {
+     "title": "Bodega Anyora",
+     "address": "C. d’En Vicent Gallart, 15, Poblats Marítims",
+     "description": "Anyora es una bodega típica española situada en el barrio del Canyamelar desde 1937. Un homenaje al plato clásico, a la manera en que lo hacía tu abuela, ese que te trae tantos recuerdos y que, cuando piensas en él, solo puedes sonreír.",
+     "link": "https://anyora.es/"
+   },
+   {
+     "title": "Bobo bar",
+     "address": "C. de Roteros 21, Ciutat Vella",
+     "description": "¡Un bar con encanto en el centro de la ciudad! A pesar de su ubicación, no es una trampa para turistas. Tiene excelentes tapas, vino y bebidas. Este acogedor lugar promete una experiencia gastronómica inolvidable y verdaderamente local.",
+     "link": "https://www.instagram.com/bobobarvalencia/"
+   },
+   {
+     "title": "El Rausell",
+     "address": "C/ d'Àngel Guimerà, 61, Extramurs, 46008",
+     "description": "Rausell es un espacio gastronómico con tres áreas diferenciadas. Es un bar, un restaurante y un espacio de comida para llevar. ¡Fue difícil decidir si recomendarlo para una comida o un “almuerzo” porque cualquier opción es genial! Con una historia de más de 70 años, sigue siendo conocido por su estricto gusto por la calidad.",
+     "link": "https://www.rausell.es/"
+   },
+   {
+     "title": "Zalamero",
+     "address": "Carrer de Sevilla, 20, 46006 València, Valencia",
+     "description": "En Zalamero, un restaurante en el corazón del barrio de Ruzafa, querían que se hablara de las \"cocas\" -tradicionales tortas de la Comunidad Valenciana- y llevar un trocito de la gastronomía valenciana a todos los rincones. ¡Pruébalo, merece la pena!",
+     "link": "https://restaurantezalamero.com/"
+   },
+   {
+     "title": "Travieso bar",
+     "address": "Carrer de Joaquín Costa, 12, L'Eixample, 46005",
+     "description": "Lugar informal, que te atrae desde la primera vez que entras. Camareros muy amables y profesionales. Según una de las hermanas de Pilar “el mejor bocadillo de pastrami del mundo”. Supongo que tendrás que probarlo para creerlo…",
+     "link": "https://traviesobar.com/"
+   },
+   {
+     "title": "El Alkázar",
+     "address": "Carrer de Mossèn Femades, 9, Ciutat Vella",
+     "description": "Situada en una zona peatonal, a un minuto a pie de la Plaza del Ayuntamiento, la Taberna Alkázar ofrece pescado fresco de mercado, marisco del día, paellas y arroces en el corazón de Valencia. Disfruta de una cocina mediterránea y de mercado en este encantador restaurante.",
+     "link": "https://www.tabernaalkazar.com/"
+   }
+ ],
+ "spanish": [
+   {
+     "title": "Entrevins",
+     "link": "https://www.entrevins.es/en/",
+     "description": "Situado en la primera planta de un edificio en la calle de la Paz, una de las calles más bonitas de Valencia, este restaurante está dirigido por Guillaume, uno de los mejores sumilleres de Valencia. Por lo tanto, puedes maridar platos exquisitos con una de las cartas de vinos de la ciudad.\n    Si vas de lunes a viernes, tiene un “menú del día”, una oferta que te permite comer a un precio muy razonable para la calidad de la comida.\n    ",
+     "address": "Primera planta, C/ de la Pau, 7, 46001"
+   },
+   {
+     "title": "Pelayo Gastro Trinquet",
+     "link": "https://grupogastrotrinquet.com/restaurantes/pelayo/",
+     "description": "Este restaurante merece la pena solo por ver el lugar en sí; junto con un restaurante moderno, es uno de los recintos deportivos activos más antiguos del mundo, inaugurado en 1868, donde todavía se juega cada semana al deporte valenciano de la “pilota”.\n El restaurante tiene una gran variedad de arroces (paellas) y tapas tradicionales valencianas, junto con una buena selección de carnes y pescados. No es un restaurante pequeño ni está regentado por sus dueños, pero es un lugar estupendo para comer y sin duda merece una visita.",
+     "address": "C/ Pelayo, 6, 46007"
+   },
+   {
+     "title": "El Encuentro",
+     "link": "https://www.restauranteelencuentro.es/",
+     "description": "Un restaurante que ofrece cocina clásica española en un ambiente hogareño con un gran servicio. Además de su carta habitual, también ofrece un plato tradicional español de todo el país que cambia a diario.",
+     "address": "C/ San Vicente Martir, 28, 46002"
+   },
+   {
+     "title": "Asador de Aranda",
+     "link": "https://asadordearanda.net/restaurante/asador-de-aranda-valencia/",
+     "description": "Un restaurante que ofrece comida típica de la región de Castilla en España. Sus especialidades son el “lechazo” (cordero) y el “cochinillo” (cerdo) asados al horno, junto con otros clásicos del centro de España como la “morcilla” (morcilla con arroz) y el chorizo. El restaurante está decorado con un estilo clásico pero elegante. Es una cadena de restaurantes presente en toda España, pero que sigue ofreciendo un servicio rápido y eficaz y una comida de gran calidad.",
+     "address": "C/ Felix Pizcueta, 6, 46004"
+   },
+   {
+     "title": "Sagardi",
+     "link": "https://gruposagardi.com/en/restaurant/sagardi-cocineros-vascos/valencia-2/",
+     "description": "Situado entre el ayuntamiento y la catedral, este restaurante está decorado como una sidrería tradicional vasca. Una de sus especialidades es el “txuletón”, un chuletón de buey madurado que, en nuestra opinión, es uno de los mejores platos de carne de Valencia. Si quieres probar algo más que carne, ofrece una selección de platos tradicionales vascos.\n Aunque forma parte de una cadena presente en toda España, merece la pena visitarlo por su comida, ambiente y servicio. La planta baja ofrece “pintxos” (pequeñas tapas sobre rebanadas de pan) donde se puede probar una gran variedad de platos; ¡ten en cuenta que suele estar lleno y no se puede reservar en esta zona, así que tendrás que probar suerte sin reserva!\n    ",
+     "address": "C/ San Vicente Martir, 6, 46002"
+   },
+   {
+     "title": "Armonia",
+     "link": "https://armoniarestaurante.eatbu.com/?lang=en",
+     "description": "Situado muy cerca del ayuntamiento y regentado por Monia y Ernesto. Se especializan en comida de mercado con raíces valencianas. La carta cambia en función de los alimentos frescos que ofrezca el mercado. También ofrecen un plato tradicional que cambia a diario.",
+     "address": "C/ Ribalta, 6, 46001"
+   }
+ ],
+ "international": [
+   {
+     "title": "DeeVinoteca",
+     "link": "https://deevinoteca.com/",
+     "description": "Si te apetece comida italiana, este restaurante está situado junto a “La Lonja” (la Lonja de la Seda), uno de los edificios más históricos de Valencia. El menú cambia cada día y se muestra en una pizarra. La chef Claudia ofrece pasta fresca hecha en casa, así como platos tradicionales de trattoria italiana. Muy buena selección de vinos, grappas y licores italianos.",
+     "address": "C/ de Ercilla,25,46001"
+   },
+   {
+     "title": "Il giardino del Carmen",
+     "link": "https://giardinodelcarmen.es/restaurant-menu/",
+     "description": "Otro restaurante italiano especializado en comida del sur de Italia. También ofrecen pasta fresca y la que podría ser la mejor caponata de Valencia. Cocinan muchas de sus comidas en un horno de carbón “Josper” que da a los platos un sabor especial.",
+     "address": "Plaza de Joan de Vila-rasa,6,46001"
+   },
+   {
+     "title": "El café de le bourse",
+     "link": "https://restaurantguru.com/CAFE-DE-LA-BOURSE-Valencia",
+     "description": "Encontrar un buen restaurante francés en Valencia no es fácil, pero creemos que comer aquí es como comer en Francia. Ofrecen un menú reducido con platos basados en una brasserie tradicional francesa.\n    El restaurante está dirigido por Francoise, cuya excéntrica personalidad hace de la cena una gran experiencia.",
+     "address": "C/ dels Llibrers, 3, 46002"
+   },
+   {
+     "title": "Lima",
+     "link": "https://www.restaurantelima.com/en",
+     "description": "Un moderno restaurante peruano de cocina Nikkei que también destaca por sus ceviches, maquis y un increíble tataki de atún. También tienen buena carne cocinada en horno “Josper” e incluso algunos platos de arroz y paella. El restaurante está regentado por Jan y Vanessa.",
+     "address": "Plaza de la Merced,6,46001"
+   },
+   {
+     "title": "Asador el Porteño",
+     "link": "https://elporteno.es/",
+     "description": "Situado cerca del ayuntamiento, es un restaurante clásico donde se puede comer una de las mejores carnes a la brasa de Valencia. También tienen varios entrantes argentinos, como empanadas o provolone.",
+     "address": "C/ d'en Llop,4,Bajo Derecha,46002"
+   }
+ ],
+ "almuerzo": [
+   {
+     "title": "Bar-Restaurante La Pérgola",
+     "link": "https://share.google/0xdOS6BgUyHoLIis5",
+     "description": "Un clásico de la ciudad, en el corazón de la Alameda y que nunca pasa de moda. No hay nadie en Valencia que no haya oído hablar de él, e incluso nos atreveríamos a decir que su bocadillo “Super bombón” es una seña de identidad de la ciudad. Sin embargo, hay muchas otras (grandes) opciones, pero si yo fuera tú… lo tendría claro: “¡Un súper por favor!”",
+     "address": "Pg. de l'Albereda, 1, El Pla del Real"
+   },
+   {
+     "title": "Bodega la Pascuala",
+     "link": "https://bodegalapascuala.es/",
+     "description": "Como dicen ellos “¡Ni Brunch ni Lunch! ¡ESMORZARET!”. Esto no es solo un bocadillo… son ENORMES, son sabrosos y están cerca de la playa; ¿se puede pedir más? El bocadillo más famoso es el de carne de caballo, también nos sorprendió la primera vez que oímos hablar de él, ¡quizás incluso un poco escépticos pero luego gratamente sorprendidos! Quien no arriesga no gana",
+     "address": "C. del Dr. Lluch, 299, Poblats Marítims"
+   },
+   {
+     "title": "El Cremaet",
+     "link": "https://barcremaet.com/",
+     "description": "El nombre del bar es nuestro café favorito: ¡ron, fuego, azúcar y café! Si este es el punto de partida, ¿qué podría salir mal? ¡En nuestra opinión, no mucho! Este bar tiene una amplia carta de raciones, parrillas, arroces, embutidos… Disfruta de sus bocadillos y del sol en su gran terraza y mientras lo haces recuerda: ¿hay alguna sensación mejor que esta?",
+     "address": "Av. del Puerto 20, El Pla del Real"
+   },
+   {
+     "title": "Los Toneles",
+     "link": "https://share.google/oVCvZ7QxmZczbP1f8",
+     "description": "Lo sabemos… lo sabemos… ¿un bar en el centro de la ciudad? ¿Es un error? ¿Otra trampa para turistas? No podemos negar que la ubicación es bastante turística, pero una vez que pruebas el bocadillo de calamares, no puedes sentirte más local. ¡Solo de pensarlo se nos hace la boca agua!",
+     "address": "C. de Ribera, 17, Ciutat Vella"
+   }
+ ]
 }
