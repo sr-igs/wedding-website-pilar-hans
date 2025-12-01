@@ -118,7 +118,7 @@ export default function RsvpPage(props){
                             {activeScreen==="details"&&g.rsvp==="yes"&&<DetailsForm translation={t} id={g.fullName} key={`details-${g.fullName}`} handleChange={handleChange} name={g.name} dietary={g.dietary} song={g.song} other={g.other} bus={g.bus} />}
                             </Grid>)
                     })}
-                    {activeScreen==="summary"&&<FormComplete translation={t} id={`summary`} changeDate={"2/2/2026"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
+                    {activeScreen==="summary"&&<FormComplete translation={t} id={`summary`} changeDate={"11/03/2026"} people={peopleInfo} onChangeClick={handleChangeClick}  />}
                 </Grid>
                 <div className={styles.plusOne}>
                     {activeScreen==="rsvp"&&props.data.plusOne&&<p>{t("plusOneText")}<Link href={`/contact/${code}`}><a>{t("plusOneLink")}</a></Link></p>}

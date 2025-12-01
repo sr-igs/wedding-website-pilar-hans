@@ -7,7 +7,7 @@ function FormComplete(props) {
   const t = props.translation;
   const today = new Date();
   const changeDate = new Date(props.changeDate);
-  const isAfterChangeDate = false
+  const isAfterChangeDate = today.getTime()>=changeDate.getTime()
   //today.getTime() > changeDate.getTime()
 
   const menuMap = {
