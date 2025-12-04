@@ -10,7 +10,7 @@ import { useTranslation } from 'next-i18next';
 export default function EatingTabs(){
     const { t } = useTranslation('eating');
     const paellaRestaurants = t('paellaRestaurants', { returnObjects: true }) || [];
-    const [value,setValue] = useState(1);
+    const [value,setValue] = useState("1");
 
     function handleChange(event,newValue){
         setValue(newValue)
