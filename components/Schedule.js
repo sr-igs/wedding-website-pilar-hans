@@ -4,6 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import styles from "./Schedule.module.css";
 import paellaIcon from "../images/paella.png";
 import churchIcon from "../images/location.png";
+import busIcon from "../images/bus.png"
 import champaignIcon from "../images/champaign.png";
 import danceIcon from "../images/dance.png";
 import ScheduleItem from './ScheduleItem';
@@ -38,6 +39,8 @@ function Schedule(){
             <ScheduleItem image={paellaIcon} time={t("morningAfternoon")} title={t("morningAfternoonTitle")} text={t("morningAfternoonText")} />
             <ScheduleItem image={churchIcon} location={t("ceremonyLocation")} locationLink="https://share.google/clZCLfUyWSTTMGIRO"
              time="12:30pm" title={t("ceremonyTitle")} text={t("ceremonyText")} />
+             <ScheduleItem image={busIcon} location={t("ceremonyLocation")} locationLink="https://share.google/clZCLfUyWSTTMGIRO"
+             time="13:30pm" title={t("busTitle")} text={t("busText")} />
             <ScheduleItem image={champaignIcon} location={t("onlyYou")} locationLink="https://share.google/tygPTP7cgPEHJpAyE"
              time="2:30pm" title={t("cocktailTitle")} text={t("cocktailText")} />
              <ScheduleItem image={restaurantIcon} location={t("onlyYou")} locationLink="https://share.google/tygPTP7cgPEHJpAyE"
